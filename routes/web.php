@@ -63,3 +63,9 @@ Route::get('/check-store', function () {
 });
 
 
+Route::get('/', function () {
+    return response()->json([
+        'status' => 'online',
+        'message' => 'Zid API is running successfully',
+    ]);
+});
