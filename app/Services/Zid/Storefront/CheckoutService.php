@@ -2,41 +2,44 @@
 
 namespace App\Services\Zid\Storefront;
 
-
-use App\Services\Zid\Shared\BaseZidService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
-use App\Controllers\ZidStorefrontController;
+use App\Services\Zid\Shared\BaseZidService;
 
 class CheckoutService extends BaseZidService
 {
+    protected string $storefrontUrl =
+        'https://bstlia.zid.store';
+
     public function __construct(
-    protected SessionService $sessionService
-) {}
+        protected SessionService $sessionService
+    ) {}
 
-   public function getShippingMethods(
-    Request $request
-) {
-    $response = Http::withHeaders(
-        $this->sessionService->storefrontHeaders($request)
-    )->get(
-        "{$this->storefrontUrl}/api/v1/cart/checkout/shipping-methods",
-        [
-            'method' => 'delivery',
-            'set_default' => true,
-        ]
-    );
+    public function getShippingMethods(
+        Request $request
+    ) {
+        $response = Http::withHeaders(
+            $this->sessionService
+                ->storefrontHeaders($request)
+        )->get(
+            "{$this->storefrontUrl}/api/v1/cart/checkout/shipping-methods",
+            [
+                'method' => 'delivery',
+                'set_default' => true,
+            ]
+        );
 
-    if ($response->failed()) {
-        return $this->errorResponse(
+        if ($response->failed()) {
+
+            return $this->errorResponse(
+                $response->json(),
+                'Failed to fetch shipping methods'
+            );
+        }
+
+        return $this->successResponse(
             $response->json(),
-            'Failed to fetch shipping methods'
+            'Shipping methods fetched successfully'
         );
     }
-
-    return $this->successResponse(
-        $response->json(),
-        'Shipping methods fetched successfully'
-    );
-}
 }
