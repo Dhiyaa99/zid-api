@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Services\Zid\Storefront\CartService;
 use App\Services\Zid\Storefront\SessionService;
+use App\Services\Zid\Storefront\CheckoutService;
+
 
 class ZidStorefrontController extends Controller
 {

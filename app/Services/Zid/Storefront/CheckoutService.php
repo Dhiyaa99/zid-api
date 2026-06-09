@@ -3,6 +3,9 @@
 namespace App\Services\Zid\Storefront;
 
 use App\Services\Zid\ZidService;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
+use App\Controllers\ZidStorefrontController;
 
 class CheckoutService extends ZidService
 {
