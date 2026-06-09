@@ -115,4 +115,13 @@ public function applyCoupon(
         )
     );
 }
+
+public function shippingMethods(
+    Request $request,
+    CheckoutService $service
+) {
+    return response()->json(
+        $service->getShippingMethods($request)
+    );
+}
 }

@@ -245,6 +245,12 @@ Route::post(
         'applyCoupon'
     ]
 );
+
+ Route::get(
+        '/checkout/shipping-methods',
+        [ZidStorefrontController::class, 'shippingMethods']
+    );
+
 });
 
 /*
@@ -267,4 +273,5 @@ Route::prefix('store')->group(function () {
     );
     
 });
+
 
