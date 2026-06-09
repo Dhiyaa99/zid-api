@@ -2,12 +2,12 @@
 
 namespace App\Services\Zid\Storefront;
 
-use App\Services\Zid\ZidService;
+use App\Services\Shared\BaseZidService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use App\Controllers\ZidStorefrontController;
 
-class CheckoutService extends ZidService
+class CheckoutService extends BaseZidService
 {
     public function __construct(
     protected SessionService $sessionService
