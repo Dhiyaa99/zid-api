@@ -2,7 +2,8 @@
 
 namespace App\Services\Zid\Storefront;
 
-use App\Services\Shared\BaseZidService;
+
+use App\Services\Zid\Shared\BaseZidService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use App\Controllers\ZidStorefrontController;
