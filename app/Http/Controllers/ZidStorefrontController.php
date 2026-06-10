@@ -143,4 +143,15 @@ public function selectShippingMethod(
         )
     );
 }
+
+public function paymentMethods(
+    Request $request,
+    CheckoutService $service
+) {
+    return response()->json(
+        $service->getPaymentMethods(
+            $request
+        )
+    );
+}
 }

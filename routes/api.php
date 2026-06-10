@@ -258,6 +258,15 @@ Route::post(
     'selectShippingMethod']
 );
 
+
+Route::get(
+    '/checkout/payment-methods',
+    [ZidStorefrontController::class,
+    'paymentMethods']
+);
+
+
+
 });
 
 /*

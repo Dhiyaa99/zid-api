@@ -71,4 +71,31 @@ class CheckoutService extends BaseZidService
         'Shipping method selected successfully'
     );
 }
+
+public function getPaymentMethods(
+    Request $request
+) {
+    $response = Http::withHeaders(
+        $this->sessionService
+            ->storefrontHeaders($request)
+    )->get(
+        "{$this->storefrontUrl}/api/v1/cart/checkout/payment-methods",
+        [
+            'exclude' => 'samsung_pay',
+        ]
+    );
+
+    if ($response->failed()) {
+
+        return $this->errorResponse(
+            $response->json(),
+            'Failed to fetch payment methods'
+        );
+    }
+
+    return $this->successResponse(
+        $response->json(),
+        'Payment methods fetched successfully'
+    );
+}
 }
