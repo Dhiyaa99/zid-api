@@ -98,4 +98,28 @@ public function getPaymentMethods(
         'Payment methods fetched successfully'
     );
 }
+
+public function verifyCheckout(
+    Request $request
+) {
+    $response = Http::withHeaders(
+        $this->sessionService
+            ->storefrontHeaders($request)
+    )->post(
+        "{$this->storefrontUrl}/api/v1/cart/checkout/verify"
+    );
+
+    if ($response->failed()) {
+
+        return $this->errorResponse(
+            $response->json(),
+            'Checkout verification failed'
+        );
+    }
+
+    return $this->successResponse(
+        $response->json(),
+        'Checkout verified successfully'
+    );
+}
 }

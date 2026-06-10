@@ -154,4 +154,15 @@ public function paymentMethods(
         )
     );
 }
+
+public function verifyCheckout(
+    Request $request,
+    CheckoutService $service
+) {
+    return response()->json(
+        $service->verifyCheckout(
+            $request
+        )
+    );
+}
 }

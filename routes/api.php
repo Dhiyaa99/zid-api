@@ -253,7 +253,7 @@ Route::post(
     );
 
     Route::post(
-    '/checkout/select-shipping-methods',
+    '/checkout/shipping-methods',
     [ZidStorefrontController::class,
     'selectShippingMethod']
 );
@@ -265,7 +265,11 @@ Route::get(
     'paymentMethods']
 );
 
-
+Route::post(
+    '/checkout/verify',
+    [ZidStorefrontController::class,
+    'verifyCheckout']
+);
 
 });
 
