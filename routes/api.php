@@ -252,6 +252,12 @@ Route::post(
         [ZidStorefrontController::class, 'shippingMethods']
     );
 
+    Route::post(
+    '/checkout/select-shipping-methods',
+    [ZidStorefrontController::class,
+    'selectShippingMethod']
+);
+
 });
 
 /*

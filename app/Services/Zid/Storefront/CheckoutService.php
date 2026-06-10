@@ -42,4 +42,33 @@ class CheckoutService extends BaseZidService
             'Shipping methods fetched successfully'
         );
     }
+
+
+    public function selectShippingMethod(
+    Request $request,
+    int $shippingMethodId
+) {
+    $response = Http::withHeaders(
+        $this->sessionService
+            ->storefrontHeaders($request)
+    )->post(
+        "{$this->storefrontUrl}/api/v1/cart/checkout/shipping-methods?method=delivery",
+        [
+            'shipping_method_id' => $shippingMethodId,
+        ]
+    );
+
+    if ($response->failed()) {
+
+        return $this->errorResponse(
+            $response->json(),
+            'Failed to select shipping method'
+        );
+    }
+
+    return $this->successResponse(
+        $response->json(),
+        'Shipping method selected successfully'
+    );
+}
 }

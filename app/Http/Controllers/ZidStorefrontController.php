@@ -126,4 +126,21 @@ public function shippingMethods(
         $service->getShippingMethods($request)
     );
 }
+
+public function selectShippingMethod(
+    Request $request,
+    CheckoutService $service
+)
+{
+    $validated = $request->validate([
+        'shipping_method_id' => 'required|integer'
+    ]);
+
+    return response()->json(
+        $service->selectShippingMethod(
+            $request,
+            $validated['shipping_method_id']
+        )
+    );
+}
 }
