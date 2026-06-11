@@ -18,16 +18,24 @@ class SessionService extends BaseZidService
         return $request->header('X-CSRFToken');
     }
 
-    public function storefrontHeaders(Request $request): array
+ public function storefrontHeaders(Request $request): array
 {
     $headers = [
         'Accept' => 'application/json',
-        'Accept-Language' => $request->header('Accept-Language', 'en'),
+        'Accept-Language' => $request->header('locale', 'ar-sa'),
         'Zid-Client-Platform' => 'browser',
     ];
 
     if ($cookie = $this->getSessionCookie($request)) {
         $headers['Cookie'] = $cookie;
+
+        if ($locale = $request->header('locale')) {
+            $headers['Cookie'] .= "; locale={$locale}";
+        }
+
+        if ($visitorId = $request->header('visitor_id')) {
+            $headers['Cookie'] .= "; visitor_id={$visitorId}";
+        }
     }
 
     if ($csrf = $this->getCsrfToken($request)) {

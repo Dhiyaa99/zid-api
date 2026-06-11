@@ -122,4 +122,26 @@ public function verifyCheckout(
         'Checkout verified successfully'
     );
 }
+
+public function purchaseEvent(Request $request)
+{
+    $response = Http::withHeaders(
+        $this->sessionService
+            ->storefrontHeaders($request)
+    )->get(
+        "{$this->storefrontUrl}/api/v1/orders/purchase-event/"
+    );
+
+    if ($response->failed()) {
+        return $this->errorResponse(
+            $response->json(),
+            'Failed to fetch purchase event'
+        );
+    }
+
+    return $this->successResponse(
+        $response->json(),
+        'Purchase event fetched successfully'
+    );
+}
 }

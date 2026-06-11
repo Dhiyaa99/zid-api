@@ -165,4 +165,18 @@ public function verifyCheckout(
         )
     );
 }
+
+/**
+ * Purchase Event
+ */
+public function purchaseEvent(
+    Request $request,
+    CheckoutService $service
+) {
+    return response()->json(
+        $service->purchaseEvent(
+            $request
+        )
+    );
+}
 }

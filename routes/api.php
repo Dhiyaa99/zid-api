@@ -271,6 +271,11 @@ Route::post(
     'verifyCheckout']
 );
 
+Route::get(
+    '/orders/purchase-event',
+    [ZidStorefrontController::class,
+    'purchaseEvent']
+);
 });
 
 /*
