@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Services\Zid\Storefront\CartService;
 use App\Services\Zid\Storefront\SessionService;
 use App\Services\Zid\Storefront\CheckoutService;
+use App\Services\Zid\Storefront\ScriptsService;
 
 
 class ZidStorefrontController extends Controller
@@ -177,6 +178,17 @@ public function purchaseEvent(
         $service->purchaseEvent(
             $request
         )
+    );
+}
+
+
+public function scripts(
+    Request $request,
+    ScriptsService $service
+)
+{
+    return response()->json(
+        $service->scripts($request)
     );
 }
 }

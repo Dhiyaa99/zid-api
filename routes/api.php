@@ -276,6 +276,11 @@ Route::get(
     [ZidStorefrontController::class,
     'purchaseEvent']
 );
+
+Route::get(
+    '/scripts',
+    [ZidStorefrontController::class, 'scripts']
+);
 });
 
 /*
