@@ -30,7 +30,8 @@ class ZidStorefrontController extends Controller
     protected AuthService $authService,
     protected CartService $cartService,
     protected ScriptsService $scriptsService,
-    protected PurchaseEventService $purchaseEventService,
+    protected CheckoutService $checkoutService,
+
 ) {}
 
 
@@ -205,10 +206,10 @@ public function scripts(
 /**
  * Logout user from Zid session.
  */
-public function logout(Request $request)
+public function logout(Request $request, AuthService $service)
 {
     return response()->json(
-        $this->authService->logout($request)
+        $service->logout($request)
     );
 }
 }
