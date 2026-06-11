@@ -164,6 +164,27 @@
                                                                                 <li class="tocify-item level-2" data-unique="endpoints-POSTapi-zid-storefront-cart-coupons">
                                 <a href="#endpoints-POSTapi-zid-storefront-cart-coupons">POST api/zid/storefront/cart/coupons</a>
                             </li>
+                                                                                <li class="tocify-item level-2" data-unique="endpoints-GETapi-zid-storefront-checkout-shipping-methods">
+                                <a href="#endpoints-GETapi-zid-storefront-checkout-shipping-methods">GET api/zid/storefront/checkout/shipping-methods</a>
+                            </li>
+                                                                                <li class="tocify-item level-2" data-unique="endpoints-POSTapi-zid-storefront-checkout-shipping-methods">
+                                <a href="#endpoints-POSTapi-zid-storefront-checkout-shipping-methods">POST api/zid/storefront/checkout/shipping-methods</a>
+                            </li>
+                                                                                <li class="tocify-item level-2" data-unique="endpoints-GETapi-zid-storefront-checkout-payment-methods">
+                                <a href="#endpoints-GETapi-zid-storefront-checkout-payment-methods">GET api/zid/storefront/checkout/payment-methods</a>
+                            </li>
+                                                                                <li class="tocify-item level-2" data-unique="endpoints-POSTapi-zid-storefront-checkout-verify">
+                                <a href="#endpoints-POSTapi-zid-storefront-checkout-verify">POST api/zid/storefront/checkout/verify</a>
+                            </li>
+                                                                                <li class="tocify-item level-2" data-unique="endpoints-GETapi-zid-storefront-orders-purchase-event">
+                                <a href="#endpoints-GETapi-zid-storefront-orders-purchase-event">Purchase Event</a>
+                            </li>
+                                                                                <li class="tocify-item level-2" data-unique="endpoints-POSTapi-zid-storefront-auth-logout">
+                                <a href="#endpoints-POSTapi-zid-storefront-auth-logout">Logout user from Zid session.</a>
+                            </li>
+                                                                                <li class="tocify-item level-2" data-unique="endpoints-GETapi-zid-storefront-scripts">
+                                <a href="#endpoints-GETapi-zid-storefront-scripts">GET api/zid/storefront/scripts</a>
+                            </li>
                                                                                 <li class="tocify-item level-2" data-unique="endpoints-GETapi-store-branding">
                                 <a href="#endpoints-GETapi-store-branding">GET api/store/branding</a>
                             </li>
@@ -181,7 +202,7 @@
     </ul>
 
     <ul class="toc-footer" id="last-updated">
-        <li>Last updated: June 8, 2026</li>
+        <li>Last updated: June 11, 2026</li>
     </ul>
 </div>
 
@@ -512,3399 +533,10 @@ access-control-allow-origin: *
  </code></pre></details>         <pre>
 
 <code class="language-json" style="max-height: 300px;">{
-    &quot;success&quot;: true,
-    &quot;message&quot;: null,
-    &quot;data&quot;: {
-        &quot;total_products_count&quot;: 409,
-        &quot;normal_products_count&quot;: 409,
-        &quot;voucher_products_count&quot;: 0,
-        &quot;grouped_products_count&quot;: 0,
-        &quot;downloadable_products_count&quot;: 0,
-        &quot;dynamic_bundle_products_count&quot;: 0,
-        &quot;donation_item_count&quot;: 0,
-        &quot;crowd_funding_count&quot;: 0,
-        &quot;next&quot;: &quot;http://api.zid.sa/v1/products/?page=2&quot;,
-        &quot;previous&quot;: null,
-        &quot;count&quot;: 409,
-        &quot;results&quot;: [
-            {
-                &quot;id&quot;: &quot;fe5d9a45-5cb2-4022-8d1e-92de290db7d8&quot;,
-                &quot;product_class&quot;: null,
-                &quot;sku&quot;: &quot;PA0448JU&quot;,
-                &quot;barcode&quot;: &quot;&quot;,
-                &quot;parent_id&quot;: null,
-                &quot;name&quot;: {
-                    &quot;ar&quot;: &quot;أمواج ديسيشن 100مل&quot;,
-                    &quot;en&quot;: &quot;Amouage Decision 100ml &quot;
-                },
-                &quot;slug&quot;: &quot;amouage-decision-100ml-edp&quot;,
-                &quot;price&quot;: 140,
-                &quot;short_description&quot;: {
-                    &quot;ar&quot;: &quot;&lt;div style=\&quot;box-sizing: inherit; margin: 0px; color: rgba(18, 18, 18, 0.75); font-family: GraphikArabic-Light; font-size: 16px; background-color: #ffffff;\&quot;&gt;\n&lt;p&gt;عطر | منعش | خشبي | فواح&lt;/p&gt;\n&lt;/div&gt;\n&lt;div id=\&quot;price-template--20989753884964__main\&quot; class=\&quot;no-js-hidden\&quot; style=\&quot;box-sizing: inherit; margin: 0px; color: rgba(18, 18, 18, 0.75); font-family: GraphikArabic-Light; font-size: 16px; background-color: #ffffff;\&quot; role=\&quot;status\&quot;&gt;\n&lt;div class=\&quot;\n    am-price\n    price\n      price--large\&quot; style=\&quot;box-sizing: inherit; font-size: 1.8rem; letter-spacing: 0.13rem; line-height: 1.5; color: #121212; margin-bottom: 32px; padding-bottom: 16px; position: relative; border-bottom: 1px solid #dbdbdb; margin-top: 32px !important;\&quot;&gt;\n&lt;div class=\&quot;am-price__container price__container\&quot; style=\&quot;box-sizing: inherit; display: inline-block; vertical-align: top; justify-content: right; align-items: center; margin-bottom: 0.5rem;\&quot;&gt;\n&lt;div class=\&quot;am-price__price__regular price__regular\&quot; style=\&quot;box-sizing: inherit;\&quot;&gt;&nbsp;&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;&quot;,
-                    &quot;en&quot;: &quot;&lt;div style=\&quot;box-sizing: inherit; margin: 0px; color: rgba(18, 18, 18, 0.75); font-family: Gotham-Book; font-size: 16px; letter-spacing: 0.6px; background-color: #ffffff;\&quot;&gt;\n&lt;p&gt;EDP | Fresh | Woody | Aromatic&lt;/p&gt;\n&lt;/div&gt;\n&lt;div id=\&quot;price-template--20989753884964__main\&quot; class=\&quot;no-js-hidden\&quot; style=\&quot;box-sizing: inherit; margin: 0px; color: rgba(18, 18, 18, 0.75); font-family: Gotham-Book; font-size: 16px; letter-spacing: 0.6px; background-color: #ffffff;\&quot; role=\&quot;status\&quot;&gt;\n&lt;div class=\&quot;\n    am-price\n    price\n      price--large\&quot; style=\&quot;box-sizing: inherit; font-size: 1.8rem; letter-spacing: 0.13rem; line-height: 1.5; color: #121212; margin-bottom: 32px; padding-bottom: 16px; position: relative; border-bottom: 1px solid #dbdbdb; margin-top: 32px !important;\&quot;&gt;\n&lt;div class=\&quot;am-price__container price__container\&quot; style=\&quot;box-sizing: inherit; display: inline-block; vertical-align: top; justify-content: left; align-items: center; margin-bottom: 0.5rem;\&quot;&gt;\n&lt;div class=\&quot;am-price__price__regular price__regular\&quot; style=\&quot;box-sizing: inherit;\&quot;&gt;&nbsp;&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;&quot;
-                },
-                &quot;sale_price&quot;: 120,
-                &quot;formatted_price&quot;: &quot; SAR 140.00&quot;,
-                &quot;formatted_sale_price&quot;: &quot; SAR 120.00&quot;,
-                &quot;currency&quot;: &quot;SAR&quot;,
-                &quot;currency_symbol&quot;: &quot; SAR &quot;,
-                &quot;attributes&quot;: [],
-                &quot;categories&quot;: [
-                    {
-                        &quot;id&quot;: &quot;1531817&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;عطور&quot;,
-                            &quot;en&quot;: &quot;Perfumes&quot;
-                        },
-                        &quot;slug&quot;: &quot;عطور&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/fcad02c0-d232-44b3-9ed8-487a7fe2fa0f.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531818&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;عطور رجالية&quot;,
-                            &quot;en&quot;: &quot;Men&#039;s Perfumes&quot;
-                        },
-                        &quot;slug&quot;: &quot;عطور-رجالية&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;مجموعة مختارة من عطور الرجال تجمع بين القوة والأناقة. استكشف روائح خشبية وتوابل وعطور عطرية مصممة للرجل العصري. مثالية للثقة والجاذبية التي تدوم.&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531819&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مهرجان الحب والسلام&quot;,
-                            &quot;en&quot;: &quot;Festival of Love and Peace&quot;
-                        },
-                        &quot;slug&quot;: &quot;مهرجان-الحب-والسلام&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    }
-                ],
-                &quot;display_order&quot;: 1,
-                &quot;has_options&quot;: false,
-                &quot;has_fields&quot;: false,
-                &quot;images&quot;: [
-                    {
-                        &quot;id&quot;: &quot;603f1945-cc58-48e1-a226-e288091a9969&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/603f1945-cc58-48e1-a226-e288091a9969-thumbnail-1000x1000-70.webp&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/603f1945-cc58-48e1-a226-e288091a9969-thumbnail-1000x1000-70.webp&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/603f1945-cc58-48e1-a226-e288091a9969-thumbnail-370x370-70.webp&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/603f1945-cc58-48e1-a226-e288091a9969-thumbnail-770x770-70.webp&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/603f1945-cc58-48e1-a226-e288091a9969-thumbnail-500x500-70.webp&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 1,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;383fad18-514d-48b5-842e-8d96d6aa9f83&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/383fad18-514d-48b5-842e-8d96d6aa9f83-thumbnail-1000x1000-70.webp&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/383fad18-514d-48b5-842e-8d96d6aa9f83-thumbnail-1000x1000-70.webp&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/383fad18-514d-48b5-842e-8d96d6aa9f83-thumbnail-370x370-70.webp&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/383fad18-514d-48b5-842e-8d96d6aa9f83-thumbnail-770x770-70.webp&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/383fad18-514d-48b5-842e-8d96d6aa9f83-thumbnail-500x500-70.webp&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;عطر امواج ديسيشن&quot;,
-                        &quot;display_order&quot;: 2,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;عطر امواج ديسيشن&quot;,
-                            &quot;en&quot;: &quot;Amouage Decision Bottle&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;250b0b3d-0bcf-458d-9bf9-238eecb64745&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/250b0b3d-0bcf-458d-9bf9-238eecb64745-thumbnail-1000x1000-70.webp&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/250b0b3d-0bcf-458d-9bf9-238eecb64745-thumbnail-1000x1000-70.webp&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/250b0b3d-0bcf-458d-9bf9-238eecb64745-thumbnail-370x370-70.webp&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/250b0b3d-0bcf-458d-9bf9-238eecb64745-thumbnail-770x770-70.webp&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/250b0b3d-0bcf-458d-9bf9-238eecb64745-thumbnail-500x500-70.webp&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;امواج ديسيشن خلفية&quot;,
-                        &quot;display_order&quot;: 3,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;امواج ديسيشن خلفية&quot;,
-                            &quot;en&quot;: &quot;Amouage decision background&quot;
-                        }
-                    }
-                ],
-                &quot;videos&quot;: [],
-                &quot;is_draft&quot;: false,
-                &quot;quantity&quot;: 0,
-                &quot;is_infinite&quot;: false,
-                &quot;html_url&quot;: &quot;https://bstlia.zid.store/products/amouage-decision-100ml-edp&quot;,
-                &quot;weight&quot;: {
-                    &quot;value&quot;: null,
-                    &quot;unit&quot;: &quot;kg&quot;
-                },
-                &quot;keywords&quot;: [],
-                &quot;requires_shipping&quot;: true,
-                &quot;is_taxable&quot;: true,
-                &quot;structure&quot;: &quot;standalone&quot;,
-                &quot;seo&quot;: {
-                    &quot;title&quot;: {
-                        &quot;ar&quot;: &quot;&quot;,
-                        &quot;en&quot;: &quot;&quot;
-                    },
-                    &quot;description&quot;: {
-                        &quot;ar&quot;: &quot;تتفتح نغمات عطر &rsquo;ديسيشن&lsquo; بحدة خاطفة كصاعقة عطرية تضيء العتمة وتبدد حالة عدم اليقين. ويتغلغل هذا التأثير &rlm;عبر مزيج من البرغموت وتوت العلعلان واللبان والمر. ويضفي&quot;,
-                        &quot;en&quot;: &quot;Starting with an olfactory bolt of lightning, Decision banishes the darkness of uncertainty &ndash; an effect achieved through a combination of the cool woodiness and&quot;
-                    }
-                },
-                &quot;rating&quot;: {
-                    &quot;average&quot;: 0,
-                    &quot;total_count&quot;: 0,
-                    &quot;1_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;2_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;3_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;4_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;5_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    }
-                },
-                &quot;store_id&quot;: 1085223,
-                &quot;purchase_restrictions&quot;: {
-                    &quot;min_quantity_per_cart&quot;: null,
-                    &quot;max_quantity_per_cart&quot;: null,
-                    &quot;availability_period_start&quot;: null,
-                    &quot;availability_period_end&quot;: null,
-                    &quot;sale_price_period_start&quot;: null,
-                    &quot;sale_price_period_end&quot;: null
-                },
-                &quot;metafields&quot;: null,
-                &quot;meta&quot;: null,
-                &quot;related_products_settings&quot;: &quot;AUTO_GENERATED&quot;,
-                &quot;related_products_title&quot;: {
-                    &quot;ar&quot;: &quot;&quot;,
-                    &quot;en&quot;: &quot;&quot;
-                },
-                &quot;badge&quot;: null,
-                &quot;cost&quot;: 0,
-                &quot;is_published&quot;: true,
-                &quot;waiting_customers_count&quot;: null,
-                &quot;group_products&quot;: null,
-                &quot;preorder_campaign&quot;: null,
-                &quot;stocks&quot;: [
-                    {
-                        &quot;id&quot;: &quot;c80756b4-20ad-4903-8c6a-2fd20e78485c&quot;,
-                        &quot;location&quot;: {
-                            &quot;id&quot;: &quot;c3d144fa-69de-40f2-882e-67e46b505383&quot;,
-                            &quot;name&quot;: {
-                                &quot;en&quot;: &quot;مخزن ضياء&quot;
-                            },
-                            &quot;type&quot;: &quot;PHYSICAL&quot;,
-                            &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;
-                        },
-                        &quot;available_quantity&quot;: 0,
-                        &quot;is_infinite&quot;: false
-                    }
-                ],
-                &quot;sold_products_count&quot;: null,
-                &quot;created_at&quot;: &quot;2026-04-20T12:49:42.468957Z&quot;,
-                &quot;updated_at&quot;: &quot;2026-04-20T12:49:42.468996Z&quot;
-            },
-            {
-                &quot;id&quot;: &quot;eb5d9205-febf-42b2-aea3-eff70b92b293&quot;,
-                &quot;product_class&quot;: null,
-                &quot;sku&quot;: &quot;WM0297WL&quot;,
-                &quot;barcode&quot;: &quot;&quot;,
-                &quot;parent_id&quot;: null,
-                &quot;name&quot;: {
-                    &quot;ar&quot;: &quot;مايكل أنجلو 03ZA- النسائية&quot;,
-                    &quot;en&quot;: &quot;Michael Angelo 03ZA- Women&rsquo;s &quot;
-                },
-                &quot;slug&quot;: &quot;Michael-Angelo-Grand-Royale-Classic-Women_WM0297WL&quot;,
-                &quot;price&quot;: 59,
-                &quot;short_description&quot;: {
-                    &quot;ar&quot;: &quot;&lt;p&gt;مجموعة مايكل انجلو رويال جراند كلاسيك الفضية&nbsp;&lt;/p&gt;&quot;,
-                    &quot;en&quot;: &quot;&lt;p&gt;Michael Angelo Grand Royale Classic Silver Series&lt;/p&gt;&quot;
-                },
-                &quot;sale_price&quot;: null,
-                &quot;formatted_price&quot;: &quot; SAR 59.00&quot;,
-                &quot;formatted_sale_price&quot;: null,
-                &quot;currency&quot;: &quot;SAR&quot;,
-                &quot;currency_symbol&quot;: &quot; SAR &quot;,
-                &quot;attributes&quot;: [
-                    {
-                        &quot;id&quot;: &quot;17374231-4cf8-4174-96e4-4fc1a42a602d&quot;,
-                        &quot;slug&quot;: &quot;ar-لون-السوار-en-strap-color&quot;,
-                        &quot;name&quot;: &quot;strap-color&quot;,
-                        &quot;value&quot;: {
-                            &quot;ar&quot;: &quot;فضــي&quot;,
-                            &quot;en&quot;: &quot;silver&quot;
-                        },
-                        &quot;type&quot;: &quot;default&quot;,
-                        &quot;type_value&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;product_id&quot;: &quot;eb5d9205-febf-42b2-aea3-eff70b92b293&quot;,
-                        &quot;attribute_image_id&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;attribute_id&quot;: &quot;5b5e1aa3-6f45-4c3f-bb15-781c5c7d5603&quot;,
-                        &quot;attribute_display_order&quot;: null,
-                        &quot;use_as_filter&quot;: true
-                    }
-                ],
-                &quot;categories&quot;: [
-                    {
-                        &quot;id&quot;: &quot;1531819&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مهرجان الحب والسلام&quot;,
-                            &quot;en&quot;: &quot;Festival of Love and Peace&quot;
-                        },
-                        &quot;slug&quot;: &quot;مهرجان-الحب-والسلام&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531820&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;ساعات&quot;,
-                            &quot;en&quot;: &quot;Watches&quot;
-                        },
-                        &quot;slug&quot;: &quot;ساعات&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/eeca196c-ebdf-4f1c-aa06-0aa700080413.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531821&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;ساعات نسائية&quot;,
-                            &quot;en&quot;: &quot;Women Watches&quot;
-                        },
-                        &quot;slug&quot;: &quot;ساعات-نسائية&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531822&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;وصل حديثا 🔥&quot;,
-                            &quot;en&quot;: &quot;New arrival 🔥&quot;
-                        },
-                        &quot;slug&quot;: &quot;وصل-حديثا&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531823&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مايكل انجلو&quot;,
-                            &quot;en&quot;: &quot;Michael Angelo&quot;
-                        },
-                        &quot;slug&quot;: &quot;مايكل-انجلو&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531824&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;ساعات- مايكل آنجلو&quot;,
-                            &quot;en&quot;: &quot;Watches- Michael Angelo&quot;
-                        },
-                        &quot;slug&quot;: &quot;ساعات-مايكل-آنجلو&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531825&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مايكل انجلو (س.ن)&quot;,
-                            &quot;en&quot;: &quot;Michael Angelo (w.w)&quot;
-                        },
-                        &quot;slug&quot;: &quot;مايكل-انجلو-سن&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    }
-                ],
-                &quot;display_order&quot;: 2,
-                &quot;has_options&quot;: false,
-                &quot;has_fields&quot;: false,
-                &quot;images&quot;: [
-                    {
-                        &quot;id&quot;: &quot;f319bb96-41b6-41a5-a0be-b6935a11c2f6&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-1000x1000.png&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-1000x1000.png&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-370x370.png&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-770x770.png&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-500x500.png&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 1,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;8fc16db0-0171-46d3-a850-902e1bb54912&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/8fc16db0-0171-46d3-a850-902e1bb54912-thumbnail-1000x1000.png&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/8fc16db0-0171-46d3-a850-902e1bb54912-thumbnail-1000x1000.png&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/8fc16db0-0171-46d3-a850-902e1bb54912-thumbnail-370x370.png&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/8fc16db0-0171-46d3-a850-902e1bb54912-thumbnail-770x770.png&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/8fc16db0-0171-46d3-a850-902e1bb54912-thumbnail-500x500.png&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 2,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;80f240b2-df0e-4bca-b1d1-f01202e2d26a&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/80f240b2-df0e-4bca-b1d1-f01202e2d26a-thumbnail-1000x1000.png&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/80f240b2-df0e-4bca-b1d1-f01202e2d26a-thumbnail-1000x1000.png&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/80f240b2-df0e-4bca-b1d1-f01202e2d26a-thumbnail-370x370.png&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/80f240b2-df0e-4bca-b1d1-f01202e2d26a-thumbnail-770x770.png&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/80f240b2-df0e-4bca-b1d1-f01202e2d26a-thumbnail-500x500.png&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 3,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;7f500cbe-06df-48ae-84df-2e0a8793015b&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/7f500cbe-06df-48ae-84df-2e0a8793015b-thumbnail-1000x1000.png&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/7f500cbe-06df-48ae-84df-2e0a8793015b-thumbnail-1000x1000.png&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/7f500cbe-06df-48ae-84df-2e0a8793015b-thumbnail-370x370.png&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/7f500cbe-06df-48ae-84df-2e0a8793015b-thumbnail-770x770.png&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/7f500cbe-06df-48ae-84df-2e0a8793015b-thumbnail-500x500.png&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 4,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;821d81a0-978c-4571-8134-dc5ebd69aca4&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/821d81a0-978c-4571-8134-dc5ebd69aca4-thumbnail-1000x1000.png&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/821d81a0-978c-4571-8134-dc5ebd69aca4-thumbnail-1000x1000.png&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/821d81a0-978c-4571-8134-dc5ebd69aca4-thumbnail-370x370.png&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/821d81a0-978c-4571-8134-dc5ebd69aca4-thumbnail-770x770.png&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/821d81a0-978c-4571-8134-dc5ebd69aca4-thumbnail-500x500.png&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 5,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;4f23cdd5-fa3c-455a-bd2c-7919eb892ff4&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/4f23cdd5-fa3c-455a-bd2c-7919eb892ff4-thumbnail-1000x1000.png&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/4f23cdd5-fa3c-455a-bd2c-7919eb892ff4-thumbnail-1000x1000.png&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/4f23cdd5-fa3c-455a-bd2c-7919eb892ff4-thumbnail-370x370.png&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/4f23cdd5-fa3c-455a-bd2c-7919eb892ff4-thumbnail-770x770.png&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/4f23cdd5-fa3c-455a-bd2c-7919eb892ff4-thumbnail-500x500.png&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 6,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;0e6aa13c-8df0-40a3-8565-ccba2fd4c98b&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/0e6aa13c-8df0-40a3-8565-ccba2fd4c98b-thumbnail-1000x1000.png&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/0e6aa13c-8df0-40a3-8565-ccba2fd4c98b-thumbnail-1000x1000.png&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/0e6aa13c-8df0-40a3-8565-ccba2fd4c98b-thumbnail-370x370.png&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/0e6aa13c-8df0-40a3-8565-ccba2fd4c98b-thumbnail-770x770.png&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/0e6aa13c-8df0-40a3-8565-ccba2fd4c98b-thumbnail-500x500.png&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 7,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    }
-                ],
-                &quot;videos&quot;: [],
-                &quot;is_draft&quot;: false,
-                &quot;quantity&quot;: 30,
-                &quot;is_infinite&quot;: false,
-                &quot;html_url&quot;: &quot;https://bstlia.zid.store/products/Michael-Angelo-Grand-Royale-Classic-Women_WM0297WL&quot;,
-                &quot;weight&quot;: {
-                    &quot;value&quot;: 730,
-                    &quot;unit&quot;: &quot;g&quot;
-                },
-                &quot;keywords&quot;: [],
-                &quot;requires_shipping&quot;: true,
-                &quot;is_taxable&quot;: true,
-                &quot;structure&quot;: &quot;standalone&quot;,
-                &quot;seo&quot;: null,
-                &quot;rating&quot;: {
-                    &quot;average&quot;: 0,
-                    &quot;total_count&quot;: 0,
-                    &quot;1_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;2_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;3_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;4_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;5_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    }
-                },
-                &quot;store_id&quot;: 1085223,
-                &quot;purchase_restrictions&quot;: {
-                    &quot;min_quantity_per_cart&quot;: null,
-                    &quot;max_quantity_per_cart&quot;: null,
-                    &quot;availability_period_start&quot;: null,
-                    &quot;availability_period_end&quot;: null,
-                    &quot;sale_price_period_start&quot;: null,
-                    &quot;sale_price_period_end&quot;: null
-                },
-                &quot;metafields&quot;: null,
-                &quot;meta&quot;: null,
-                &quot;related_products_settings&quot;: &quot;AUTO_GENERATED&quot;,
-                &quot;related_products_title&quot;: {
-                    &quot;ar&quot;: &quot;&quot;,
-                    &quot;en&quot;: &quot;&quot;
-                },
-                &quot;badge&quot;: null,
-                &quot;cost&quot;: 29.405,
-                &quot;is_published&quot;: true,
-                &quot;waiting_customers_count&quot;: null,
-                &quot;group_products&quot;: null,
-                &quot;preorder_campaign&quot;: null,
-                &quot;stocks&quot;: [
-                    {
-                        &quot;id&quot;: &quot;864b0a50-3a80-4c52-86b0-6b7baffd17cd&quot;,
-                        &quot;location&quot;: {
-                            &quot;id&quot;: &quot;c3d144fa-69de-40f2-882e-67e46b505383&quot;,
-                            &quot;name&quot;: {
-                                &quot;en&quot;: &quot;مخزن ضياء&quot;
-                            },
-                            &quot;type&quot;: &quot;PHYSICAL&quot;,
-                            &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;
-                        },
-                        &quot;available_quantity&quot;: 30,
-                        &quot;is_infinite&quot;: false
-                    }
-                ],
-                &quot;sold_products_count&quot;: null,
-                &quot;created_at&quot;: &quot;2026-04-20T12:49:43.103437Z&quot;,
-                &quot;updated_at&quot;: &quot;2026-04-20T12:49:43.103474Z&quot;
-            },
-            {
-                &quot;id&quot;: &quot;6597bcef-36dd-4326-84d1-3b3d77237b9d&quot;,
-                &quot;product_class&quot;: null,
-                &quot;sku&quot;: &quot;BM0320LG&quot;,
-                &quot;barcode&quot;: &quot;&quot;,
-                &quot;parent_id&quot;: null,
-                &quot;name&quot;: {
-                    &quot;ar&quot;: &quot;مايكل انجلو- مجموعة الخليج GCC01&quot;,
-                    &quot;en&quot;: &quot;Michael Angelo - Gulf Collection GCC01&quot;
-                },
-                &quot;slug&quot;: &quot;Michael-Angelo---Gulf-Collection-GCC01&quot;,
-                &quot;price&quot;: 55,
-                &quot;short_description&quot;: {
-                    &quot;ar&quot;: &quot;&lt;p&gt;تجمع حقيبة &nbsp;&lt;strong&gt;GCC01&lt;/strong&gt; من مايكل انجلو &nbsp;بين التصميم الخالد والتفاصيل المستوحاة من التراث الخليجي.&lt;/p&gt;&quot;,
-                    &quot;en&quot;: &quot;&lt;p&gt;The &lt;strong&gt;GCC01&lt;/strong&gt; bag by Michael Angelo combines timeless design with details inspired by Gulf heritage.&lt;/p&gt;&quot;
-                },
-                &quot;sale_price&quot;: null,
-                &quot;formatted_price&quot;: &quot; SAR 55.00&quot;,
-                &quot;formatted_sale_price&quot;: null,
-                &quot;currency&quot;: &quot;SAR&quot;,
-                &quot;currency_symbol&quot;: &quot; SAR &quot;,
-                &quot;attributes&quot;: [
-                    {
-                        &quot;id&quot;: &quot;c618ee96-0387-4e79-9c46-c249968020e3&quot;,
-                        &quot;slug&quot;: &quot;ar-مــادة-الحقيبـة-en-bag-material&quot;,
-                        &quot;name&quot;: &quot;Bag-Material&quot;,
-                        &quot;value&quot;: {
-                            &quot;ar&quot;: &quot;جلـد&quot;,
-                            &quot;en&quot;: &quot;Leather&quot;
-                        },
-                        &quot;type&quot;: &quot;default&quot;,
-                        &quot;type_value&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;product_id&quot;: &quot;6597bcef-36dd-4326-84d1-3b3d77237b9d&quot;,
-                        &quot;attribute_image_id&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;attribute_id&quot;: &quot;159b0664-27b0-44bf-a668-a0011e45737e&quot;,
-                        &quot;attribute_display_order&quot;: null,
-                        &quot;use_as_filter&quot;: true
-                    },
-                    {
-                        &quot;id&quot;: &quot;faf7693c-51ff-4331-abbf-1893411e04cf&quot;,
-                        &quot;slug&quot;: &quot;ar-حجـم-الحقيـبة-en-bag-size&quot;,
-                        &quot;name&quot;: &quot;Bag-Size&quot;,
-                        &quot;value&quot;: {
-                            &quot;ar&quot;: &quot;L&quot;,
-                            &quot;en&quot;: &quot;L&quot;
-                        },
-                        &quot;type&quot;: &quot;default&quot;,
-                        &quot;type_value&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;product_id&quot;: &quot;6597bcef-36dd-4326-84d1-3b3d77237b9d&quot;,
-                        &quot;attribute_image_id&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;attribute_id&quot;: &quot;ad8767e1-3c30-44cc-8a76-9ac35317d43d&quot;,
-                        &quot;attribute_display_order&quot;: null,
-                        &quot;use_as_filter&quot;: true
-                    }
-                ],
-                &quot;categories&quot;: [
-                    {
-                        &quot;id&quot;: &quot;1531819&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مهرجان الحب والسلام&quot;,
-                            &quot;en&quot;: &quot;Festival of Love and Peace&quot;
-                        },
-                        &quot;slug&quot;: &quot;مهرجان-الحب-والسلام&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531822&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;وصل حديثا 🔥&quot;,
-                            &quot;en&quot;: &quot;New arrival 🔥&quot;
-                        },
-                        &quot;slug&quot;: &quot;وصل-حديثا&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531823&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مايكل انجلو&quot;,
-                            &quot;en&quot;: &quot;Michael Angelo&quot;
-                        },
-                        &quot;slug&quot;: &quot;مايكل-انجلو&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531826&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;حقائب ومحافظ&quot;,
-                            &quot;en&quot;: &quot;Bags &amp; Wallets&quot;
-                        },
-                        &quot;slug&quot;: &quot;حقائب-ومحافظ&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/ab21785c-668f-41bc-8286-1eb6d45fdc97.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531827&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;حقائب&quot;,
-                            &quot;en&quot;: &quot;Bags&quot;
-                        },
-                        &quot;slug&quot;: &quot;حقائب&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531828&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;حقائب نسائية&quot;,
-                            &quot;en&quot;: &quot;Women &#039;s Bags&quot;
-                        },
-                        &quot;slug&quot;: &quot;حقائب-نسائية&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531829&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;للمـرأة&quot;,
-                            &quot;en&quot;: &quot;For Women&quot;
-                        },
-                        &quot;slug&quot;: &quot;للمـرأة&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/197ee521-02b6-44ee-884e-1af27303bff7.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531830&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;لصديـق&quot;,
-                            &quot;en&quot;: &quot;Friend&quot;
-                        },
-                        &quot;slug&quot;: &quot;لصديـق&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/2109464b-abb4-4ed5-8d44-a07bc769b2b9.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531831&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;خصومات ⚡️&quot;,
-                            &quot;en&quot;: &quot;Hot Deals ⚡️&quot;
-                        },
-                        &quot;slug&quot;: &quot;خصومات&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531832&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;حقائب- مايكل آنجلو&quot;,
-                            &quot;en&quot;: &quot;Bags- Michael Angelo&quot;
-                        },
-                        &quot;slug&quot;: &quot;حقائب-مايكل-آنجلو&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531833&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مايكل انجلو (ح.ن)&quot;,
-                            &quot;en&quot;: &quot;Michael Angelo (w.b)&quot;
-                        },
-                        &quot;slug&quot;: &quot;مايكل-انجلو-حن&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    }
-                ],
-                &quot;display_order&quot;: 3,
-                &quot;has_options&quot;: false,
-                &quot;has_fields&quot;: false,
-                &quot;images&quot;: [
-                    {
-                        &quot;id&quot;: &quot;47257403-f23b-46c0-995a-5c18129dbaa3&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/47257403-f23b-46c0-995a-5c18129dbaa3-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/47257403-f23b-46c0-995a-5c18129dbaa3-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/47257403-f23b-46c0-995a-5c18129dbaa3-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/47257403-f23b-46c0-995a-5c18129dbaa3-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/47257403-f23b-46c0-995a-5c18129dbaa3-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 1,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;4c761bcb-ce61-4fdf-bfac-25004201a64e&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/4c761bcb-ce61-4fdf-bfac-25004201a64e-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/4c761bcb-ce61-4fdf-bfac-25004201a64e-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/4c761bcb-ce61-4fdf-bfac-25004201a64e-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/4c761bcb-ce61-4fdf-bfac-25004201a64e-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/4c761bcb-ce61-4fdf-bfac-25004201a64e-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 2,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;5e3c12c9-5943-4557-83fe-e2d422e65d3a&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/5e3c12c9-5943-4557-83fe-e2d422e65d3a-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/5e3c12c9-5943-4557-83fe-e2d422e65d3a-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/5e3c12c9-5943-4557-83fe-e2d422e65d3a-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/5e3c12c9-5943-4557-83fe-e2d422e65d3a-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/5e3c12c9-5943-4557-83fe-e2d422e65d3a-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 3,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;325eb8c0-d4c9-4fc4-a17c-87e3ce3e647c&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/325eb8c0-d4c9-4fc4-a17c-87e3ce3e647c-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/325eb8c0-d4c9-4fc4-a17c-87e3ce3e647c-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/325eb8c0-d4c9-4fc4-a17c-87e3ce3e647c-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/325eb8c0-d4c9-4fc4-a17c-87e3ce3e647c-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/325eb8c0-d4c9-4fc4-a17c-87e3ce3e647c-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 4,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;2e4d7f4d-8259-4c96-b81f-7aade3477c11&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/2e4d7f4d-8259-4c96-b81f-7aade3477c11-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/2e4d7f4d-8259-4c96-b81f-7aade3477c11-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/2e4d7f4d-8259-4c96-b81f-7aade3477c11-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/2e4d7f4d-8259-4c96-b81f-7aade3477c11-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/2e4d7f4d-8259-4c96-b81f-7aade3477c11-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 5,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;1e1fc2f2-aacd-431b-8d11-9ae733831c11&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/1e1fc2f2-aacd-431b-8d11-9ae733831c11-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/1e1fc2f2-aacd-431b-8d11-9ae733831c11-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/1e1fc2f2-aacd-431b-8d11-9ae733831c11-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/1e1fc2f2-aacd-431b-8d11-9ae733831c11-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/1e1fc2f2-aacd-431b-8d11-9ae733831c11-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 6,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;ec801fe7-95fa-43e5-811c-381796c6cb9e&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ec801fe7-95fa-43e5-811c-381796c6cb9e-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ec801fe7-95fa-43e5-811c-381796c6cb9e-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ec801fe7-95fa-43e5-811c-381796c6cb9e-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ec801fe7-95fa-43e5-811c-381796c6cb9e-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ec801fe7-95fa-43e5-811c-381796c6cb9e-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 7,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    }
-                ],
-                &quot;videos&quot;: [],
-                &quot;is_draft&quot;: false,
-                &quot;quantity&quot;: 53,
-                &quot;is_infinite&quot;: false,
-                &quot;html_url&quot;: &quot;https://bstlia.zid.store/products/Michael-Angelo---Gulf-Collection-GCC01&quot;,
-                &quot;weight&quot;: {
-                    &quot;value&quot;: 1180,
-                    &quot;unit&quot;: &quot;g&quot;
-                },
-                &quot;keywords&quot;: [],
-                &quot;requires_shipping&quot;: true,
-                &quot;is_taxable&quot;: true,
-                &quot;structure&quot;: &quot;standalone&quot;,
-                &quot;seo&quot;: null,
-                &quot;rating&quot;: {
-                    &quot;average&quot;: 0,
-                    &quot;total_count&quot;: 0,
-                    &quot;1_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;2_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;3_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;4_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;5_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    }
-                },
-                &quot;store_id&quot;: 1085223,
-                &quot;purchase_restrictions&quot;: {
-                    &quot;min_quantity_per_cart&quot;: null,
-                    &quot;max_quantity_per_cart&quot;: null,
-                    &quot;availability_period_start&quot;: null,
-                    &quot;availability_period_end&quot;: null,
-                    &quot;sale_price_period_start&quot;: null,
-                    &quot;sale_price_period_end&quot;: null
-                },
-                &quot;metafields&quot;: null,
-                &quot;meta&quot;: null,
-                &quot;related_products_settings&quot;: &quot;AUTO_GENERATED&quot;,
-                &quot;related_products_title&quot;: {
-                    &quot;ar&quot;: &quot;&quot;,
-                    &quot;en&quot;: &quot;&quot;
-                },
-                &quot;badge&quot;: null,
-                &quot;cost&quot;: 22.264,
-                &quot;is_published&quot;: true,
-                &quot;waiting_customers_count&quot;: null,
-                &quot;group_products&quot;: null,
-                &quot;preorder_campaign&quot;: null,
-                &quot;stocks&quot;: [
-                    {
-                        &quot;id&quot;: &quot;9c3f5eef-374f-4d89-8c80-e7e0edd10978&quot;,
-                        &quot;location&quot;: {
-                            &quot;id&quot;: &quot;c3d144fa-69de-40f2-882e-67e46b505383&quot;,
-                            &quot;name&quot;: {
-                                &quot;en&quot;: &quot;مخزن ضياء&quot;
-                            },
-                            &quot;type&quot;: &quot;PHYSICAL&quot;,
-                            &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;
-                        },
-                        &quot;available_quantity&quot;: 53,
-                        &quot;is_infinite&quot;: false
-                    }
-                ],
-                &quot;sold_products_count&quot;: null,
-                &quot;created_at&quot;: &quot;2026-04-20T12:49:43.860925Z&quot;,
-                &quot;updated_at&quot;: &quot;2026-04-20T12:49:43.860967Z&quot;
-            },
-            {
-                &quot;id&quot;: &quot;610bdff0-e9c5-4477-976f-cdaa478dfe4c&quot;,
-                &quot;product_class&quot;: null,
-                &quot;sku&quot;: &quot;LM0375MB&quot;,
-                &quot;barcode&quot;: &quot;&quot;,
-                &quot;parent_id&quot;: null,
-                &quot;name&quot;: {
-                    &quot;ar&quot;: &quot; مايكل انجلو- محفظة نسائية Y2&quot;,
-                    &quot;en&quot;: &quot;Michael Angelo - Women&#039;s Wallet Y2&quot;
-                },
-                &quot;slug&quot;: &quot;michael-angelo-mens-wallet-black-3&quot;,
-                &quot;price&quot;: 13,
-                &quot;short_description&quot;: {
-                    &quot;ar&quot;: &quot;&lt;p&gt;محفظة Y2 للجنسين من مايكل انجلو تتميز بتصميمات عصرية.&lt;/p&gt;&quot;,
-                    &quot;en&quot;: &quot;&lt;p&gt;Michael Angelo Y2 Unisex Wallet featuring modern designs.&lt;/p&gt;\n&lt;p&gt;&nbsp;&lt;/p&gt;&quot;
-                },
-                &quot;sale_price&quot;: null,
-                &quot;formatted_price&quot;: &quot; SAR 13.00&quot;,
-                &quot;formatted_sale_price&quot;: null,
-                &quot;currency&quot;: &quot;SAR&quot;,
-                &quot;currency_symbol&quot;: &quot; SAR &quot;,
-                &quot;attributes&quot;: [],
-                &quot;categories&quot;: [
-                    {
-                        &quot;id&quot;: &quot;1531819&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مهرجان الحب والسلام&quot;,
-                            &quot;en&quot;: &quot;Festival of Love and Peace&quot;
-                        },
-                        &quot;slug&quot;: &quot;مهرجان-الحب-والسلام&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531822&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;وصل حديثا 🔥&quot;,
-                            &quot;en&quot;: &quot;New arrival 🔥&quot;
-                        },
-                        &quot;slug&quot;: &quot;وصل-حديثا&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531823&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مايكل انجلو&quot;,
-                            &quot;en&quot;: &quot;Michael Angelo&quot;
-                        },
-                        &quot;slug&quot;: &quot;مايكل-انجلو&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531826&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;حقائب ومحافظ&quot;,
-                            &quot;en&quot;: &quot;Bags &amp; Wallets&quot;
-                        },
-                        &quot;slug&quot;: &quot;حقائب-ومحافظ&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/ab21785c-668f-41bc-8286-1eb6d45fdc97.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531832&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;حقائب- مايكل آنجلو&quot;,
-                            &quot;en&quot;: &quot;Bags- Michael Angelo&quot;
-                        },
-                        &quot;slug&quot;: &quot;حقائب-مايكل-آنجلو&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531834&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;محافظ&quot;,
-                            &quot;en&quot;: &quot;Wallets&quot;
-                        },
-                        &quot;slug&quot;: &quot;محافظ&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531835&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;محافظ نسائية&quot;,
-                            &quot;en&quot;: &quot;Women &#039;s Walets&quot;
-                        },
-                        &quot;slug&quot;: &quot;محافظ-نسائية&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531836&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;محافظ مايكل انجلو&quot;,
-                            &quot;en&quot;: &quot;Michael Angelo Wallets&quot;
-                        },
-                        &quot;slug&quot;: &quot;محافظ-مايكل-انجلو&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    }
-                ],
-                &quot;display_order&quot;: 4,
-                &quot;has_options&quot;: false,
-                &quot;has_fields&quot;: false,
-                &quot;images&quot;: [
-                    {
-                        &quot;id&quot;: &quot;04cab666-3f64-49cb-bc7b-1121fb661232&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/04cab666-3f64-49cb-bc7b-1121fb661232-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/04cab666-3f64-49cb-bc7b-1121fb661232-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/04cab666-3f64-49cb-bc7b-1121fb661232-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/04cab666-3f64-49cb-bc7b-1121fb661232-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/04cab666-3f64-49cb-bc7b-1121fb661232-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 1,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;9ac300dd-6048-425c-9729-af37bd14761d&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/9ac300dd-6048-425c-9729-af37bd14761d-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/9ac300dd-6048-425c-9729-af37bd14761d-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/9ac300dd-6048-425c-9729-af37bd14761d-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/9ac300dd-6048-425c-9729-af37bd14761d-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/9ac300dd-6048-425c-9729-af37bd14761d-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 2,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;86f94ed5-eb3f-421f-8217-74af8f8dbdb6&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/86f94ed5-eb3f-421f-8217-74af8f8dbdb6-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/86f94ed5-eb3f-421f-8217-74af8f8dbdb6-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/86f94ed5-eb3f-421f-8217-74af8f8dbdb6-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/86f94ed5-eb3f-421f-8217-74af8f8dbdb6-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/86f94ed5-eb3f-421f-8217-74af8f8dbdb6-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 3,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;c04827c1-b048-4bed-bf82-53f1d103a572&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c04827c1-b048-4bed-bf82-53f1d103a572-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c04827c1-b048-4bed-bf82-53f1d103a572-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c04827c1-b048-4bed-bf82-53f1d103a572-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c04827c1-b048-4bed-bf82-53f1d103a572-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c04827c1-b048-4bed-bf82-53f1d103a572-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 4,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;2be92158-0b2c-4060-99ab-22d3266de1ed&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/2be92158-0b2c-4060-99ab-22d3266de1ed-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/2be92158-0b2c-4060-99ab-22d3266de1ed-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/2be92158-0b2c-4060-99ab-22d3266de1ed-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/2be92158-0b2c-4060-99ab-22d3266de1ed-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/2be92158-0b2c-4060-99ab-22d3266de1ed-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 5,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;af67117d-4158-4252-9db1-6f6bbe55ef4f&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/af67117d-4158-4252-9db1-6f6bbe55ef4f-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/af67117d-4158-4252-9db1-6f6bbe55ef4f-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/af67117d-4158-4252-9db1-6f6bbe55ef4f-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/af67117d-4158-4252-9db1-6f6bbe55ef4f-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/af67117d-4158-4252-9db1-6f6bbe55ef4f-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 6,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    }
-                ],
-                &quot;videos&quot;: [],
-                &quot;is_draft&quot;: false,
-                &quot;quantity&quot;: 200,
-                &quot;is_infinite&quot;: false,
-                &quot;html_url&quot;: &quot;https://bstlia.zid.store/products/michael-angelo-mens-wallet-black-3&quot;,
-                &quot;weight&quot;: {
-                    &quot;value&quot;: 54,
-                    &quot;unit&quot;: &quot;g&quot;
-                },
-                &quot;keywords&quot;: [],
-                &quot;requires_shipping&quot;: true,
-                &quot;is_taxable&quot;: true,
-                &quot;structure&quot;: &quot;standalone&quot;,
-                &quot;seo&quot;: null,
-                &quot;rating&quot;: {
-                    &quot;average&quot;: 0,
-                    &quot;total_count&quot;: 0,
-                    &quot;1_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;2_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;3_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;4_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;5_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    }
-                },
-                &quot;store_id&quot;: 1085223,
-                &quot;purchase_restrictions&quot;: {
-                    &quot;min_quantity_per_cart&quot;: null,
-                    &quot;max_quantity_per_cart&quot;: null,
-                    &quot;availability_period_start&quot;: null,
-                    &quot;availability_period_end&quot;: null,
-                    &quot;sale_price_period_start&quot;: null,
-                    &quot;sale_price_period_end&quot;: null
-                },
-                &quot;metafields&quot;: null,
-                &quot;meta&quot;: null,
-                &quot;related_products_settings&quot;: &quot;AUTO_GENERATED&quot;,
-                &quot;related_products_title&quot;: {
-                    &quot;ar&quot;: &quot;&quot;,
-                    &quot;en&quot;: &quot;&quot;
-                },
-                &quot;badge&quot;: null,
-                &quot;cost&quot;: 3.721,
-                &quot;is_published&quot;: true,
-                &quot;waiting_customers_count&quot;: null,
-                &quot;group_products&quot;: null,
-                &quot;preorder_campaign&quot;: null,
-                &quot;stocks&quot;: [
-                    {
-                        &quot;id&quot;: &quot;62bca8e1-503b-42a7-950d-6468032cfb4c&quot;,
-                        &quot;location&quot;: {
-                            &quot;id&quot;: &quot;c3d144fa-69de-40f2-882e-67e46b505383&quot;,
-                            &quot;name&quot;: {
-                                &quot;en&quot;: &quot;مخزن ضياء&quot;
-                            },
-                            &quot;type&quot;: &quot;PHYSICAL&quot;,
-                            &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;
-                        },
-                        &quot;available_quantity&quot;: 200,
-                        &quot;is_infinite&quot;: false
-                    }
-                ],
-                &quot;sold_products_count&quot;: null,
-                &quot;created_at&quot;: &quot;2026-04-20T12:49:45.177274Z&quot;,
-                &quot;updated_at&quot;: &quot;2026-04-20T12:49:45.177329Z&quot;
-            },
-            {
-                &quot;id&quot;: &quot;86577712-2e91-415e-bb44-15246ddcac43&quot;,
-                &quot;product_class&quot;: null,
-                &quot;sku&quot;: &quot;PC0422HW&quot;,
-                &quot;barcode&quot;: &quot;&quot;,
-                &quot;parent_id&quot;: null,
-                &quot;name&quot;: {
-                    &quot;ar&quot;: &quot;جود جيرل بلش أو دو بارفان 80ML&quot;,
-                    &quot;en&quot;: &quot;CH Good Girl Blush Edp 80ML&quot;
-                },
-                &quot;slug&quot;: &quot;جود-جيرل-بلش-أو-دو-بارفان-80ml&quot;,
-                &quot;price&quot;: 68,
-                &quot;short_description&quot;: {
-                    &quot;ar&quot;: &quot;&lt;p&gt;يُعد عطر&nbsp;جود جيرل بلش أو دو بارفان تعبيرًا أنثويًا جذابًا يمزج بين الأناقة العصرية والجرأة الناعمة، وهو مصمّم للمرأة الواثقة التي تحب التألق والإشراق في كل لحظة.&lt;/p&gt;&quot;,
-                    &quot;en&quot;: &quot;&lt;p&gt;Good Girl Blush Eau de Parfum is an alluring and feminine fragrance that blends modern elegance with subtle boldness.&lt;/p&gt;&quot;
-                },
-                &quot;sale_price&quot;: 41,
-                &quot;formatted_price&quot;: &quot; SAR 68.00&quot;,
-                &quot;formatted_sale_price&quot;: &quot; SAR 41.00&quot;,
-                &quot;currency&quot;: &quot;SAR&quot;,
-                &quot;currency_symbol&quot;: &quot; SAR &quot;,
-                &quot;attributes&quot;: [
-                    {
-                        &quot;id&quot;: &quot;cd7fe441-68c8-4808-8595-277cf47636f2&quot;,
-                        &quot;slug&quot;: &quot;ar-السعة-en-volume&quot;,
-                        &quot;name&quot;: &quot;Volume&quot;,
-                        &quot;value&quot;: {
-                            &quot;ar&quot;: &quot;80ml&quot;,
-                            &quot;en&quot;: &quot;80ml&quot;
-                        },
-                        &quot;type&quot;: &quot;default&quot;,
-                        &quot;type_value&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;product_id&quot;: &quot;86577712-2e91-415e-bb44-15246ddcac43&quot;,
-                        &quot;attribute_image_id&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;attribute_id&quot;: &quot;fcda7ed9-383c-4b09-91cd-e7100d66a192&quot;,
-                        &quot;attribute_display_order&quot;: null,
-                        &quot;use_as_filter&quot;: true
-                    }
-                ],
-                &quot;categories&quot;: [
-                    {
-                        &quot;id&quot;: &quot;1531817&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;عطور&quot;,
-                            &quot;en&quot;: &quot;Perfumes&quot;
-                        },
-                        &quot;slug&quot;: &quot;عطور&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/fcad02c0-d232-44b3-9ed8-487a7fe2fa0f.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531819&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مهرجان الحب والسلام&quot;,
-                            &quot;en&quot;: &quot;Festival of Love and Peace&quot;
-                        },
-                        &quot;slug&quot;: &quot;مهرجان-الحب-والسلام&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531822&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;وصل حديثا 🔥&quot;,
-                            &quot;en&quot;: &quot;New arrival 🔥&quot;
-                        },
-                        &quot;slug&quot;: &quot;وصل-حديثا&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531829&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;للمـرأة&quot;,
-                            &quot;en&quot;: &quot;For Women&quot;
-                        },
-                        &quot;slug&quot;: &quot;للمـرأة&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/197ee521-02b6-44ee-884e-1af27303bff7.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531830&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;لصديـق&quot;,
-                            &quot;en&quot;: &quot;Friend&quot;
-                        },
-                        &quot;slug&quot;: &quot;لصديـق&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/2109464b-abb4-4ed5-8d44-a07bc769b2b9.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531831&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;خصومات ⚡️&quot;,
-                            &quot;en&quot;: &quot;Hot Deals ⚡️&quot;
-                        },
-                        &quot;slug&quot;: &quot;خصومات&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531837&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;عطور نسائية&quot;,
-                            &quot;en&quot;: &quot;Women&#039;s Perfumes&quot;
-                        },
-                        &quot;slug&quot;: &quot;عطور-نسائية&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;مجموعة مختارة من عطور النساء تجمع بين الرقي الكلاسيكي والجاذبية العصرية. اكتشفي عطورًا زهرية وشرقية وفاكهية تبرز التفرّد وتترك أثرًا لا يُنسى.&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531838&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;الزفاف&quot;,
-                            &quot;en&quot;: &quot;Wedding&quot;
-                        },
-                        &quot;slug&quot;: &quot;الزفاف&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/c89a9aed-2c96-4a82-9158-e7b106b2dc48.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531839&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;ذكرى الزواج&quot;,
-                            &quot;en&quot;: &quot;Anniversary&quot;
-                        },
-                        &quot;slug&quot;: &quot;ذكرى-الزواج&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/5e3ab744-84f5-47a5-b42b-2735b27a1e4d.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531840&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مهرجان العطور&quot;,
-                            &quot;en&quot;: &quot;Perfumes Festival&quot;
-                        },
-                        &quot;slug&quot;: &quot;مهرجان-العطور&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    }
-                ],
-                &quot;display_order&quot;: 5,
-                &quot;has_options&quot;: false,
-                &quot;has_fields&quot;: false,
-                &quot;images&quot;: [
-                    {
-                        &quot;id&quot;: &quot;d089dbe9-bae9-4d7a-8b10-3a5461da0e80&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d089dbe9-bae9-4d7a-8b10-3a5461da0e80-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d089dbe9-bae9-4d7a-8b10-3a5461da0e80-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d089dbe9-bae9-4d7a-8b10-3a5461da0e80-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d089dbe9-bae9-4d7a-8b10-3a5461da0e80-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d089dbe9-bae9-4d7a-8b10-3a5461da0e80-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 1,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;ef604975-e106-4e5d-9f16-1c51cd35d156&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ef604975-e106-4e5d-9f16-1c51cd35d156-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ef604975-e106-4e5d-9f16-1c51cd35d156-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ef604975-e106-4e5d-9f16-1c51cd35d156-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ef604975-e106-4e5d-9f16-1c51cd35d156-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ef604975-e106-4e5d-9f16-1c51cd35d156-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 2,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;81263632-f9f3-46c7-b8fe-a333fe5900e8&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/81263632-f9f3-46c7-b8fe-a333fe5900e8-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/81263632-f9f3-46c7-b8fe-a333fe5900e8-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/81263632-f9f3-46c7-b8fe-a333fe5900e8-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/81263632-f9f3-46c7-b8fe-a333fe5900e8-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/81263632-f9f3-46c7-b8fe-a333fe5900e8-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 3,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    }
-                ],
-                &quot;videos&quot;: [],
-                &quot;is_draft&quot;: false,
-                &quot;quantity&quot;: 3,
-                &quot;is_infinite&quot;: false,
-                &quot;html_url&quot;: &quot;https://bstlia.zid.store/products/جود-جيرل-بلش-أو-دو-بارفان-80ml&quot;,
-                &quot;weight&quot;: {
-                    &quot;value&quot;: null,
-                    &quot;unit&quot;: &quot;kg&quot;
-                },
-                &quot;keywords&quot;: [],
-                &quot;requires_shipping&quot;: true,
-                &quot;is_taxable&quot;: true,
-                &quot;structure&quot;: &quot;standalone&quot;,
-                &quot;seo&quot;: null,
-                &quot;rating&quot;: {
-                    &quot;average&quot;: 0,
-                    &quot;total_count&quot;: 0,
-                    &quot;1_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;2_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;3_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;4_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;5_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    }
-                },
-                &quot;store_id&quot;: 1085223,
-                &quot;purchase_restrictions&quot;: {
-                    &quot;min_quantity_per_cart&quot;: null,
-                    &quot;max_quantity_per_cart&quot;: null,
-                    &quot;availability_period_start&quot;: null,
-                    &quot;availability_period_end&quot;: null,
-                    &quot;sale_price_period_start&quot;: null,
-                    &quot;sale_price_period_end&quot;: null
-                },
-                &quot;metafields&quot;: null,
-                &quot;meta&quot;: null,
-                &quot;related_products_settings&quot;: &quot;AUTO_GENERATED&quot;,
-                &quot;related_products_title&quot;: {
-                    &quot;ar&quot;: &quot;&quot;,
-                    &quot;en&quot;: &quot;&quot;
-                },
-                &quot;badge&quot;: null,
-                &quot;cost&quot;: 0,
-                &quot;is_published&quot;: true,
-                &quot;waiting_customers_count&quot;: null,
-                &quot;group_products&quot;: null,
-                &quot;preorder_campaign&quot;: null,
-                &quot;stocks&quot;: [
-                    {
-                        &quot;id&quot;: &quot;71bed7a9-aa12-4cc4-bde0-eb33df8666fd&quot;,
-                        &quot;location&quot;: {
-                            &quot;id&quot;: &quot;c3d144fa-69de-40f2-882e-67e46b505383&quot;,
-                            &quot;name&quot;: {
-                                &quot;en&quot;: &quot;مخزن ضياء&quot;
-                            },
-                            &quot;type&quot;: &quot;PHYSICAL&quot;,
-                            &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;
-                        },
-                        &quot;available_quantity&quot;: 3,
-                        &quot;is_infinite&quot;: false
-                    }
-                ],
-                &quot;sold_products_count&quot;: null,
-                &quot;created_at&quot;: &quot;2026-04-20T12:49:45.841363Z&quot;,
-                &quot;updated_at&quot;: &quot;2026-04-20T12:49:45.841402Z&quot;
-            },
-            {
-                &quot;id&quot;: &quot;f06f05d6-92d0-4387-a822-d879724cee49&quot;,
-                &quot;product_class&quot;: null,
-                &quot;sku&quot;: &quot;JL0316SG&quot;,
-                &quot;barcode&quot;: &quot;JL0316SG&quot;,
-                &quot;parent_id&quot;: null,
-                &quot;name&quot;: {
-                    &quot;ar&quot;: &quot;مجموعة النبلاء- طقم ذهبي&quot;,
-                    &quot;en&quot;: &quot;Amira Kite Motif Set - Gold Collection &quot;
-                },
-                &quot;slug&quot;: &quot;amira-kite-motif-set-gold-collection&quot;,
-                &quot;price&quot;: 109,
-                &quot;short_description&quot;: {
-                    &quot;ar&quot;: &quot;&lt;p&gt;يجمع طقم النبلاء بين البساطة والفخامة في تصميم عصري مستلهم من الماضي لينطلق بك نحو المستقبل&lt;/p&gt;&quot;,
-                    &quot;en&quot;: &quot;&lt;p&gt;The Noblesse Set combines simplicity and luxury in a contemporary design inspired by the past while looking toward the future.&lt;/p&gt;&quot;
-                },
-                &quot;sale_price&quot;: null,
-                &quot;formatted_price&quot;: &quot; SAR 109.00&quot;,
-                &quot;formatted_sale_price&quot;: null,
-                &quot;currency&quot;: &quot;SAR&quot;,
-                &quot;currency_symbol&quot;: &quot; SAR &quot;,
-                &quot;attributes&quot;: [],
-                &quot;categories&quot;: [
-                    {
-                        &quot;id&quot;: &quot;1531829&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;للمـرأة&quot;,
-                            &quot;en&quot;: &quot;For Women&quot;
-                        },
-                        &quot;slug&quot;: &quot;للمـرأة&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/197ee521-02b6-44ee-884e-1af27303bff7.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531839&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;ذكرى الزواج&quot;,
-                            &quot;en&quot;: &quot;Anniversary&quot;
-                        },
-                        &quot;slug&quot;: &quot;ذكرى-الزواج&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/5e3ab744-84f5-47a5-b42b-2735b27a1e4d.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531841&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;حلي ومجوهرات&quot;,
-                            &quot;en&quot;: &quot;Jewelry&quot;
-                        },
-                        &quot;slug&quot;: &quot;حلي-ومجوهرات&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/160fd951-12c6-487e-a2c2-5d5003196fb2.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531842&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;فضة&quot;,
-                            &quot;en&quot;: &quot;Silver&quot;
-                        },
-                        &quot;slug&quot;: &quot;فضة&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    }
-                ],
-                &quot;display_order&quot;: 6,
-                &quot;has_options&quot;: false,
-                &quot;has_fields&quot;: false,
-                &quot;images&quot;: [
-                    {
-                        &quot;id&quot;: &quot;43d32fa1-be7c-43a7-9ff4-c57a812e6ef7&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/43d32fa1-be7c-43a7-9ff4-c57a812e6ef7-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/43d32fa1-be7c-43a7-9ff4-c57a812e6ef7-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/43d32fa1-be7c-43a7-9ff4-c57a812e6ef7-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/43d32fa1-be7c-43a7-9ff4-c57a812e6ef7-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/43d32fa1-be7c-43a7-9ff4-c57a812e6ef7-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 1,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;6d48e651-a737-40ce-9c35-00dbb21079c1&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/6d48e651-a737-40ce-9c35-00dbb21079c1-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/6d48e651-a737-40ce-9c35-00dbb21079c1-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/6d48e651-a737-40ce-9c35-00dbb21079c1-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/6d48e651-a737-40ce-9c35-00dbb21079c1-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/6d48e651-a737-40ce-9c35-00dbb21079c1-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 2,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;ad24379f-25ac-4d71-9fd9-ff9275628f65&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ad24379f-25ac-4d71-9fd9-ff9275628f65-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ad24379f-25ac-4d71-9fd9-ff9275628f65-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ad24379f-25ac-4d71-9fd9-ff9275628f65-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ad24379f-25ac-4d71-9fd9-ff9275628f65-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ad24379f-25ac-4d71-9fd9-ff9275628f65-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 3,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;043aef70-83b8-4f42-8be4-2eff000bc56e&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/043aef70-83b8-4f42-8be4-2eff000bc56e-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/043aef70-83b8-4f42-8be4-2eff000bc56e-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/043aef70-83b8-4f42-8be4-2eff000bc56e-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/043aef70-83b8-4f42-8be4-2eff000bc56e-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/043aef70-83b8-4f42-8be4-2eff000bc56e-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 4,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;e551f9ff-51e8-49c9-ab60-c02e1cfbfd16&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e551f9ff-51e8-49c9-ab60-c02e1cfbfd16-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e551f9ff-51e8-49c9-ab60-c02e1cfbfd16-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e551f9ff-51e8-49c9-ab60-c02e1cfbfd16-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e551f9ff-51e8-49c9-ab60-c02e1cfbfd16-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e551f9ff-51e8-49c9-ab60-c02e1cfbfd16-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 5,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;ffdcaf8d-0bd0-41b8-a1ca-27946fdf0be2&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ffdcaf8d-0bd0-41b8-a1ca-27946fdf0be2-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ffdcaf8d-0bd0-41b8-a1ca-27946fdf0be2-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ffdcaf8d-0bd0-41b8-a1ca-27946fdf0be2-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ffdcaf8d-0bd0-41b8-a1ca-27946fdf0be2-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ffdcaf8d-0bd0-41b8-a1ca-27946fdf0be2-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 6,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;e35fecd8-7faf-42b6-9df5-46adc163aabe&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e35fecd8-7faf-42b6-9df5-46adc163aabe-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e35fecd8-7faf-42b6-9df5-46adc163aabe-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e35fecd8-7faf-42b6-9df5-46adc163aabe-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e35fecd8-7faf-42b6-9df5-46adc163aabe-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e35fecd8-7faf-42b6-9df5-46adc163aabe-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 7,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    }
-                ],
-                &quot;videos&quot;: [],
-                &quot;is_draft&quot;: false,
-                &quot;quantity&quot;: 50,
-                &quot;is_infinite&quot;: false,
-                &quot;html_url&quot;: &quot;https://bstlia.zid.store/products/amira-kite-motif-set-gold-collection&quot;,
-                &quot;weight&quot;: {
-                    &quot;value&quot;: 50.94,
-                    &quot;unit&quot;: &quot;g&quot;
-                },
-                &quot;keywords&quot;: [],
-                &quot;requires_shipping&quot;: true,
-                &quot;is_taxable&quot;: true,
-                &quot;structure&quot;: &quot;standalone&quot;,
-                &quot;seo&quot;: {
-                    &quot;title&quot;: {
-                        &quot;ar&quot;: &quot;&quot;,
-                        &quot;en&quot;: &quot;&quot;
-                    },
-                    &quot;description&quot;: {
-                        &quot;ar&quot;: &quot;مصنوعة من الفضة الإسترلينية 925 وقطع كريستالية عالية الجودة لتمنحك وهجًا يبرز التألق والجمال. يجمع طقم النبلاء بين البساطة والفخامة في تصميم عصري مستلهم من الما&quot;,
-                        &quot;en&quot;: &quot;Crafted from 925 sterling silver and high-quality crystal stones, this set radiates brilliance and enhances your elegance. The Noblesse Set combines simplicity &quot;
-                    }
-                },
-                &quot;rating&quot;: {
-                    &quot;average&quot;: 0,
-                    &quot;total_count&quot;: 0,
-                    &quot;1_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;2_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;3_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;4_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;5_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    }
-                },
-                &quot;store_id&quot;: 1085223,
-                &quot;purchase_restrictions&quot;: {
-                    &quot;min_quantity_per_cart&quot;: null,
-                    &quot;max_quantity_per_cart&quot;: null,
-                    &quot;availability_period_start&quot;: null,
-                    &quot;availability_period_end&quot;: null,
-                    &quot;sale_price_period_start&quot;: null,
-                    &quot;sale_price_period_end&quot;: null
-                },
-                &quot;metafields&quot;: null,
-                &quot;meta&quot;: null,
-                &quot;related_products_settings&quot;: &quot;AUTO_GENERATED&quot;,
-                &quot;related_products_title&quot;: {
-                    &quot;ar&quot;: &quot;&quot;,
-                    &quot;en&quot;: &quot;&quot;
-                },
-                &quot;badge&quot;: null,
-                &quot;cost&quot;: 46.794,
-                &quot;is_published&quot;: true,
-                &quot;waiting_customers_count&quot;: null,
-                &quot;group_products&quot;: null,
-                &quot;preorder_campaign&quot;: null,
-                &quot;stocks&quot;: [
-                    {
-                        &quot;id&quot;: &quot;82c6858b-cac8-47da-9470-0e771b68753d&quot;,
-                        &quot;location&quot;: {
-                            &quot;id&quot;: &quot;c3d144fa-69de-40f2-882e-67e46b505383&quot;,
-                            &quot;name&quot;: {
-                                &quot;en&quot;: &quot;مخزن ضياء&quot;
-                            },
-                            &quot;type&quot;: &quot;PHYSICAL&quot;,
-                            &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;
-                        },
-                        &quot;available_quantity&quot;: 50,
-                        &quot;is_infinite&quot;: false
-                    }
-                ],
-                &quot;sold_products_count&quot;: null,
-                &quot;created_at&quot;: &quot;2026-04-20T12:49:47.388320Z&quot;,
-                &quot;updated_at&quot;: &quot;2026-04-20T12:49:47.388363Z&quot;
-            },
-            {
-                &quot;id&quot;: &quot;bffc10e8-cc2e-4347-938e-b17cd08e2b9d&quot;,
-                &quot;product_class&quot;: null,
-                &quot;sku&quot;: &quot;BM0334MB&quot;,
-                &quot;barcode&quot;: &quot;&quot;,
-                &quot;parent_id&quot;: null,
-                &quot;name&quot;: {
-                    &quot;ar&quot;: &quot;مايكل انجلو - مجموعة الخليج GCC05&quot;,
-                    &quot;en&quot;: &quot;Michael Angelo - Gulf Collection GCC05&quot;
-                },
-                &quot;slug&quot;: &quot;michael-angelo-womens-bag-bluesnake-gold&quot;,
-                &quot;price&quot;: 61,
-                &quot;short_description&quot;: {
-                    &quot;ar&quot;: &quot;&lt;p&gt;حقيبة &lt;strong&gt;GCC05&lt;/strong&gt; من مايكل انجلو ، حقيبة باصدارات محدودة ، تتميز بتصميمات عالمية مبتكرة وفريدة وأيقونية، انها ذكية في المظهر وعملية في الاستخدام المريح.&lt;/p&gt;&quot;,
-                    &quot;en&quot;: &quot;&lt;p&gt;The &lt;strong&gt;GCC05&lt;/strong&gt; bag by Michael Angelo is a limited-edition piece, distinguished by innovative, unique, and iconic global designs, offering both refined style and practical comfort.&lt;/p&gt;&quot;
-                },
-                &quot;sale_price&quot;: null,
-                &quot;formatted_price&quot;: &quot; SAR 61.00&quot;,
-                &quot;formatted_sale_price&quot;: null,
-                &quot;currency&quot;: &quot;SAR&quot;,
-                &quot;currency_symbol&quot;: &quot; SAR &quot;,
-                &quot;attributes&quot;: [
-                    {
-                        &quot;id&quot;: &quot;e7f91cf1-045a-46db-a4a3-16cc60df4b69&quot;,
-                        &quot;slug&quot;: &quot;ar-مــادة-الحقيبـة-en-bag-material&quot;,
-                        &quot;name&quot;: &quot;Bag-Material&quot;,
-                        &quot;value&quot;: {
-                            &quot;ar&quot;: &quot;جلـد&quot;,
-                            &quot;en&quot;: &quot;Leather&quot;
-                        },
-                        &quot;type&quot;: &quot;default&quot;,
-                        &quot;type_value&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;product_id&quot;: &quot;bffc10e8-cc2e-4347-938e-b17cd08e2b9d&quot;,
-                        &quot;attribute_image_id&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;attribute_id&quot;: &quot;159b0664-27b0-44bf-a668-a0011e45737e&quot;,
-                        &quot;attribute_display_order&quot;: null,
-                        &quot;use_as_filter&quot;: true
-                    },
-                    {
-                        &quot;id&quot;: &quot;5a2cf8bd-3109-454c-8917-8486f7b85d7f&quot;,
-                        &quot;slug&quot;: &quot;ar-حجـم-الحقيـبة-en-bag-size&quot;,
-                        &quot;name&quot;: &quot;Bag-Size&quot;,
-                        &quot;value&quot;: {
-                            &quot;ar&quot;: &quot;M&quot;,
-                            &quot;en&quot;: &quot;M&quot;
-                        },
-                        &quot;type&quot;: &quot;default&quot;,
-                        &quot;type_value&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;product_id&quot;: &quot;bffc10e8-cc2e-4347-938e-b17cd08e2b9d&quot;,
-                        &quot;attribute_image_id&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;attribute_id&quot;: &quot;ad8767e1-3c30-44cc-8a76-9ac35317d43d&quot;,
-                        &quot;attribute_display_order&quot;: null,
-                        &quot;use_as_filter&quot;: true
-                    }
-                ],
-                &quot;categories&quot;: [
-                    {
-                        &quot;id&quot;: &quot;1531819&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مهرجان الحب والسلام&quot;,
-                            &quot;en&quot;: &quot;Festival of Love and Peace&quot;
-                        },
-                        &quot;slug&quot;: &quot;مهرجان-الحب-والسلام&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531822&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;وصل حديثا 🔥&quot;,
-                            &quot;en&quot;: &quot;New arrival 🔥&quot;
-                        },
-                        &quot;slug&quot;: &quot;وصل-حديثا&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531823&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مايكل انجلو&quot;,
-                            &quot;en&quot;: &quot;Michael Angelo&quot;
-                        },
-                        &quot;slug&quot;: &quot;مايكل-انجلو&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531826&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;حقائب ومحافظ&quot;,
-                            &quot;en&quot;: &quot;Bags &amp; Wallets&quot;
-                        },
-                        &quot;slug&quot;: &quot;حقائب-ومحافظ&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/ab21785c-668f-41bc-8286-1eb6d45fdc97.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531827&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;حقائب&quot;,
-                            &quot;en&quot;: &quot;Bags&quot;
-                        },
-                        &quot;slug&quot;: &quot;حقائب&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531828&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;حقائب نسائية&quot;,
-                            &quot;en&quot;: &quot;Women &#039;s Bags&quot;
-                        },
-                        &quot;slug&quot;: &quot;حقائب-نسائية&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531832&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;حقائب- مايكل آنجلو&quot;,
-                            &quot;en&quot;: &quot;Bags- Michael Angelo&quot;
-                        },
-                        &quot;slug&quot;: &quot;حقائب-مايكل-آنجلو&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531833&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مايكل انجلو (ح.ن)&quot;,
-                            &quot;en&quot;: &quot;Michael Angelo (w.b)&quot;
-                        },
-                        &quot;slug&quot;: &quot;مايكل-انجلو-حن&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    }
-                ],
-                &quot;display_order&quot;: 7,
-                &quot;has_options&quot;: false,
-                &quot;has_fields&quot;: false,
-                &quot;images&quot;: [
-                    {
-                        &quot;id&quot;: &quot;bf95f835-e393-42bf-935e-f1e65123e157&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/bf95f835-e393-42bf-935e-f1e65123e157-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/bf95f835-e393-42bf-935e-f1e65123e157-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/bf95f835-e393-42bf-935e-f1e65123e157-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/bf95f835-e393-42bf-935e-f1e65123e157-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/bf95f835-e393-42bf-935e-f1e65123e157-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 1,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;e710ab3e-9cbf-40f5-83dd-c937b49e0c69&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e710ab3e-9cbf-40f5-83dd-c937b49e0c69-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e710ab3e-9cbf-40f5-83dd-c937b49e0c69-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e710ab3e-9cbf-40f5-83dd-c937b49e0c69-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e710ab3e-9cbf-40f5-83dd-c937b49e0c69-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e710ab3e-9cbf-40f5-83dd-c937b49e0c69-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 2,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;551aa242-a633-4dd9-8e9e-fae429999bc3&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/551aa242-a633-4dd9-8e9e-fae429999bc3-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/551aa242-a633-4dd9-8e9e-fae429999bc3-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/551aa242-a633-4dd9-8e9e-fae429999bc3-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/551aa242-a633-4dd9-8e9e-fae429999bc3-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/551aa242-a633-4dd9-8e9e-fae429999bc3-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 3,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;58922a53-1c86-4b34-bf7a-b9173482a46d&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/58922a53-1c86-4b34-bf7a-b9173482a46d-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/58922a53-1c86-4b34-bf7a-b9173482a46d-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/58922a53-1c86-4b34-bf7a-b9173482a46d-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/58922a53-1c86-4b34-bf7a-b9173482a46d-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/58922a53-1c86-4b34-bf7a-b9173482a46d-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 4,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;85b3bee5-e3ed-45be-af87-52cfd708ed42&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/85b3bee5-e3ed-45be-af87-52cfd708ed42-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/85b3bee5-e3ed-45be-af87-52cfd708ed42-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/85b3bee5-e3ed-45be-af87-52cfd708ed42-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/85b3bee5-e3ed-45be-af87-52cfd708ed42-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/85b3bee5-e3ed-45be-af87-52cfd708ed42-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 5,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;d753b7ed-41bc-4117-9393-9793426e85a2&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d753b7ed-41bc-4117-9393-9793426e85a2-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d753b7ed-41bc-4117-9393-9793426e85a2-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d753b7ed-41bc-4117-9393-9793426e85a2-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d753b7ed-41bc-4117-9393-9793426e85a2-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d753b7ed-41bc-4117-9393-9793426e85a2-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 6,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;050ca03c-4f47-4dab-a1f4-e30a577b8a82&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/050ca03c-4f47-4dab-a1f4-e30a577b8a82-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/050ca03c-4f47-4dab-a1f4-e30a577b8a82-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/050ca03c-4f47-4dab-a1f4-e30a577b8a82-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/050ca03c-4f47-4dab-a1f4-e30a577b8a82-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/050ca03c-4f47-4dab-a1f4-e30a577b8a82-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 7,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;755ec36a-c14a-4bc0-a4b5-958b8ff0334a&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/755ec36a-c14a-4bc0-a4b5-958b8ff0334a-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/755ec36a-c14a-4bc0-a4b5-958b8ff0334a-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/755ec36a-c14a-4bc0-a4b5-958b8ff0334a-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/755ec36a-c14a-4bc0-a4b5-958b8ff0334a-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/755ec36a-c14a-4bc0-a4b5-958b8ff0334a-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 8,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    }
-                ],
-                &quot;videos&quot;: [],
-                &quot;is_draft&quot;: false,
-                &quot;quantity&quot;: 49,
-                &quot;is_infinite&quot;: false,
-                &quot;html_url&quot;: &quot;https://bstlia.zid.store/products/michael-angelo-womens-bag-bluesnake-gold&quot;,
-                &quot;weight&quot;: {
-                    &quot;value&quot;: 780,
-                    &quot;unit&quot;: &quot;g&quot;
-                },
-                &quot;keywords&quot;: [],
-                &quot;requires_shipping&quot;: true,
-                &quot;is_taxable&quot;: true,
-                &quot;structure&quot;: &quot;standalone&quot;,
-                &quot;seo&quot;: null,
-                &quot;rating&quot;: {
-                    &quot;average&quot;: 0,
-                    &quot;total_count&quot;: 0,
-                    &quot;1_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;2_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;3_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;4_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;5_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    }
-                },
-                &quot;store_id&quot;: 1085223,
-                &quot;purchase_restrictions&quot;: {
-                    &quot;min_quantity_per_cart&quot;: null,
-                    &quot;max_quantity_per_cart&quot;: null,
-                    &quot;availability_period_start&quot;: null,
-                    &quot;availability_period_end&quot;: null,
-                    &quot;sale_price_period_start&quot;: null,
-                    &quot;sale_price_period_end&quot;: null
-                },
-                &quot;metafields&quot;: null,
-                &quot;meta&quot;: null,
-                &quot;related_products_settings&quot;: &quot;AUTO_GENERATED&quot;,
-                &quot;related_products_title&quot;: {
-                    &quot;ar&quot;: &quot;&quot;,
-                    &quot;en&quot;: &quot;&quot;
-                },
-                &quot;badge&quot;: null,
-                &quot;cost&quot;: 22.566,
-                &quot;is_published&quot;: true,
-                &quot;waiting_customers_count&quot;: null,
-                &quot;group_products&quot;: null,
-                &quot;preorder_campaign&quot;: null,
-                &quot;stocks&quot;: [
-                    {
-                        &quot;id&quot;: &quot;db882c14-9e56-4d8f-ab6a-68acafcd3f0f&quot;,
-                        &quot;location&quot;: {
-                            &quot;id&quot;: &quot;c3d144fa-69de-40f2-882e-67e46b505383&quot;,
-                            &quot;name&quot;: {
-                                &quot;en&quot;: &quot;مخزن ضياء&quot;
-                            },
-                            &quot;type&quot;: &quot;PHYSICAL&quot;,
-                            &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;
-                        },
-                        &quot;available_quantity&quot;: 49,
-                        &quot;is_infinite&quot;: false
-                    }
-                ],
-                &quot;sold_products_count&quot;: null,
-                &quot;created_at&quot;: &quot;2026-04-20T12:49:48.491640Z&quot;,
-                &quot;updated_at&quot;: &quot;2026-04-20T12:49:48.491672Z&quot;
-            },
-            {
-                &quot;id&quot;: &quot;76ab0659-e5ee-47eb-a7ad-2e6faa83762f&quot;,
-                &quot;product_class&quot;: null,
-                &quot;sku&quot;: &quot;WM0290MD&quot;,
-                &quot;barcode&quot;: &quot;WM0290MD&quot;,
-                &quot;parent_id&quot;: null,
-                &quot;name&quot;: {
-                    &quot;ar&quot;: &quot;مايكل أنجلو 01ZA- ساعة رجالية&quot;,
-                    &quot;en&quot;: &quot;Micheal Angelo 01ZA- Men&#039;s Watch&quot;
-                },
-                &quot;slug&quot;: &quot;michael-angelo-royal-goldcrest-mens-collection-3&quot;,
-                &quot;price&quot;: 69,
-                &quot;short_description&quot;: {
-                    &quot;ar&quot;: &quot;&lt;p&gt;مجموعة مايكل أنجلو رويال جولدكريست الرجالية&lt;/p&gt;&quot;,
-                    &quot;en&quot;: &quot;&lt;p&gt;Michael Angelo Royal Goldcrest Men&#039;s Collection&lt;/p&gt;&quot;
-                },
-                &quot;sale_price&quot;: null,
-                &quot;formatted_price&quot;: &quot; SAR 69.00&quot;,
-                &quot;formatted_sale_price&quot;: null,
-                &quot;currency&quot;: &quot;SAR&quot;,
-                &quot;currency_symbol&quot;: &quot; SAR &quot;,
-                &quot;attributes&quot;: [
-                    {
-                        &quot;id&quot;: &quot;16d69c9a-d40f-4843-9851-38285a704a56&quot;,
-                        &quot;slug&quot;: &quot;ar-لون-السوار-en-strap-color&quot;,
-                        &quot;name&quot;: &quot;strap-color&quot;,
-                        &quot;value&quot;: {
-                            &quot;ar&quot;: &quot;فضــي&quot;,
-                            &quot;en&quot;: &quot;silver&quot;
-                        },
-                        &quot;type&quot;: &quot;default&quot;,
-                        &quot;type_value&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;product_id&quot;: &quot;76ab0659-e5ee-47eb-a7ad-2e6faa83762f&quot;,
-                        &quot;attribute_image_id&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;attribute_id&quot;: &quot;5b5e1aa3-6f45-4c3f-bb15-781c5c7d5603&quot;,
-                        &quot;attribute_display_order&quot;: null,
-                        &quot;use_as_filter&quot;: true
-                    },
-                    {
-                        &quot;id&quot;: &quot;678eccd2-31c2-4f07-a4da-e02f98ee1dc2&quot;,
-                        &quot;slug&quot;: &quot;ar-لون-المينا-en-dial-color&quot;,
-                        &quot;name&quot;: &quot;dial-color&quot;,
-                        &quot;value&quot;: {
-                            &quot;ar&quot;: &quot;أزرق داكن&quot;,
-                            &quot;en&quot;: &quot;Dark Blue&quot;
-                        },
-                        &quot;type&quot;: &quot;default&quot;,
-                        &quot;type_value&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;product_id&quot;: &quot;76ab0659-e5ee-47eb-a7ad-2e6faa83762f&quot;,
-                        &quot;attribute_image_id&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;attribute_id&quot;: &quot;0c574979-aa91-4392-a929-bdb9388d1f2c&quot;,
-                        &quot;attribute_display_order&quot;: null,
-                        &quot;use_as_filter&quot;: true
-                    }
-                ],
-                &quot;categories&quot;: [
-                    {
-                        &quot;id&quot;: &quot;1531819&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مهرجان الحب والسلام&quot;,
-                            &quot;en&quot;: &quot;Festival of Love and Peace&quot;
-                        },
-                        &quot;slug&quot;: &quot;مهرجان-الحب-والسلام&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531820&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;ساعات&quot;,
-                            &quot;en&quot;: &quot;Watches&quot;
-                        },
-                        &quot;slug&quot;: &quot;ساعات&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/eeca196c-ebdf-4f1c-aa06-0aa700080413.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531822&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;وصل حديثا 🔥&quot;,
-                            &quot;en&quot;: &quot;New arrival 🔥&quot;
-                        },
-                        &quot;slug&quot;: &quot;وصل-حديثا&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531823&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مايكل انجلو&quot;,
-                            &quot;en&quot;: &quot;Michael Angelo&quot;
-                        },
-                        &quot;slug&quot;: &quot;مايكل-انجلو&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531824&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;ساعات- مايكل آنجلو&quot;,
-                            &quot;en&quot;: &quot;Watches- Michael Angelo&quot;
-                        },
-                        &quot;slug&quot;: &quot;ساعات-مايكل-آنجلو&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531843&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;ساعات رجالية&quot;,
-                            &quot;en&quot;: &quot;Men Watches&quot;
-                        },
-                        &quot;slug&quot;: &quot;ساعات-رجالية&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531844&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;Michael angelo-men&quot;,
-                            &quot;en&quot;: &quot;Michael angelo-men&quot;
-                        },
-                        &quot;slug&quot;: &quot;michael-angelo-men&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531845&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مايكل انجلو (س.ر)&quot;,
-                            &quot;en&quot;: &quot;Michael Angelo (m.w)&quot;
-                        },
-                        &quot;slug&quot;: &quot;مايكل-انجلو-سر&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    }
-                ],
-                &quot;display_order&quot;: 8,
-                &quot;has_options&quot;: false,
-                &quot;has_fields&quot;: false,
-                &quot;images&quot;: [
-                    {
-                        &quot;id&quot;: &quot;a024eeaa-e31d-4ac6-849e-8fbc551e3d7c&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/a024eeaa-e31d-4ac6-849e-8fbc551e3d7c-thumbnail-1000x1000.png&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/a024eeaa-e31d-4ac6-849e-8fbc551e3d7c-thumbnail-1000x1000.png&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/a024eeaa-e31d-4ac6-849e-8fbc551e3d7c-thumbnail-370x370.png&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/a024eeaa-e31d-4ac6-849e-8fbc551e3d7c-thumbnail-770x770.png&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/a024eeaa-e31d-4ac6-849e-8fbc551e3d7c-thumbnail-500x500.png&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 1,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;9858e270-ff01-4944-8499-dcf92ec7a726&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/9858e270-ff01-4944-8499-dcf92ec7a726-thumbnail-1000x1000.png&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/9858e270-ff01-4944-8499-dcf92ec7a726-thumbnail-1000x1000.png&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/9858e270-ff01-4944-8499-dcf92ec7a726-thumbnail-370x370.png&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/9858e270-ff01-4944-8499-dcf92ec7a726-thumbnail-770x770.png&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/9858e270-ff01-4944-8499-dcf92ec7a726-thumbnail-500x500.png&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 2,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;85c524b0-a4cc-48b9-9a42-c6acc81386f9&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/85c524b0-a4cc-48b9-9a42-c6acc81386f9-thumbnail-1000x1000.png&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/85c524b0-a4cc-48b9-9a42-c6acc81386f9-thumbnail-1000x1000.png&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/85c524b0-a4cc-48b9-9a42-c6acc81386f9-thumbnail-370x370.png&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/85c524b0-a4cc-48b9-9a42-c6acc81386f9-thumbnail-770x770.png&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/85c524b0-a4cc-48b9-9a42-c6acc81386f9-thumbnail-500x500.png&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 3,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;b7ce1bb1-84ab-4787-9fcc-74db28365c8b&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/b7ce1bb1-84ab-4787-9fcc-74db28365c8b-thumbnail-1000x1000.png&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/b7ce1bb1-84ab-4787-9fcc-74db28365c8b-thumbnail-1000x1000.png&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/b7ce1bb1-84ab-4787-9fcc-74db28365c8b-thumbnail-370x370.png&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/b7ce1bb1-84ab-4787-9fcc-74db28365c8b-thumbnail-770x770.png&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/b7ce1bb1-84ab-4787-9fcc-74db28365c8b-thumbnail-500x500.png&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 4,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;771180b7-f151-410d-889c-266a32cd1bc1&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/771180b7-f151-410d-889c-266a32cd1bc1-thumbnail-1000x1000.png&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/771180b7-f151-410d-889c-266a32cd1bc1-thumbnail-1000x1000.png&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/771180b7-f151-410d-889c-266a32cd1bc1-thumbnail-370x370.png&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/771180b7-f151-410d-889c-266a32cd1bc1-thumbnail-770x770.png&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/771180b7-f151-410d-889c-266a32cd1bc1-thumbnail-500x500.png&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 5,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;156ea8b1-ee30-4b92-bb49-42c06811462d&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/156ea8b1-ee30-4b92-bb49-42c06811462d-thumbnail-1000x1000.png&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/156ea8b1-ee30-4b92-bb49-42c06811462d-thumbnail-1000x1000.png&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/156ea8b1-ee30-4b92-bb49-42c06811462d-thumbnail-370x370.png&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/156ea8b1-ee30-4b92-bb49-42c06811462d-thumbnail-770x770.png&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/156ea8b1-ee30-4b92-bb49-42c06811462d-thumbnail-500x500.png&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 6,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    }
-                ],
-                &quot;videos&quot;: [],
-                &quot;is_draft&quot;: false,
-                &quot;quantity&quot;: 25,
-                &quot;is_infinite&quot;: false,
-                &quot;html_url&quot;: &quot;https://bstlia.zid.store/products/michael-angelo-royal-goldcrest-mens-collection-3&quot;,
-                &quot;weight&quot;: {
-                    &quot;value&quot;: 785,
-                    &quot;unit&quot;: &quot;g&quot;
-                },
-                &quot;keywords&quot;: [],
-                &quot;requires_shipping&quot;: true,
-                &quot;is_taxable&quot;: true,
-                &quot;structure&quot;: &quot;standalone&quot;,
-                &quot;seo&quot;: null,
-                &quot;rating&quot;: {
-                    &quot;average&quot;: 0,
-                    &quot;total_count&quot;: 0,
-                    &quot;1_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;2_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;3_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;4_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;5_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    }
-                },
-                &quot;store_id&quot;: 1085223,
-                &quot;purchase_restrictions&quot;: {
-                    &quot;min_quantity_per_cart&quot;: null,
-                    &quot;max_quantity_per_cart&quot;: null,
-                    &quot;availability_period_start&quot;: null,
-                    &quot;availability_period_end&quot;: null,
-                    &quot;sale_price_period_start&quot;: null,
-                    &quot;sale_price_period_end&quot;: null
-                },
-                &quot;metafields&quot;: null,
-                &quot;meta&quot;: null,
-                &quot;related_products_settings&quot;: &quot;AUTO_GENERATED&quot;,
-                &quot;related_products_title&quot;: {
-                    &quot;ar&quot;: &quot;&quot;,
-                    &quot;en&quot;: &quot;&quot;
-                },
-                &quot;badge&quot;: null,
-                &quot;cost&quot;: 31.59,
-                &quot;is_published&quot;: true,
-                &quot;waiting_customers_count&quot;: null,
-                &quot;group_products&quot;: null,
-                &quot;preorder_campaign&quot;: null,
-                &quot;stocks&quot;: [
-                    {
-                        &quot;id&quot;: &quot;1e9a0017-9f57-4fd8-850e-b9600da16a4a&quot;,
-                        &quot;location&quot;: {
-                            &quot;id&quot;: &quot;c3d144fa-69de-40f2-882e-67e46b505383&quot;,
-                            &quot;name&quot;: {
-                                &quot;en&quot;: &quot;مخزن ضياء&quot;
-                            },
-                            &quot;type&quot;: &quot;PHYSICAL&quot;,
-                            &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;
-                        },
-                        &quot;available_quantity&quot;: 25,
-                        &quot;is_infinite&quot;: false
-                    }
-                ],
-                &quot;sold_products_count&quot;: null,
-                &quot;created_at&quot;: &quot;2026-04-20T12:49:49.182282Z&quot;,
-                &quot;updated_at&quot;: &quot;2026-04-20T12:49:49.182321Z&quot;
-            },
-            {
-                &quot;id&quot;: &quot;37330983-a5b4-499d-8f50-617e0c033c38&quot;,
-                &quot;product_class&quot;: null,
-                &quot;sku&quot;: &quot;PA0440JU&quot;,
-                &quot;barcode&quot;: &quot;&quot;,
-                &quot;parent_id&quot;: null,
-                &quot;name&quot;: {
-                    &quot;ar&quot;: &quot;عطر أمواج غايدنس 46 أو دو بارفان&quot;,
-                    &quot;en&quot;: &quot;Amouage Guidance 46 EDP 100ml&quot;
-                },
-                &quot;slug&quot;: &quot;amouage-guidance-46-edp-100ml&quot;,
-                &quot;price&quot;: 185,
-                &quot;short_description&quot;: {
-                    &quot;ar&quot;: &quot;&lt;p&gt;يُجسّد عطر أمواج غايدنس 46 أو دو بارفان فلسفة العاطفة العميقة والنعومة الآسرة، حيث يلتقي الدفء الحسي مع الرقة الأنثوية في توليفة فاخرة تعبّر عن الحنان والقوة الهادئة في آنٍ واحد.&nbsp;&lt;/p&gt;&quot;,
-                    &quot;en&quot;: &quot;&lt;p&gt;Amouage Guidance 46 Eau de Parfum embodies a philosophy of deep emotion and captivating softness, where sensual warmth meets feminine elegance in a luxurious composition that expresses tenderness and quiet strength at the same time.&lt;/p&gt;&quot;
-                },
-                &quot;sale_price&quot;: 148,
-                &quot;formatted_price&quot;: &quot; SAR 185.00&quot;,
-                &quot;formatted_sale_price&quot;: &quot; SAR 148.00&quot;,
-                &quot;currency&quot;: &quot;SAR&quot;,
-                &quot;currency_symbol&quot;: &quot; SAR &quot;,
-                &quot;attributes&quot;: [
-                    {
-                        &quot;id&quot;: &quot;b98977c9-77ab-45ca-a526-1c1417097a9b&quot;,
-                        &quot;slug&quot;: &quot;ar-السعة-en-volume&quot;,
-                        &quot;name&quot;: &quot;Volume&quot;,
-                        &quot;value&quot;: {
-                            &quot;ar&quot;: &quot;100ml&quot;,
-                            &quot;en&quot;: &quot;100ml&quot;
-                        },
-                        &quot;type&quot;: &quot;default&quot;,
-                        &quot;type_value&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;product_id&quot;: &quot;37330983-a5b4-499d-8f50-617e0c033c38&quot;,
-                        &quot;attribute_image_id&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;attribute_id&quot;: &quot;fcda7ed9-383c-4b09-91cd-e7100d66a192&quot;,
-                        &quot;attribute_display_order&quot;: null,
-                        &quot;use_as_filter&quot;: true
-                    }
-                ],
-                &quot;categories&quot;: [
-                    {
-                        &quot;id&quot;: &quot;1531817&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;عطور&quot;,
-                            &quot;en&quot;: &quot;Perfumes&quot;
-                        },
-                        &quot;slug&quot;: &quot;عطور&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/fcad02c0-d232-44b3-9ed8-487a7fe2fa0f.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531819&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مهرجان الحب والسلام&quot;,
-                            &quot;en&quot;: &quot;Festival of Love and Peace&quot;
-                        },
-                        &quot;slug&quot;: &quot;مهرجان-الحب-والسلام&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531822&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;وصل حديثا 🔥&quot;,
-                            &quot;en&quot;: &quot;New arrival 🔥&quot;
-                        },
-                        &quot;slug&quot;: &quot;وصل-حديثا&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531829&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;للمـرأة&quot;,
-                            &quot;en&quot;: &quot;For Women&quot;
-                        },
-                        &quot;slug&quot;: &quot;للمـرأة&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/197ee521-02b6-44ee-884e-1af27303bff7.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531831&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;خصومات ⚡️&quot;,
-                            &quot;en&quot;: &quot;Hot Deals ⚡️&quot;
-                        },
-                        &quot;slug&quot;: &quot;خصومات&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531837&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;عطور نسائية&quot;,
-                            &quot;en&quot;: &quot;Women&#039;s Perfumes&quot;
-                        },
-                        &quot;slug&quot;: &quot;عطور-نسائية&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;مجموعة مختارة من عطور النساء تجمع بين الرقي الكلاسيكي والجاذبية العصرية. اكتشفي عطورًا زهرية وشرقية وفاكهية تبرز التفرّد وتترك أثرًا لا يُنسى.&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531840&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مهرجان العطور&quot;,
-                            &quot;en&quot;: &quot;Perfumes Festival&quot;
-                        },
-                        &quot;slug&quot;: &quot;مهرجان-العطور&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531846&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;الأكثر مبيعاً&quot;,
-                            &quot;en&quot;: &quot;Best Selling&quot;
-                        },
-                        &quot;slug&quot;: &quot;الأكثر-مبيعا&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    }
-                ],
-                &quot;display_order&quot;: 9,
-                &quot;has_options&quot;: false,
-                &quot;has_fields&quot;: false,
-                &quot;images&quot;: [
-                    {
-                        &quot;id&quot;: &quot;1d0bec75-b760-46eb-a14e-d24d25a2ab8b&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/1d0bec75-b760-46eb-a14e-d24d25a2ab8b-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/1d0bec75-b760-46eb-a14e-d24d25a2ab8b-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/1d0bec75-b760-46eb-a14e-d24d25a2ab8b-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/1d0bec75-b760-46eb-a14e-d24d25a2ab8b-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/1d0bec75-b760-46eb-a14e-d24d25a2ab8b-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 1,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;7b8e129d-b5ab-4d28-a6b1-566786eda891&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/7b8e129d-b5ab-4d28-a6b1-566786eda891-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/7b8e129d-b5ab-4d28-a6b1-566786eda891-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/7b8e129d-b5ab-4d28-a6b1-566786eda891-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/7b8e129d-b5ab-4d28-a6b1-566786eda891-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/7b8e129d-b5ab-4d28-a6b1-566786eda891-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 2,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;9fe3f62e-7cab-4115-8a9f-9bc9484d2ccc&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/9fe3f62e-7cab-4115-8a9f-9bc9484d2ccc-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/9fe3f62e-7cab-4115-8a9f-9bc9484d2ccc-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/9fe3f62e-7cab-4115-8a9f-9bc9484d2ccc-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/9fe3f62e-7cab-4115-8a9f-9bc9484d2ccc-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/9fe3f62e-7cab-4115-8a9f-9bc9484d2ccc-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 3,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    }
-                ],
-                &quot;videos&quot;: [],
-                &quot;is_draft&quot;: false,
-                &quot;quantity&quot;: 9,
-                &quot;is_infinite&quot;: false,
-                &quot;html_url&quot;: &quot;https://bstlia.zid.store/products/amouage-guidance-46-edp-100ml&quot;,
-                &quot;weight&quot;: {
-                    &quot;value&quot;: 590,
-                    &quot;unit&quot;: &quot;g&quot;
-                },
-                &quot;keywords&quot;: [],
-                &quot;requires_shipping&quot;: true,
-                &quot;is_taxable&quot;: true,
-                &quot;structure&quot;: &quot;standalone&quot;,
-                &quot;seo&quot;: null,
-                &quot;rating&quot;: {
-                    &quot;average&quot;: 0,
-                    &quot;total_count&quot;: 0,
-                    &quot;1_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;2_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;3_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;4_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;5_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    }
-                },
-                &quot;store_id&quot;: 1085223,
-                &quot;purchase_restrictions&quot;: {
-                    &quot;min_quantity_per_cart&quot;: null,
-                    &quot;max_quantity_per_cart&quot;: null,
-                    &quot;availability_period_start&quot;: null,
-                    &quot;availability_period_end&quot;: null,
-                    &quot;sale_price_period_start&quot;: null,
-                    &quot;sale_price_period_end&quot;: null
-                },
-                &quot;metafields&quot;: null,
-                &quot;meta&quot;: null,
-                &quot;related_products_settings&quot;: &quot;AUTO_GENERATED&quot;,
-                &quot;related_products_title&quot;: {
-                    &quot;ar&quot;: &quot;&quot;,
-                    &quot;en&quot;: &quot;&quot;
-                },
-                &quot;badge&quot;: null,
-                &quot;cost&quot;: 0,
-                &quot;is_published&quot;: true,
-                &quot;waiting_customers_count&quot;: null,
-                &quot;group_products&quot;: null,
-                &quot;preorder_campaign&quot;: null,
-                &quot;stocks&quot;: [
-                    {
-                        &quot;id&quot;: &quot;e34481cf-7d2d-458c-a3a9-9e312becd67b&quot;,
-                        &quot;location&quot;: {
-                            &quot;id&quot;: &quot;c3d144fa-69de-40f2-882e-67e46b505383&quot;,
-                            &quot;name&quot;: {
-                                &quot;en&quot;: &quot;مخزن ضياء&quot;
-                            },
-                            &quot;type&quot;: &quot;PHYSICAL&quot;,
-                            &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;
-                        },
-                        &quot;available_quantity&quot;: 9,
-                        &quot;is_infinite&quot;: false
-                    }
-                ],
-                &quot;sold_products_count&quot;: null,
-                &quot;created_at&quot;: &quot;2026-04-20T12:49:49.874543Z&quot;,
-                &quot;updated_at&quot;: &quot;2026-04-20T12:49:49.874588Z&quot;
-            },
-            {
-                &quot;id&quot;: &quot;faaa2000-f52a-4928-a754-276394d8d48f&quot;,
-                &quot;product_class&quot;: null,
-                &quot;sku&quot;: &quot;LM0376MC&quot;,
-                &quot;barcode&quot;: &quot;&quot;,
-                &quot;parent_id&quot;: null,
-                &quot;name&quot;: {
-                    &quot;ar&quot;: &quot; مايكل انجلو- محفظة رجالية X3&quot;,
-                    &quot;en&quot;: &quot;Micheal Angelo- Men&#039;s Wallet X3&quot;
-                },
-                &quot;slug&quot;: &quot;michael-angelo-mens-wallet-coffee-2&quot;,
-                &quot;price&quot;: 13,
-                &quot;short_description&quot;: {
-                    &quot;ar&quot;: &quot;&lt;p&gt;محفظة X3 الرجالية من مايكل انجلو تتميز بتصميمات عصرية.&lt;/p&gt;&quot;,
-                    &quot;en&quot;: &quot;&lt;p&gt;Michael Angelo X3 Men&#039;s Wallet featuring modern designs.&lt;/p&gt;\n&lt;p&gt;&nbsp;&lt;/p&gt;&quot;
-                },
-                &quot;sale_price&quot;: null,
-                &quot;formatted_price&quot;: &quot; SAR 13.00&quot;,
-                &quot;formatted_sale_price&quot;: null,
-                &quot;currency&quot;: &quot;SAR&quot;,
-                &quot;currency_symbol&quot;: &quot; SAR &quot;,
-                &quot;attributes&quot;: [],
-                &quot;categories&quot;: [
-                    {
-                        &quot;id&quot;: &quot;1531819&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مهرجان الحب والسلام&quot;,
-                            &quot;en&quot;: &quot;Festival of Love and Peace&quot;
-                        },
-                        &quot;slug&quot;: &quot;مهرجان-الحب-والسلام&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531822&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;وصل حديثا 🔥&quot;,
-                            &quot;en&quot;: &quot;New arrival 🔥&quot;
-                        },
-                        &quot;slug&quot;: &quot;وصل-حديثا&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531823&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;مايكل انجلو&quot;,
-                            &quot;en&quot;: &quot;Michael Angelo&quot;
-                        },
-                        &quot;slug&quot;: &quot;مايكل-انجلو&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531826&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;حقائب ومحافظ&quot;,
-                            &quot;en&quot;: &quot;Bags &amp; Wallets&quot;
-                        },
-                        &quot;slug&quot;: &quot;حقائب-ومحافظ&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: &quot;99fbb737-1b1d-4d99-b027-abb4eabe4b12/ab21785c-668f-41bc-8286-1eb6d45fdc97.jpg&quot;,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531832&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;حقائب- مايكل آنجلو&quot;,
-                            &quot;en&quot;: &quot;Bags- Michael Angelo&quot;
-                        },
-                        &quot;slug&quot;: &quot;حقائب-مايكل-آنجلو&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531834&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;محافظ&quot;,
-                            &quot;en&quot;: &quot;Wallets&quot;
-                        },
-                        &quot;slug&quot;: &quot;محافظ&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531836&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;محافظ مايكل انجلو&quot;,
-                            &quot;en&quot;: &quot;Michael Angelo Wallets&quot;
-                        },
-                        &quot;slug&quot;: &quot;محافظ-مايكل-انجلو&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    },
-                    {
-                        &quot;id&quot;: &quot;1531847&quot;,
-                        &quot;name&quot;: {
-                            &quot;ar&quot;: &quot;محافظ رجالية&quot;,
-                            &quot;en&quot;: &quot;Men &#039;s Wallets&quot;
-                        },
-                        &quot;slug&quot;: &quot;محافظ-رجالية&quot;,
-                        &quot;description&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;cover_image&quot;: null,
-                        &quot;image&quot;: null,
-                        &quot;display_order&quot;: null,
-                        &quot;meta&quot;: null
-                    }
-                ],
-                &quot;display_order&quot;: 10,
-                &quot;has_options&quot;: false,
-                &quot;has_fields&quot;: false,
-                &quot;images&quot;: [
-                    {
-                        &quot;id&quot;: &quot;e92c3efa-624f-4d3d-bc62-6413ad8b7d25&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e92c3efa-624f-4d3d-bc62-6413ad8b7d25-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e92c3efa-624f-4d3d-bc62-6413ad8b7d25-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e92c3efa-624f-4d3d-bc62-6413ad8b7d25-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e92c3efa-624f-4d3d-bc62-6413ad8b7d25-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/e92c3efa-624f-4d3d-bc62-6413ad8b7d25-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 1,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;c274c704-6581-4e5a-9b9c-a4f87295c203&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c274c704-6581-4e5a-9b9c-a4f87295c203-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c274c704-6581-4e5a-9b9c-a4f87295c203-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c274c704-6581-4e5a-9b9c-a4f87295c203-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c274c704-6581-4e5a-9b9c-a4f87295c203-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c274c704-6581-4e5a-9b9c-a4f87295c203-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 2,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;d44ba18a-a1f9-4405-8a54-de24cdcfb89d&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d44ba18a-a1f9-4405-8a54-de24cdcfb89d-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d44ba18a-a1f9-4405-8a54-de24cdcfb89d-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d44ba18a-a1f9-4405-8a54-de24cdcfb89d-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d44ba18a-a1f9-4405-8a54-de24cdcfb89d-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d44ba18a-a1f9-4405-8a54-de24cdcfb89d-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 3,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;c05b4eba-c72b-4da7-8393-88063b7e5e93&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c05b4eba-c72b-4da7-8393-88063b7e5e93-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c05b4eba-c72b-4da7-8393-88063b7e5e93-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c05b4eba-c72b-4da7-8393-88063b7e5e93-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c05b4eba-c72b-4da7-8393-88063b7e5e93-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c05b4eba-c72b-4da7-8393-88063b7e5e93-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 4,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;745cf488-21b3-4c4f-8c5e-7cc8f2e1827b&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/745cf488-21b3-4c4f-8c5e-7cc8f2e1827b-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/745cf488-21b3-4c4f-8c5e-7cc8f2e1827b-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/745cf488-21b3-4c4f-8c5e-7cc8f2e1827b-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/745cf488-21b3-4c4f-8c5e-7cc8f2e1827b-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/745cf488-21b3-4c4f-8c5e-7cc8f2e1827b-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 5,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    },
-                    {
-                        &quot;id&quot;: &quot;8dbf4d82-dea1-4600-896c-caa1a41cb412&quot;,
-                        &quot;image&quot;: {
-                            &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/8dbf4d82-dea1-4600-896c-caa1a41cb412-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;full_size&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/8dbf4d82-dea1-4600-896c-caa1a41cb412-thumbnail-1000x1000-70.jpg&quot;,
-                            &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/8dbf4d82-dea1-4600-896c-caa1a41cb412-thumbnail-370x370-70.jpg&quot;,
-                            &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/8dbf4d82-dea1-4600-896c-caa1a41cb412-thumbnail-770x770-70.jpg&quot;,
-                            &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/8dbf4d82-dea1-4600-896c-caa1a41cb412-thumbnail-500x500-70.jpg&quot;
-                        },
-                        &quot;alt_text&quot;: &quot;&quot;,
-                        &quot;display_order&quot;: 6,
-                        &quot;i18n_alt_text&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        }
-                    }
-                ],
-                &quot;videos&quot;: [],
-                &quot;is_draft&quot;: false,
-                &quot;quantity&quot;: 96,
-                &quot;is_infinite&quot;: false,
-                &quot;html_url&quot;: &quot;https://bstlia.zid.store/products/michael-angelo-mens-wallet-coffee-2&quot;,
-                &quot;weight&quot;: {
-                    &quot;value&quot;: 54,
-                    &quot;unit&quot;: &quot;g&quot;
-                },
-                &quot;keywords&quot;: [],
-                &quot;requires_shipping&quot;: true,
-                &quot;is_taxable&quot;: true,
-                &quot;structure&quot;: &quot;standalone&quot;,
-                &quot;seo&quot;: null,
-                &quot;rating&quot;: {
-                    &quot;average&quot;: 0,
-                    &quot;total_count&quot;: 0,
-                    &quot;1_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;2_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;3_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;4_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    },
-                    &quot;5_ratings&quot;: {
-                        &quot;percentage&quot;: 0,
-                        &quot;count&quot;: 0
-                    }
-                },
-                &quot;store_id&quot;: 1085223,
-                &quot;purchase_restrictions&quot;: {
-                    &quot;min_quantity_per_cart&quot;: null,
-                    &quot;max_quantity_per_cart&quot;: null,
-                    &quot;availability_period_start&quot;: null,
-                    &quot;availability_period_end&quot;: null,
-                    &quot;sale_price_period_start&quot;: null,
-                    &quot;sale_price_period_end&quot;: null
-                },
-                &quot;metafields&quot;: null,
-                &quot;meta&quot;: null,
-                &quot;related_products_settings&quot;: &quot;AUTO_GENERATED&quot;,
-                &quot;related_products_title&quot;: {
-                    &quot;ar&quot;: &quot;&quot;,
-                    &quot;en&quot;: &quot;&quot;
-                },
-                &quot;badge&quot;: null,
-                &quot;cost&quot;: 3.721,
-                &quot;is_published&quot;: true,
-                &quot;waiting_customers_count&quot;: null,
-                &quot;group_products&quot;: null,
-                &quot;preorder_campaign&quot;: null,
-                &quot;stocks&quot;: [
-                    {
-                        &quot;id&quot;: &quot;50aa49a2-eccf-46d0-a637-a77b555a4e93&quot;,
-                        &quot;location&quot;: {
-                            &quot;id&quot;: &quot;c3d144fa-69de-40f2-882e-67e46b505383&quot;,
-                            &quot;name&quot;: {
-                                &quot;en&quot;: &quot;مخزن ضياء&quot;
-                            },
-                            &quot;type&quot;: &quot;PHYSICAL&quot;,
-                            &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;
-                        },
-                        &quot;available_quantity&quot;: 96,
-                        &quot;is_infinite&quot;: false
-                    }
-                ],
-                &quot;sold_products_count&quot;: null,
-                &quot;created_at&quot;: &quot;2026-04-20T12:49:50.762485Z&quot;,
-                &quot;updated_at&quot;: &quot;2026-04-20T12:49:50.762523Z&quot;
-            }
-        ]
+    &quot;success&quot;: false,
+    &quot;message&quot;: &quot;Failed to fetch products&quot;,
+    &quot;errors&quot;: {
+        &quot;detail&quot;: &quot;No such user&quot;
     }
 }</code>
  </pre>
@@ -4175,7 +807,7 @@ access-control-allow-origin: *
     &quot;success&quot;: false,
     &quot;message&quot;: &quot;Failed to fetch product vouchers&quot;,
     &quot;errors&quot;: {
-        &quot;detail&quot;: &quot;Not found.&quot;
+        &quot;detail&quot;: &quot;No such user&quot;
     }
 }</code>
  </pre>
@@ -4319,7 +951,7 @@ access-control-allow-origin: *
     &quot;success&quot;: false,
     &quot;message&quot;: &quot;Failed to fetch product images&quot;,
     &quot;errors&quot;: {
-        &quot;detail&quot;: &quot;No product matches the given query.&quot;
+        &quot;detail&quot;: &quot;No such user&quot;
     }
 }</code>
  </pre>
@@ -6980,10 +3612,2727 @@ access-control-allow-origin: *
     &quot;success&quot;: true,
     &quot;message&quot;: {
         &quot;status&quot;: &quot;object&quot;,
-        &quot;orders&quot;: [],
-        &quot;grand_total&quot;: 0,
-        &quot;total_order_count&quot;: 0,
+        &quot;orders&quot;: [
+            {
+                &quot;id&quot;: 70592307,
+                &quot;invoice_number&quot;: 70592307,
+                &quot;code&quot;: &quot;QL0ysC7ViU&quot;,
+                &quot;store_id&quot;: 1085223,
+                &quot;order_url&quot;: &quot;https://bstlia.zid.store/o/QL0ysC7ViU/inv&quot;,
+                &quot;store_name&quot;: &quot;Haddiya Test&quot;,
+                &quot;shipping_method_code&quot;: &quot;custom&quot;,
+                &quot;store_url&quot;: &quot;https://bstlia.zid.store/&quot;,
+                &quot;order_status&quot;: {
+                    &quot;name&quot;: &quot;New&quot;,
+                    &quot;code&quot;: &quot;new&quot;
+                },
+                &quot;display_status&quot;: {
+                    &quot;id&quot;: 1,
+                    &quot;code&quot;: &quot;new&quot;,
+                    &quot;color&quot;: &quot;#3498db&quot;,
+                    &quot;name&quot;: &quot;New&quot;
+                },
+                &quot;currency_code&quot;: &quot;SAR&quot;,
+                &quot;customer&quot;: {
+                    &quot;id&quot;: 4584676,
+                    &quot;name&quot;: &quot;DHIYA Alnadabi&quot;,
+                    &quot;email&quot;: &quot;alnadabidhiyaa@gmail.com&quot;,
+                    &quot;mobile&quot;: &quot;96891329892&quot;,
+                    &quot;note&quot;: &quot;&quot;,
+                    &quot;verified&quot;: 1,
+                    &quot;type&quot;: &quot;individual&quot;
+                },
+                &quot;has_different_consignee&quot;: 0,
+                &quot;is_guest_customer&quot;: 0,
+                &quot;is_gift_order&quot;: 0,
+                &quot;gift_card_details&quot;: null,
+                &quot;is_quick_checkout_order&quot;: false,
+                &quot;order_total&quot;: &quot;44.00000000000000&quot;,
+                &quot;order_total_string&quot;: &quot;44.00 SAR&quot;,
+                &quot;has_different_transaction_currency&quot;: false,
+                &quot;transaction_reference&quot;: null,
+                &quot;transaction_amount&quot;: 44,
+                &quot;transaction_amount_string&quot;: &quot;44.00 SAR&quot;,
+                &quot;issue_date&quot;: &quot;11-06-2026 | 07:47 ص&quot;,
+                &quot;payment_status&quot;: &quot;pending&quot;,
+                &quot;is_potential_fraud&quot;: false,
+                &quot;source&quot;: &quot;Store&quot;,
+                &quot;source_code&quot;: &quot;catalog&quot;,
+                &quot;is_reseller_transaction&quot;: false,
+                &quot;created_at&quot;: &quot;2026-06-11 04:47:02&quot;,
+                &quot;updated_at&quot;: &quot;2026-06-11 04:47:04&quot;,
+                &quot;is_on_demand&quot;: false,
+                &quot;import_id&quot;: null,
+                &quot;tags&quot;: [],
+                &quot;requires_shipping&quot;: true,
+                &quot;should_merchant_set_shipping_method&quot;: false,
+                &quot;shipping&quot;: {
+                    &quot;method&quot;: {
+                        &quot;id&quot;: 819202,
+                        &quot;name&quot;: &quot;توصيل المتجر&quot;,
+                        &quot;display_name&quot;: &quot;Store Courier&quot;,
+                        &quot;code&quot;: &quot;custom&quot;,
+                        &quot;estimated_delivery_time&quot;: &quot;&quot;,
+                        &quot;icon&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ec78b7f0-4bab-4808-867c-a1ceca8e8b0d.png&quot;,
+                        &quot;is_system_option&quot;: false,
+                        &quot;waybill&quot;: null,
+                        &quot;had_errors_while_fetching_waybill&quot;: false,
+                        &quot;waybill_tracking_id&quot;: null,
+                        &quot;has_waybill_and_packing_list&quot;: false,
+                        &quot;tracking&quot;: {
+                            &quot;number&quot;: null,
+                            &quot;status&quot;: null,
+                            &quot;url&quot;: null
+                        },
+                        &quot;order_shipping_status&quot;: null,
+                        &quot;inventory_address&quot;: [],
+                        &quot;courier&quot;: null,
+                        &quot;return_shipment&quot;: null,
+                        &quot;packages_count&quot;: null
+                    },
+                    &quot;address&quot;: {
+                        &quot;formatted_address&quot;: &quot;N/A&quot;,
+                        &quot;street&quot;: &quot;M4Q7+3JQ، السيب&lrm;، عمان&quot;,
+                        &quot;district&quot;: &quot;المعبيلة&quot;,
+                        &quot;lat&quot;: 23.687381825913,
+                        &quot;lng&quot;: 58.113762646889,
+                        &quot;short_address&quot;: null,
+                        &quot;meta&quot;: {
+                            &quot;building_number&quot;: &quot;77&quot;,
+                            &quot;postcode&quot;: null,
+                            &quot;additional_number&quot;: null,
+                            &quot;national_id&quot;: null
+                        },
+                        &quot;city&quot;: {
+                            &quot;id&quot;: 193,
+                            &quot;name&quot;: &quot;Muscat&quot;
+                        },
+                        &quot;country&quot;: {
+                            &quot;id&quot;: 161,
+                            &quot;name&quot;: &quot;Oman&quot;
+                        }
+                    }
+                },
+                &quot;payment&quot;: {
+                    &quot;method&quot;: {
+                        &quot;name&quot;: &quot;Cash on Delivery&quot;,
+                        &quot;code&quot;: &quot;zid_cod&quot;,
+                        &quot;type&quot;: &quot;zid_cod&quot;
+                    },
+                    &quot;invoice&quot;: [
+                        {
+                            &quot;code&quot;: &quot;sub_totals&quot;,
+                            &quot;value&quot;: &quot;40.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;40.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Sub Totals&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;shipping&quot;,
+                            &quot;value&quot;: &quot;2.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;2.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Shipping&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;zid_cod&quot;,
+                            &quot;value&quot;: &quot;2.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;2.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Cash on Delivery&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;total&quot;,
+                            &quot;value&quot;: &quot;44.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;44.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Total&quot;
+                        }
+                    ]
+                },
+                &quot;cod_confirmed&quot;: false,
+                &quot;reverse_order_label_request&quot;: null,
+                &quot;reverse_order_label_requests&quot;: [],
+                &quot;customer_note&quot;: &quot;&quot;,
+                &quot;gift_message&quot;: null,
+                &quot;payment_link&quot;: null,
+                &quot;weight&quot;: 0,
+                &quot;weight_cost_details&quot;: [],
+                &quot;currency&quot;: {
+                    &quot;order_currency&quot;: {
+                        &quot;id&quot;: 4,
+                        &quot;code&quot;: &quot;SAR&quot;,
+                        &quot;exchange_rate&quot;: 1
+                    },
+                    &quot;order_store_currency&quot;: {
+                        &quot;id&quot;: 4,
+                        &quot;code&quot;: &quot;SAR&quot;,
+                        &quot;exchange_rate&quot;: null
+                    }
+                },
+                &quot;coupon&quot;: null,
+                &quot;coupons&quot;: [],
+                &quot;products&quot;: [
+                    {
+                        &quot;id&quot;: &quot;260c50ff-13ba-4dd4-8e27-f8e0d4290b90&quot;,
+                        &quot;order_product_id&quot;: 121887601,
+                        &quot;parent_id&quot;: null,
+                        &quot;parent_name&quot;: null,
+                        &quot;product_class&quot;: null,
+                        &quot;name&quot;: &quot;برايمر بي بي كريم&quot;,
+                        &quot;short_description&quot;: {
+                            &quot;ar&quot;: &quot;&quot;,
+                            &quot;en&quot;: &quot;&quot;
+                        },
+                        &quot;sku&quot;: &quot;Z.17675230329546392&quot;,
+                        &quot;barcode&quot;: null,
+                        &quot;custom_fields&quot;: [],
+                        &quot;quantity&quot;: 1,
+                        &quot;weight&quot;: null,
+                        &quot;is_taxable&quot;: true,
+                        &quot;is_discounted&quot;: false,
+                        &quot;meta&quot;: null,
+                        &quot;is_external_product&quot;: false,
+                        &quot;discounts&quot;: [],
+                        &quot;net_price_with_additions&quot;: 40,
+                        &quot;net_price_with_additions_string&quot;: &quot;40.00 SAR&quot;,
+                        &quot;price_with_additions&quot;: 40,
+                        &quot;price_with_additions_string&quot;: &quot;40.00 SAR&quot;,
+                        &quot;net_price&quot;: 40,
+                        &quot;net_price_string&quot;: &quot;40.00 SAR&quot;,
+                        &quot;net_sale_price&quot;: null,
+                        &quot;net_sale_price_string&quot;: null,
+                        &quot;net_additions_price&quot;: 0,
+                        &quot;net_additions_price_string&quot;: null,
+                        &quot;gross_price&quot;: 40,
+                        &quot;gross_price_string&quot;: &quot;40.00 SAR&quot;,
+                        &quot;gross_sale_price&quot;: null,
+                        &quot;gross_sale_price_string&quot;: null,
+                        &quot;price_before&quot;: null,
+                        &quot;price_before_string&quot;: null,
+                        &quot;total_before&quot;: null,
+                        &quot;total_before_string&quot;: null,
+                        &quot;gross_additions_price&quot;: 0,
+                        &quot;gross_additions_price_string&quot;: null,
+                        &quot;discount_percentage&quot;: 0,
+                        &quot;tax_percentage&quot;: 0,
+                        &quot;tax_amount&quot;: &quot;0.00000000000000&quot;,
+                        &quot;tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount&quot;: 0,
+                        &quot;discounted_tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;price&quot;: 40,
+                        &quot;price_string&quot;: &quot;40.00 SAR&quot;,
+                        &quot;additions_price&quot;: 0,
+                        &quot;additions_price_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;total&quot;: 40,
+                        &quot;total_string&quot;: &quot;40.00 SAR&quot;,
+                        &quot;discounted_total&quot;: 40,
+                        &quot;discounted_total_string&quot;: &quot;40.00 SAR&quot;,
+                        &quot;images&quot;: [
+                            {
+                                &quot;id&quot;: &quot;182f8e64-cc4f-4865-9485-d16e0718827e&quot;,
+                                &quot;origin&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/182f8e64-cc4f-4865-9485-d16e0718827e-thumbnail-500x500-70.jpg&quot;,
+                                &quot;thumbs&quot;: {
+                                    &quot;fullSize&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/182f8e64-cc4f-4865-9485-d16e0718827e.jpg&quot;,
+                                    &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/182f8e64-cc4f-4865-9485-d16e0718827e-thumbnail-370x370-70.jpg&quot;,
+                                    &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/182f8e64-cc4f-4865-9485-d16e0718827e-thumbnail-500x500-70.jpg&quot;,
+                                    &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/182f8e64-cc4f-4865-9485-d16e0718827e-thumbnail-770x770-70.jpg&quot;,
+                                    &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/182f8e64-cc4f-4865-9485-d16e0718827e-thumbnail-1000x1000-70.jpg&quot;
+                                }
+                            }
+                        ],
+                        &quot;options&quot;: [],
+                        &quot;inventory_allocations&quot;: []
+                    }
+                ],
+                &quot;products_count&quot;: 1,
+                &quot;products_sum_total_string&quot;: &quot;40.00 SAR&quot;,
+                &quot;is_preorder&quot;: false,
+                &quot;is_preorder_allocated&quot;: true,
+                &quot;language&quot;: &quot;ar&quot;,
+                &quot;is_reactivated&quot;: false,
+                &quot;return_policy&quot;: null,
+                &quot;packages_count&quot;: 1,
+                &quot;inventory_address&quot;: {
+                    &quot;id&quot;: &quot;c3d144fa69de40f2882e67e46b505383&quot;,
+                    &quot;name&quot;: &quot;مخزن ضياء&quot;,
+                    &quot;city&quot;: {
+                        &quot;id&quot;: 193,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Muscat&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مسقط&quot;,
+                        &quot;en_name&quot;: &quot;Muscat&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;,
+                    &quot;street&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;,
+                    &quot;short_address&quot;: null,
+                    &quot;district&quot;: &quot;&quot;,
+                    &quot;postal_code&quot;: null,
+                    &quot;coordinates&quot;: {
+                        &quot;lat&quot;: 23.6244677153526,
+                        &quot;lon&quot;: 58.13707373137114
+                    },
+                    &quot;cop_enabled&quot;: false,
+                    &quot;is_pickup_option&quot;: false,
+                    &quot;is_zidship_default&quot;: true,
+                    &quot;working_hours&quot;: []
+                },
+                &quot;expected_shipping_method_type&quot;: null,
+                &quot;reseller_meta&quot;: null,
+                &quot;zidship_ticket_number&quot;: null,
+                &quot;edits_count&quot;: 0,
+                &quot;delivered_at&quot;: null,
+                &quot;is_marketplace_order&quot;: false,
+                &quot;invoice_link&quot;: &quot;https://zid-platform.s3-accelerate.amazonaws.com/public/pdfs/1085223/orders/invoices/order_confirmation_70592307.pdf&quot;,
+                &quot;payment_network&quot;: null,
+                &quot;preorder_campaign&quot;: null
+            },
+            {
+                &quot;id&quot;: 70592291,
+                &quot;invoice_number&quot;: 70592291,
+                &quot;code&quot;: &quot;kojj8UrLFG&quot;,
+                &quot;store_id&quot;: 1085223,
+                &quot;order_url&quot;: &quot;https://bstlia.zid.store/o/kojj8UrLFG/inv&quot;,
+                &quot;store_name&quot;: &quot;Haddiya Test&quot;,
+                &quot;shipping_method_code&quot;: &quot;custom&quot;,
+                &quot;store_url&quot;: &quot;https://bstlia.zid.store/&quot;,
+                &quot;order_status&quot;: {
+                    &quot;name&quot;: &quot;New&quot;,
+                    &quot;code&quot;: &quot;new&quot;
+                },
+                &quot;display_status&quot;: {
+                    &quot;id&quot;: 1,
+                    &quot;code&quot;: &quot;new&quot;,
+                    &quot;color&quot;: &quot;#3498db&quot;,
+                    &quot;name&quot;: &quot;New&quot;
+                },
+                &quot;currency_code&quot;: &quot;SAR&quot;,
+                &quot;customer&quot;: {
+                    &quot;id&quot;: 4584676,
+                    &quot;name&quot;: &quot;DHIYA Alnadabi&quot;,
+                    &quot;email&quot;: &quot;alnadabidhiyaa@gmail.com&quot;,
+                    &quot;mobile&quot;: &quot;96891329892&quot;,
+                    &quot;note&quot;: &quot;&quot;,
+                    &quot;verified&quot;: 1,
+                    &quot;type&quot;: &quot;individual&quot;
+                },
+                &quot;has_different_consignee&quot;: 0,
+                &quot;is_guest_customer&quot;: 0,
+                &quot;is_gift_order&quot;: 0,
+                &quot;gift_card_details&quot;: null,
+                &quot;is_quick_checkout_order&quot;: false,
+                &quot;order_total&quot;: &quot;45.00000000000000&quot;,
+                &quot;order_total_string&quot;: &quot;45.00 SAR&quot;,
+                &quot;has_different_transaction_currency&quot;: false,
+                &quot;transaction_reference&quot;: null,
+                &quot;transaction_amount&quot;: 45,
+                &quot;transaction_amount_string&quot;: &quot;45.00 SAR&quot;,
+                &quot;issue_date&quot;: &quot;11-06-2026 | 07:45 ص&quot;,
+                &quot;payment_status&quot;: &quot;pending&quot;,
+                &quot;is_potential_fraud&quot;: false,
+                &quot;source&quot;: &quot;Store&quot;,
+                &quot;source_code&quot;: &quot;catalog&quot;,
+                &quot;is_reseller_transaction&quot;: false,
+                &quot;created_at&quot;: &quot;2026-06-11 04:45:54&quot;,
+                &quot;updated_at&quot;: &quot;2026-06-11 04:46:07&quot;,
+                &quot;is_on_demand&quot;: false,
+                &quot;import_id&quot;: null,
+                &quot;tags&quot;: [],
+                &quot;requires_shipping&quot;: true,
+                &quot;should_merchant_set_shipping_method&quot;: false,
+                &quot;shipping&quot;: {
+                    &quot;method&quot;: {
+                        &quot;id&quot;: 819202,
+                        &quot;name&quot;: &quot;توصيل المتجر&quot;,
+                        &quot;display_name&quot;: &quot;Store Courier&quot;,
+                        &quot;code&quot;: &quot;custom&quot;,
+                        &quot;estimated_delivery_time&quot;: &quot;&quot;,
+                        &quot;icon&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ec78b7f0-4bab-4808-867c-a1ceca8e8b0d.png&quot;,
+                        &quot;is_system_option&quot;: false,
+                        &quot;waybill&quot;: null,
+                        &quot;had_errors_while_fetching_waybill&quot;: false,
+                        &quot;waybill_tracking_id&quot;: null,
+                        &quot;has_waybill_and_packing_list&quot;: false,
+                        &quot;tracking&quot;: {
+                            &quot;number&quot;: null,
+                            &quot;status&quot;: null,
+                            &quot;url&quot;: null
+                        },
+                        &quot;order_shipping_status&quot;: null,
+                        &quot;inventory_address&quot;: [],
+                        &quot;courier&quot;: null,
+                        &quot;return_shipment&quot;: null,
+                        &quot;packages_count&quot;: null
+                    },
+                    &quot;address&quot;: {
+                        &quot;formatted_address&quot;: &quot;N/A&quot;,
+                        &quot;street&quot;: &quot;M4Q7+3JQ، السيب&lrm;، عمان&quot;,
+                        &quot;district&quot;: &quot;المعبيلة&quot;,
+                        &quot;lat&quot;: 23.687381825913,
+                        &quot;lng&quot;: 58.113762646889,
+                        &quot;short_address&quot;: null,
+                        &quot;meta&quot;: {
+                            &quot;building_number&quot;: &quot;77&quot;,
+                            &quot;postcode&quot;: null,
+                            &quot;additional_number&quot;: null,
+                            &quot;national_id&quot;: null
+                        },
+                        &quot;city&quot;: {
+                            &quot;id&quot;: 193,
+                            &quot;name&quot;: &quot;Muscat&quot;
+                        },
+                        &quot;country&quot;: {
+                            &quot;id&quot;: 161,
+                            &quot;name&quot;: &quot;Oman&quot;
+                        }
+                    }
+                },
+                &quot;payment&quot;: {
+                    &quot;method&quot;: {
+                        &quot;name&quot;: &quot;Cash on Delivery&quot;,
+                        &quot;code&quot;: &quot;zid_cod&quot;,
+                        &quot;type&quot;: &quot;zid_cod&quot;
+                    },
+                    &quot;invoice&quot;: [
+                        {
+                            &quot;code&quot;: &quot;sub_totals&quot;,
+                            &quot;value&quot;: &quot;41.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;41.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Sub Totals&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;shipping&quot;,
+                            &quot;value&quot;: &quot;2.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;2.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Shipping&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;zid_cod&quot;,
+                            &quot;value&quot;: &quot;2.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;2.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Cash on Delivery&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;total&quot;,
+                            &quot;value&quot;: &quot;45.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;45.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Total&quot;
+                        }
+                    ]
+                },
+                &quot;cod_confirmed&quot;: false,
+                &quot;reverse_order_label_request&quot;: null,
+                &quot;reverse_order_label_requests&quot;: [],
+                &quot;customer_note&quot;: &quot;&quot;,
+                &quot;gift_message&quot;: null,
+                &quot;payment_link&quot;: null,
+                &quot;weight&quot;: 0,
+                &quot;weight_cost_details&quot;: [],
+                &quot;currency&quot;: {
+                    &quot;order_currency&quot;: {
+                        &quot;id&quot;: 4,
+                        &quot;code&quot;: &quot;SAR&quot;,
+                        &quot;exchange_rate&quot;: 1
+                    },
+                    &quot;order_store_currency&quot;: {
+                        &quot;id&quot;: 4,
+                        &quot;code&quot;: &quot;SAR&quot;,
+                        &quot;exchange_rate&quot;: null
+                    }
+                },
+                &quot;coupon&quot;: null,
+                &quot;coupons&quot;: [],
+                &quot;products&quot;: [
+                    {
+                        &quot;id&quot;: &quot;86577712-2e91-415e-bb44-15246ddcac43&quot;,
+                        &quot;order_product_id&quot;: 121887570,
+                        &quot;parent_id&quot;: null,
+                        &quot;parent_name&quot;: null,
+                        &quot;product_class&quot;: null,
+                        &quot;name&quot;: &quot;CH Good Girl Blush Edp 80ML&quot;,
+                        &quot;short_description&quot;: {
+                            &quot;ar&quot;: &quot;يُعد عطر جود جيرل بلش أو دو بارفان تعبيرًا أنثويًا جذابًا يمزج بين الأناقة العصرية والجرأة الناعمة، وهو مصمّم للمرأة الواثقة التي تحب التألق والإشراق في كل لحظة.&quot;,
+                            &quot;en&quot;: &quot;Good Girl Blush Eau de Parfum is an alluring and feminine fragrance that blends modern elegance with subtle boldness.&quot;
+                        },
+                        &quot;sku&quot;: &quot;PC0422HW&quot;,
+                        &quot;barcode&quot;: null,
+                        &quot;custom_fields&quot;: [],
+                        &quot;quantity&quot;: 1,
+                        &quot;weight&quot;: null,
+                        &quot;is_taxable&quot;: true,
+                        &quot;is_discounted&quot;: false,
+                        &quot;meta&quot;: null,
+                        &quot;is_external_product&quot;: false,
+                        &quot;discounts&quot;: [],
+                        &quot;net_price_with_additions&quot;: 41,
+                        &quot;net_price_with_additions_string&quot;: &quot;41.00 SAR&quot;,
+                        &quot;price_with_additions&quot;: 41,
+                        &quot;price_with_additions_string&quot;: &quot;41.00 SAR&quot;,
+                        &quot;net_price&quot;: 68,
+                        &quot;net_price_string&quot;: &quot;68.00 SAR&quot;,
+                        &quot;net_sale_price&quot;: &quot;41.00000000000000&quot;,
+                        &quot;net_sale_price_string&quot;: &quot;41.00 SAR&quot;,
+                        &quot;net_additions_price&quot;: 0,
+                        &quot;net_additions_price_string&quot;: null,
+                        &quot;gross_price&quot;: 68,
+                        &quot;gross_price_string&quot;: &quot;68.00 SAR&quot;,
+                        &quot;gross_sale_price&quot;: &quot;41.00000000000000&quot;,
+                        &quot;gross_sale_price_string&quot;: &quot;41.00 SAR&quot;,
+                        &quot;price_before&quot;: 68,
+                        &quot;price_before_string&quot;: &quot;68.00 SAR&quot;,
+                        &quot;total_before&quot;: 68,
+                        &quot;total_before_string&quot;: &quot;68.00 SAR&quot;,
+                        &quot;gross_additions_price&quot;: 0,
+                        &quot;gross_additions_price_string&quot;: null,
+                        &quot;discount_percentage&quot;: 0,
+                        &quot;tax_percentage&quot;: 0,
+                        &quot;tax_amount&quot;: &quot;0.00000000000000&quot;,
+                        &quot;tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount&quot;: 0,
+                        &quot;discounted_tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;price&quot;: 41,
+                        &quot;price_string&quot;: &quot;41.00 SAR&quot;,
+                        &quot;additions_price&quot;: 0,
+                        &quot;additions_price_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;total&quot;: 41,
+                        &quot;total_string&quot;: &quot;41.00 SAR&quot;,
+                        &quot;discounted_total&quot;: 41,
+                        &quot;discounted_total_string&quot;: &quot;41.00 SAR&quot;,
+                        &quot;images&quot;: [
+                            {
+                                &quot;id&quot;: &quot;d089dbe9-bae9-4d7a-8b10-3a5461da0e80&quot;,
+                                &quot;origin&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d089dbe9-bae9-4d7a-8b10-3a5461da0e80-thumbnail-500x500-70.jpg&quot;,
+                                &quot;thumbs&quot;: {
+                                    &quot;fullSize&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d089dbe9-bae9-4d7a-8b10-3a5461da0e80.jpg&quot;,
+                                    &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d089dbe9-bae9-4d7a-8b10-3a5461da0e80-thumbnail-370x370-70.jpg&quot;,
+                                    &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d089dbe9-bae9-4d7a-8b10-3a5461da0e80-thumbnail-500x500-70.jpg&quot;,
+                                    &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d089dbe9-bae9-4d7a-8b10-3a5461da0e80-thumbnail-770x770-70.jpg&quot;,
+                                    &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/d089dbe9-bae9-4d7a-8b10-3a5461da0e80-thumbnail-1000x1000-70.jpg&quot;
+                                }
+                            }
+                        ],
+                        &quot;options&quot;: [],
+                        &quot;inventory_allocations&quot;: []
+                    }
+                ],
+                &quot;products_count&quot;: 1,
+                &quot;products_sum_total_string&quot;: &quot;41.00 SAR&quot;,
+                &quot;is_preorder&quot;: false,
+                &quot;is_preorder_allocated&quot;: true,
+                &quot;language&quot;: &quot;ar&quot;,
+                &quot;is_reactivated&quot;: false,
+                &quot;return_policy&quot;: null,
+                &quot;packages_count&quot;: 1,
+                &quot;inventory_address&quot;: {
+                    &quot;id&quot;: &quot;c3d144fa69de40f2882e67e46b505383&quot;,
+                    &quot;name&quot;: &quot;مخزن ضياء&quot;,
+                    &quot;city&quot;: {
+                        &quot;id&quot;: 193,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Muscat&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مسقط&quot;,
+                        &quot;en_name&quot;: &quot;Muscat&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;,
+                    &quot;street&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;,
+                    &quot;short_address&quot;: null,
+                    &quot;district&quot;: &quot;&quot;,
+                    &quot;postal_code&quot;: null,
+                    &quot;coordinates&quot;: {
+                        &quot;lat&quot;: 23.6244677153526,
+                        &quot;lon&quot;: 58.13707373137114
+                    },
+                    &quot;cop_enabled&quot;: false,
+                    &quot;is_pickup_option&quot;: false,
+                    &quot;is_zidship_default&quot;: true,
+                    &quot;working_hours&quot;: []
+                },
+                &quot;expected_shipping_method_type&quot;: null,
+                &quot;reseller_meta&quot;: null,
+                &quot;zidship_ticket_number&quot;: null,
+                &quot;edits_count&quot;: 0,
+                &quot;delivered_at&quot;: null,
+                &quot;is_marketplace_order&quot;: false,
+                &quot;invoice_link&quot;: &quot;https://zid-platform.s3-accelerate.amazonaws.com/public/pdfs/1085223/orders/invoices/order_confirmation_70592291.pdf&quot;,
+                &quot;payment_network&quot;: null,
+                &quot;preorder_campaign&quot;: null
+            },
+            {
+                &quot;id&quot;: 70592284,
+                &quot;invoice_number&quot;: 70592284,
+                &quot;code&quot;: &quot;RCIBcnSX6H&quot;,
+                &quot;store_id&quot;: 1085223,
+                &quot;order_url&quot;: &quot;https://bstlia.zid.store/o/RCIBcnSX6H/inv&quot;,
+                &quot;store_name&quot;: &quot;Haddiya Test&quot;,
+                &quot;shipping_method_code&quot;: &quot;custom&quot;,
+                &quot;store_url&quot;: &quot;https://bstlia.zid.store/&quot;,
+                &quot;order_status&quot;: {
+                    &quot;name&quot;: &quot;New&quot;,
+                    &quot;code&quot;: &quot;new&quot;
+                },
+                &quot;display_status&quot;: {
+                    &quot;id&quot;: 1,
+                    &quot;code&quot;: &quot;new&quot;,
+                    &quot;color&quot;: &quot;#3498db&quot;,
+                    &quot;name&quot;: &quot;New&quot;
+                },
+                &quot;currency_code&quot;: &quot;SAR&quot;,
+                &quot;customer&quot;: {
+                    &quot;id&quot;: 4584676,
+                    &quot;name&quot;: &quot;DHIYA Alnadabi&quot;,
+                    &quot;email&quot;: &quot;alnadabidhiyaa@gmail.com&quot;,
+                    &quot;mobile&quot;: &quot;96891329892&quot;,
+                    &quot;note&quot;: &quot;&quot;,
+                    &quot;verified&quot;: 1,
+                    &quot;type&quot;: &quot;individual&quot;
+                },
+                &quot;has_different_consignee&quot;: 0,
+                &quot;is_guest_customer&quot;: 0,
+                &quot;is_gift_order&quot;: 0,
+                &quot;gift_card_details&quot;: null,
+                &quot;is_quick_checkout_order&quot;: false,
+                &quot;order_total&quot;: &quot;17.00000000000000&quot;,
+                &quot;order_total_string&quot;: &quot;17.00 SAR&quot;,
+                &quot;has_different_transaction_currency&quot;: false,
+                &quot;transaction_reference&quot;: null,
+                &quot;transaction_amount&quot;: 17,
+                &quot;transaction_amount_string&quot;: &quot;17.00 SAR&quot;,
+                &quot;issue_date&quot;: &quot;11-06-2026 | 07:45 ص&quot;,
+                &quot;payment_status&quot;: &quot;pending&quot;,
+                &quot;is_potential_fraud&quot;: false,
+                &quot;source&quot;: &quot;Store&quot;,
+                &quot;source_code&quot;: &quot;catalog&quot;,
+                &quot;is_reseller_transaction&quot;: false,
+                &quot;created_at&quot;: &quot;2026-06-11 04:45:23&quot;,
+                &quot;updated_at&quot;: &quot;2026-06-11 04:45:26&quot;,
+                &quot;is_on_demand&quot;: false,
+                &quot;import_id&quot;: null,
+                &quot;tags&quot;: [],
+                &quot;requires_shipping&quot;: true,
+                &quot;should_merchant_set_shipping_method&quot;: false,
+                &quot;shipping&quot;: {
+                    &quot;method&quot;: {
+                        &quot;id&quot;: 819202,
+                        &quot;name&quot;: &quot;توصيل المتجر&quot;,
+                        &quot;display_name&quot;: &quot;Store Courier&quot;,
+                        &quot;code&quot;: &quot;custom&quot;,
+                        &quot;estimated_delivery_time&quot;: &quot;&quot;,
+                        &quot;icon&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ec78b7f0-4bab-4808-867c-a1ceca8e8b0d.png&quot;,
+                        &quot;is_system_option&quot;: false,
+                        &quot;waybill&quot;: null,
+                        &quot;had_errors_while_fetching_waybill&quot;: false,
+                        &quot;waybill_tracking_id&quot;: null,
+                        &quot;has_waybill_and_packing_list&quot;: false,
+                        &quot;tracking&quot;: {
+                            &quot;number&quot;: null,
+                            &quot;status&quot;: null,
+                            &quot;url&quot;: null
+                        },
+                        &quot;order_shipping_status&quot;: null,
+                        &quot;inventory_address&quot;: [],
+                        &quot;courier&quot;: null,
+                        &quot;return_shipment&quot;: null,
+                        &quot;packages_count&quot;: null
+                    },
+                    &quot;address&quot;: {
+                        &quot;formatted_address&quot;: &quot;N/A&quot;,
+                        &quot;street&quot;: &quot;M4Q7+3JQ، السيب&lrm;، عمان&quot;,
+                        &quot;district&quot;: &quot;المعبيلة&quot;,
+                        &quot;lat&quot;: 23.687381825913,
+                        &quot;lng&quot;: 58.113762646889,
+                        &quot;short_address&quot;: null,
+                        &quot;meta&quot;: {
+                            &quot;building_number&quot;: &quot;77&quot;,
+                            &quot;postcode&quot;: null,
+                            &quot;additional_number&quot;: null,
+                            &quot;national_id&quot;: null
+                        },
+                        &quot;city&quot;: {
+                            &quot;id&quot;: 193,
+                            &quot;name&quot;: &quot;Muscat&quot;
+                        },
+                        &quot;country&quot;: {
+                            &quot;id&quot;: 161,
+                            &quot;name&quot;: &quot;Oman&quot;
+                        }
+                    }
+                },
+                &quot;payment&quot;: {
+                    &quot;method&quot;: {
+                        &quot;name&quot;: &quot;Cash on Delivery&quot;,
+                        &quot;code&quot;: &quot;zid_cod&quot;,
+                        &quot;type&quot;: &quot;zid_cod&quot;
+                    },
+                    &quot;invoice&quot;: [
+                        {
+                            &quot;code&quot;: &quot;sub_totals&quot;,
+                            &quot;value&quot;: &quot;13.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;13.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Sub Totals&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;shipping&quot;,
+                            &quot;value&quot;: &quot;2.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;2.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Shipping&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;zid_cod&quot;,
+                            &quot;value&quot;: &quot;2.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;2.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Cash on Delivery&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;total&quot;,
+                            &quot;value&quot;: &quot;17.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;17.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Total&quot;
+                        }
+                    ]
+                },
+                &quot;cod_confirmed&quot;: false,
+                &quot;reverse_order_label_request&quot;: null,
+                &quot;reverse_order_label_requests&quot;: [],
+                &quot;customer_note&quot;: &quot;&quot;,
+                &quot;gift_message&quot;: null,
+                &quot;payment_link&quot;: null,
+                &quot;weight&quot;: 54,
+                &quot;weight_cost_details&quot;: [],
+                &quot;currency&quot;: {
+                    &quot;order_currency&quot;: {
+                        &quot;id&quot;: 4,
+                        &quot;code&quot;: &quot;SAR&quot;,
+                        &quot;exchange_rate&quot;: 1
+                    },
+                    &quot;order_store_currency&quot;: {
+                        &quot;id&quot;: 4,
+                        &quot;code&quot;: &quot;SAR&quot;,
+                        &quot;exchange_rate&quot;: null
+                    }
+                },
+                &quot;coupon&quot;: null,
+                &quot;coupons&quot;: [],
+                &quot;products&quot;: [
+                    {
+                        &quot;id&quot;: &quot;610bdff0-e9c5-4477-976f-cdaa478dfe4c&quot;,
+                        &quot;order_product_id&quot;: 121887562,
+                        &quot;parent_id&quot;: null,
+                        &quot;parent_name&quot;: null,
+                        &quot;product_class&quot;: null,
+                        &quot;name&quot;: &quot;Michael Angelo - Women&#039;s Wallet Y2&quot;,
+                        &quot;short_description&quot;: {
+                            &quot;ar&quot;: &quot;محفظة Y2 للجنسين من مايكل انجلو تتميز بتصميمات عصرية.&quot;,
+                            &quot;en&quot;: &quot;Michael Angelo Y2 Unisex Wallet featuring modern designs.\n &quot;
+                        },
+                        &quot;sku&quot;: &quot;LM0375MB&quot;,
+                        &quot;barcode&quot;: null,
+                        &quot;custom_fields&quot;: [],
+                        &quot;quantity&quot;: 1,
+                        &quot;weight&quot;: {
+                            &quot;value&quot;: 0.054,
+                            &quot;unit&quot;: &quot;kg&quot;
+                        },
+                        &quot;is_taxable&quot;: true,
+                        &quot;is_discounted&quot;: false,
+                        &quot;meta&quot;: null,
+                        &quot;is_external_product&quot;: false,
+                        &quot;discounts&quot;: [],
+                        &quot;net_price_with_additions&quot;: 13,
+                        &quot;net_price_with_additions_string&quot;: &quot;13.00 SAR&quot;,
+                        &quot;price_with_additions&quot;: 13,
+                        &quot;price_with_additions_string&quot;: &quot;13.00 SAR&quot;,
+                        &quot;net_price&quot;: 13,
+                        &quot;net_price_string&quot;: &quot;13.00 SAR&quot;,
+                        &quot;net_sale_price&quot;: null,
+                        &quot;net_sale_price_string&quot;: null,
+                        &quot;net_additions_price&quot;: 0,
+                        &quot;net_additions_price_string&quot;: null,
+                        &quot;gross_price&quot;: 13,
+                        &quot;gross_price_string&quot;: &quot;13.00 SAR&quot;,
+                        &quot;gross_sale_price&quot;: null,
+                        &quot;gross_sale_price_string&quot;: null,
+                        &quot;price_before&quot;: null,
+                        &quot;price_before_string&quot;: null,
+                        &quot;total_before&quot;: null,
+                        &quot;total_before_string&quot;: null,
+                        &quot;gross_additions_price&quot;: 0,
+                        &quot;gross_additions_price_string&quot;: null,
+                        &quot;discount_percentage&quot;: 0,
+                        &quot;tax_percentage&quot;: 0,
+                        &quot;tax_amount&quot;: &quot;0.00000000000000&quot;,
+                        &quot;tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount&quot;: 0,
+                        &quot;discounted_tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;price&quot;: 13,
+                        &quot;price_string&quot;: &quot;13.00 SAR&quot;,
+                        &quot;additions_price&quot;: 0,
+                        &quot;additions_price_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;total&quot;: 13,
+                        &quot;total_string&quot;: &quot;13.00 SAR&quot;,
+                        &quot;discounted_total&quot;: 13,
+                        &quot;discounted_total_string&quot;: &quot;13.00 SAR&quot;,
+                        &quot;images&quot;: [
+                            {
+                                &quot;id&quot;: &quot;04cab666-3f64-49cb-bc7b-1121fb661232&quot;,
+                                &quot;origin&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/04cab666-3f64-49cb-bc7b-1121fb661232-thumbnail-500x500-70.jpg&quot;,
+                                &quot;thumbs&quot;: {
+                                    &quot;fullSize&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/04cab666-3f64-49cb-bc7b-1121fb661232.jpg&quot;,
+                                    &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/04cab666-3f64-49cb-bc7b-1121fb661232-thumbnail-370x370-70.jpg&quot;,
+                                    &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/04cab666-3f64-49cb-bc7b-1121fb661232-thumbnail-500x500-70.jpg&quot;,
+                                    &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/04cab666-3f64-49cb-bc7b-1121fb661232-thumbnail-770x770-70.jpg&quot;,
+                                    &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/04cab666-3f64-49cb-bc7b-1121fb661232-thumbnail-1000x1000-70.jpg&quot;
+                                }
+                            }
+                        ],
+                        &quot;options&quot;: [],
+                        &quot;inventory_allocations&quot;: []
+                    }
+                ],
+                &quot;products_count&quot;: 1,
+                &quot;products_sum_total_string&quot;: &quot;13.00 SAR&quot;,
+                &quot;is_preorder&quot;: false,
+                &quot;is_preorder_allocated&quot;: true,
+                &quot;language&quot;: &quot;ar&quot;,
+                &quot;is_reactivated&quot;: false,
+                &quot;return_policy&quot;: null,
+                &quot;packages_count&quot;: 1,
+                &quot;inventory_address&quot;: {
+                    &quot;id&quot;: &quot;c3d144fa69de40f2882e67e46b505383&quot;,
+                    &quot;name&quot;: &quot;مخزن ضياء&quot;,
+                    &quot;city&quot;: {
+                        &quot;id&quot;: 193,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Muscat&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مسقط&quot;,
+                        &quot;en_name&quot;: &quot;Muscat&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;,
+                    &quot;street&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;,
+                    &quot;short_address&quot;: null,
+                    &quot;district&quot;: &quot;&quot;,
+                    &quot;postal_code&quot;: null,
+                    &quot;coordinates&quot;: {
+                        &quot;lat&quot;: 23.6244677153526,
+                        &quot;lon&quot;: 58.13707373137114
+                    },
+                    &quot;cop_enabled&quot;: false,
+                    &quot;is_pickup_option&quot;: false,
+                    &quot;is_zidship_default&quot;: true,
+                    &quot;working_hours&quot;: []
+                },
+                &quot;expected_shipping_method_type&quot;: null,
+                &quot;reseller_meta&quot;: null,
+                &quot;zidship_ticket_number&quot;: null,
+                &quot;edits_count&quot;: 0,
+                &quot;delivered_at&quot;: null,
+                &quot;is_marketplace_order&quot;: false,
+                &quot;invoice_link&quot;: &quot;https://zid-platform.s3-accelerate.amazonaws.com/public/pdfs/1085223/orders/invoices/order_confirmation_70592284.pdf&quot;,
+                &quot;payment_network&quot;: null,
+                &quot;preorder_campaign&quot;: null
+            },
+            {
+                &quot;id&quot;: 70592272,
+                &quot;invoice_number&quot;: 70592272,
+                &quot;code&quot;: &quot;NTDPkaUkZI&quot;,
+                &quot;store_id&quot;: 1085223,
+                &quot;order_url&quot;: &quot;https://bstlia.zid.store/o/NTDPkaUkZI/inv&quot;,
+                &quot;store_name&quot;: &quot;Haddiya Test&quot;,
+                &quot;shipping_method_code&quot;: &quot;custom&quot;,
+                &quot;store_url&quot;: &quot;https://bstlia.zid.store/&quot;,
+                &quot;order_status&quot;: {
+                    &quot;name&quot;: &quot;New&quot;,
+                    &quot;code&quot;: &quot;new&quot;
+                },
+                &quot;display_status&quot;: {
+                    &quot;id&quot;: 1,
+                    &quot;code&quot;: &quot;new&quot;,
+                    &quot;color&quot;: &quot;#3498db&quot;,
+                    &quot;name&quot;: &quot;New&quot;
+                },
+                &quot;currency_code&quot;: &quot;SAR&quot;,
+                &quot;customer&quot;: {
+                    &quot;id&quot;: 4584676,
+                    &quot;name&quot;: &quot;DHIYA Alnadabi&quot;,
+                    &quot;email&quot;: &quot;alnadabidhiyaa@gmail.com&quot;,
+                    &quot;mobile&quot;: &quot;96891329892&quot;,
+                    &quot;note&quot;: &quot;&quot;,
+                    &quot;verified&quot;: 1,
+                    &quot;type&quot;: &quot;individual&quot;
+                },
+                &quot;has_different_consignee&quot;: 0,
+                &quot;is_guest_customer&quot;: 0,
+                &quot;is_gift_order&quot;: 0,
+                &quot;gift_card_details&quot;: null,
+                &quot;is_quick_checkout_order&quot;: false,
+                &quot;order_total&quot;: &quot;73.00000000000000&quot;,
+                &quot;order_total_string&quot;: &quot;73.00 SAR&quot;,
+                &quot;has_different_transaction_currency&quot;: false,
+                &quot;transaction_reference&quot;: null,
+                &quot;transaction_amount&quot;: 73,
+                &quot;transaction_amount_string&quot;: &quot;73.00 SAR&quot;,
+                &quot;issue_date&quot;: &quot;11-06-2026 | 07:44 ص&quot;,
+                &quot;payment_status&quot;: &quot;pending&quot;,
+                &quot;is_potential_fraud&quot;: false,
+                &quot;source&quot;: &quot;Store&quot;,
+                &quot;source_code&quot;: &quot;catalog&quot;,
+                &quot;is_reseller_transaction&quot;: false,
+                &quot;created_at&quot;: &quot;2026-06-11 04:44:44&quot;,
+                &quot;updated_at&quot;: &quot;2026-06-11 04:44:47&quot;,
+                &quot;is_on_demand&quot;: false,
+                &quot;import_id&quot;: null,
+                &quot;tags&quot;: [],
+                &quot;requires_shipping&quot;: true,
+                &quot;should_merchant_set_shipping_method&quot;: false,
+                &quot;shipping&quot;: {
+                    &quot;method&quot;: {
+                        &quot;id&quot;: 819202,
+                        &quot;name&quot;: &quot;توصيل المتجر&quot;,
+                        &quot;display_name&quot;: &quot;Store Courier&quot;,
+                        &quot;code&quot;: &quot;custom&quot;,
+                        &quot;estimated_delivery_time&quot;: &quot;&quot;,
+                        &quot;icon&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ec78b7f0-4bab-4808-867c-a1ceca8e8b0d.png&quot;,
+                        &quot;is_system_option&quot;: false,
+                        &quot;waybill&quot;: null,
+                        &quot;had_errors_while_fetching_waybill&quot;: false,
+                        &quot;waybill_tracking_id&quot;: null,
+                        &quot;has_waybill_and_packing_list&quot;: false,
+                        &quot;tracking&quot;: {
+                            &quot;number&quot;: null,
+                            &quot;status&quot;: null,
+                            &quot;url&quot;: null
+                        },
+                        &quot;order_shipping_status&quot;: null,
+                        &quot;inventory_address&quot;: [],
+                        &quot;courier&quot;: null,
+                        &quot;return_shipment&quot;: null,
+                        &quot;packages_count&quot;: null
+                    },
+                    &quot;address&quot;: {
+                        &quot;formatted_address&quot;: &quot;N/A&quot;,
+                        &quot;street&quot;: &quot;M4Q7+3JQ، السيب&lrm;، عمان&quot;,
+                        &quot;district&quot;: &quot;المعبيلة&quot;,
+                        &quot;lat&quot;: 23.687381825913,
+                        &quot;lng&quot;: 58.113762646889,
+                        &quot;short_address&quot;: null,
+                        &quot;meta&quot;: {
+                            &quot;building_number&quot;: &quot;77&quot;,
+                            &quot;postcode&quot;: null,
+                            &quot;additional_number&quot;: null,
+                            &quot;national_id&quot;: null
+                        },
+                        &quot;city&quot;: {
+                            &quot;id&quot;: 193,
+                            &quot;name&quot;: &quot;Muscat&quot;
+                        },
+                        &quot;country&quot;: {
+                            &quot;id&quot;: 161,
+                            &quot;name&quot;: &quot;Oman&quot;
+                        }
+                    }
+                },
+                &quot;payment&quot;: {
+                    &quot;method&quot;: {
+                        &quot;name&quot;: &quot;Cash on Delivery&quot;,
+                        &quot;code&quot;: &quot;zid_cod&quot;,
+                        &quot;type&quot;: &quot;zid_cod&quot;
+                    },
+                    &quot;invoice&quot;: [
+                        {
+                            &quot;code&quot;: &quot;sub_totals&quot;,
+                            &quot;value&quot;: &quot;69.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;69.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Sub Totals&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;shipping&quot;,
+                            &quot;value&quot;: &quot;2.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;2.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Shipping&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;zid_cod&quot;,
+                            &quot;value&quot;: &quot;2.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;2.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Cash on Delivery&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;total&quot;,
+                            &quot;value&quot;: &quot;73.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;73.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Total&quot;
+                        }
+                    ]
+                },
+                &quot;cod_confirmed&quot;: false,
+                &quot;reverse_order_label_request&quot;: null,
+                &quot;reverse_order_label_requests&quot;: [],
+                &quot;customer_note&quot;: &quot;&quot;,
+                &quot;gift_message&quot;: null,
+                &quot;payment_link&quot;: null,
+                &quot;weight&quot;: 785,
+                &quot;weight_cost_details&quot;: [],
+                &quot;currency&quot;: {
+                    &quot;order_currency&quot;: {
+                        &quot;id&quot;: 4,
+                        &quot;code&quot;: &quot;SAR&quot;,
+                        &quot;exchange_rate&quot;: 1
+                    },
+                    &quot;order_store_currency&quot;: {
+                        &quot;id&quot;: 4,
+                        &quot;code&quot;: &quot;SAR&quot;,
+                        &quot;exchange_rate&quot;: null
+                    }
+                },
+                &quot;coupon&quot;: null,
+                &quot;coupons&quot;: [],
+                &quot;products&quot;: [
+                    {
+                        &quot;id&quot;: &quot;d910fe9f-8ceb-4772-ad04-414fae781037&quot;,
+                        &quot;order_product_id&quot;: 121887547,
+                        &quot;parent_id&quot;: null,
+                        &quot;parent_name&quot;: null,
+                        &quot;product_class&quot;: null,
+                        &quot;name&quot;: &quot;Micheal Angelo 01ZA- Men&#039;s Watch&quot;,
+                        &quot;short_description&quot;: {
+                            &quot;ar&quot;: &quot;مجموعة مايكل أنجلو رويال جولدكريست الرجالية&quot;,
+                            &quot;en&quot;: &quot;Michael Angelo Royal Goldcrest Men&#039;s Collection&quot;
+                        },
+                        &quot;sku&quot;: &quot;WM0289ML&quot;,
+                        &quot;barcode&quot;: &quot;WM0289ML&quot;,
+                        &quot;custom_fields&quot;: [],
+                        &quot;quantity&quot;: 1,
+                        &quot;weight&quot;: {
+                            &quot;value&quot;: 0.785,
+                            &quot;unit&quot;: &quot;kg&quot;
+                        },
+                        &quot;is_taxable&quot;: true,
+                        &quot;is_discounted&quot;: false,
+                        &quot;meta&quot;: null,
+                        &quot;is_external_product&quot;: false,
+                        &quot;discounts&quot;: [],
+                        &quot;net_price_with_additions&quot;: 69,
+                        &quot;net_price_with_additions_string&quot;: &quot;69.00 SAR&quot;,
+                        &quot;price_with_additions&quot;: 69,
+                        &quot;price_with_additions_string&quot;: &quot;69.00 SAR&quot;,
+                        &quot;net_price&quot;: 69,
+                        &quot;net_price_string&quot;: &quot;69.00 SAR&quot;,
+                        &quot;net_sale_price&quot;: null,
+                        &quot;net_sale_price_string&quot;: null,
+                        &quot;net_additions_price&quot;: 0,
+                        &quot;net_additions_price_string&quot;: null,
+                        &quot;gross_price&quot;: 69,
+                        &quot;gross_price_string&quot;: &quot;69.00 SAR&quot;,
+                        &quot;gross_sale_price&quot;: null,
+                        &quot;gross_sale_price_string&quot;: null,
+                        &quot;price_before&quot;: null,
+                        &quot;price_before_string&quot;: null,
+                        &quot;total_before&quot;: null,
+                        &quot;total_before_string&quot;: null,
+                        &quot;gross_additions_price&quot;: 0,
+                        &quot;gross_additions_price_string&quot;: null,
+                        &quot;discount_percentage&quot;: 0,
+                        &quot;tax_percentage&quot;: 0,
+                        &quot;tax_amount&quot;: &quot;0.00000000000000&quot;,
+                        &quot;tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount&quot;: 0,
+                        &quot;discounted_tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;price&quot;: 69,
+                        &quot;price_string&quot;: &quot;69.00 SAR&quot;,
+                        &quot;additions_price&quot;: 0,
+                        &quot;additions_price_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;total&quot;: 69,
+                        &quot;total_string&quot;: &quot;69.00 SAR&quot;,
+                        &quot;discounted_total&quot;: 69,
+                        &quot;discounted_total_string&quot;: &quot;69.00 SAR&quot;,
+                        &quot;images&quot;: [
+                            {
+                                &quot;id&quot;: &quot;c9734ee4-d781-4a3f-a5fa-2d7bb9166e3a&quot;,
+                                &quot;origin&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c9734ee4-d781-4a3f-a5fa-2d7bb9166e3a-thumbnail-500x500.png&quot;,
+                                &quot;thumbs&quot;: {
+                                    &quot;fullSize&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c9734ee4-d781-4a3f-a5fa-2d7bb9166e3a.png&quot;,
+                                    &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c9734ee4-d781-4a3f-a5fa-2d7bb9166e3a-thumbnail-370x370.png&quot;,
+                                    &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c9734ee4-d781-4a3f-a5fa-2d7bb9166e3a-thumbnail-500x500.png&quot;,
+                                    &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c9734ee4-d781-4a3f-a5fa-2d7bb9166e3a-thumbnail-770x770.png&quot;,
+                                    &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c9734ee4-d781-4a3f-a5fa-2d7bb9166e3a-thumbnail-1000x1000.png&quot;
+                                }
+                            }
+                        ],
+                        &quot;options&quot;: [],
+                        &quot;inventory_allocations&quot;: []
+                    }
+                ],
+                &quot;products_count&quot;: 1,
+                &quot;products_sum_total_string&quot;: &quot;69.00 SAR&quot;,
+                &quot;is_preorder&quot;: false,
+                &quot;is_preorder_allocated&quot;: true,
+                &quot;language&quot;: &quot;ar&quot;,
+                &quot;is_reactivated&quot;: false,
+                &quot;return_policy&quot;: null,
+                &quot;packages_count&quot;: 1,
+                &quot;inventory_address&quot;: {
+                    &quot;id&quot;: &quot;c3d144fa69de40f2882e67e46b505383&quot;,
+                    &quot;name&quot;: &quot;مخزن ضياء&quot;,
+                    &quot;city&quot;: {
+                        &quot;id&quot;: 193,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Muscat&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مسقط&quot;,
+                        &quot;en_name&quot;: &quot;Muscat&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;,
+                    &quot;street&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;,
+                    &quot;short_address&quot;: null,
+                    &quot;district&quot;: &quot;&quot;,
+                    &quot;postal_code&quot;: null,
+                    &quot;coordinates&quot;: {
+                        &quot;lat&quot;: 23.6244677153526,
+                        &quot;lon&quot;: 58.13707373137114
+                    },
+                    &quot;cop_enabled&quot;: false,
+                    &quot;is_pickup_option&quot;: false,
+                    &quot;is_zidship_default&quot;: true,
+                    &quot;working_hours&quot;: []
+                },
+                &quot;expected_shipping_method_type&quot;: null,
+                &quot;reseller_meta&quot;: null,
+                &quot;zidship_ticket_number&quot;: null,
+                &quot;edits_count&quot;: 0,
+                &quot;delivered_at&quot;: null,
+                &quot;is_marketplace_order&quot;: false,
+                &quot;invoice_link&quot;: &quot;https://zid-platform.s3-accelerate.amazonaws.com/public/pdfs/1085223/orders/invoices/order_confirmation_70592272.pdf&quot;,
+                &quot;payment_network&quot;: null,
+                &quot;preorder_campaign&quot;: null
+            },
+            {
+                &quot;id&quot;: 70567872,
+                &quot;invoice_number&quot;: 70567872,
+                &quot;code&quot;: &quot;vQ7rIv85pc&quot;,
+                &quot;store_id&quot;: 1085223,
+                &quot;order_url&quot;: &quot;https://bstlia.zid.store/o/vQ7rIv85pc/inv&quot;,
+                &quot;store_name&quot;: &quot;Haddiya Test&quot;,
+                &quot;shipping_method_code&quot;: &quot;custom&quot;,
+                &quot;store_url&quot;: &quot;https://bstlia.zid.store/&quot;,
+                &quot;order_status&quot;: {
+                    &quot;name&quot;: &quot;Delivered&quot;,
+                    &quot;code&quot;: &quot;delivered&quot;
+                },
+                &quot;display_status&quot;: {
+                    &quot;id&quot;: 5,
+                    &quot;code&quot;: &quot;delivered&quot;,
+                    &quot;color&quot;: &quot;#27ae60&quot;,
+                    &quot;name&quot;: &quot;Delivered&quot;
+                },
+                &quot;currency_code&quot;: &quot;SAR&quot;,
+                &quot;customer&quot;: {
+                    &quot;id&quot;: 4584676,
+                    &quot;name&quot;: &quot;DHIYA Alnadabi&quot;,
+                    &quot;email&quot;: &quot;alnadabidhiyaa@gmail.com&quot;,
+                    &quot;mobile&quot;: &quot;96891329892&quot;,
+                    &quot;note&quot;: &quot;&quot;,
+                    &quot;verified&quot;: 1,
+                    &quot;type&quot;: &quot;individual&quot;
+                },
+                &quot;has_different_consignee&quot;: 0,
+                &quot;is_guest_customer&quot;: 0,
+                &quot;is_gift_order&quot;: 0,
+                &quot;gift_card_details&quot;: null,
+                &quot;is_quick_checkout_order&quot;: false,
+                &quot;order_total&quot;: &quot;63.00000000000000&quot;,
+                &quot;order_total_string&quot;: &quot;63.00 SAR&quot;,
+                &quot;has_different_transaction_currency&quot;: false,
+                &quot;transaction_reference&quot;: null,
+                &quot;transaction_amount&quot;: 63,
+                &quot;transaction_amount_string&quot;: &quot;63.00 SAR&quot;,
+                &quot;issue_date&quot;: &quot;10-06-2026 | 02:35 م&quot;,
+                &quot;payment_status&quot;: &quot;paid&quot;,
+                &quot;is_potential_fraud&quot;: false,
+                &quot;source&quot;: &quot;Store&quot;,
+                &quot;source_code&quot;: &quot;catalog&quot;,
+                &quot;is_reseller_transaction&quot;: false,
+                &quot;created_at&quot;: &quot;2026-06-10 11:35:05&quot;,
+                &quot;updated_at&quot;: &quot;2026-06-10 13:06:09&quot;,
+                &quot;is_on_demand&quot;: false,
+                &quot;import_id&quot;: null,
+                &quot;tags&quot;: [],
+                &quot;requires_shipping&quot;: true,
+                &quot;should_merchant_set_shipping_method&quot;: false,
+                &quot;shipping&quot;: {
+                    &quot;method&quot;: {
+                        &quot;id&quot;: 819202,
+                        &quot;name&quot;: &quot;توصيل المتجر&quot;,
+                        &quot;display_name&quot;: &quot;Store Courier&quot;,
+                        &quot;code&quot;: &quot;custom&quot;,
+                        &quot;estimated_delivery_time&quot;: &quot;&quot;,
+                        &quot;icon&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ec78b7f0-4bab-4808-867c-a1ceca8e8b0d.png&quot;,
+                        &quot;is_system_option&quot;: false,
+                        &quot;waybill&quot;: null,
+                        &quot;had_errors_while_fetching_waybill&quot;: false,
+                        &quot;waybill_tracking_id&quot;: null,
+                        &quot;has_waybill_and_packing_list&quot;: false,
+                        &quot;tracking&quot;: {
+                            &quot;number&quot;: null,
+                            &quot;status&quot;: null,
+                            &quot;url&quot;: null
+                        },
+                        &quot;order_shipping_status&quot;: null,
+                        &quot;inventory_address&quot;: [],
+                        &quot;courier&quot;: null,
+                        &quot;return_shipment&quot;: null,
+                        &quot;packages_count&quot;: 1
+                    },
+                    &quot;address&quot;: {
+                        &quot;formatted_address&quot;: &quot;N/A&quot;,
+                        &quot;street&quot;: &quot;M4Q7+3JQ، السيب&lrm;، عمان&quot;,
+                        &quot;district&quot;: &quot;المعبيلة&quot;,
+                        &quot;lat&quot;: 23.687381825913,
+                        &quot;lng&quot;: 58.113762646889,
+                        &quot;short_address&quot;: null,
+                        &quot;meta&quot;: {
+                            &quot;building_number&quot;: &quot;77&quot;,
+                            &quot;postcode&quot;: null,
+                            &quot;additional_number&quot;: null,
+                            &quot;national_id&quot;: null
+                        },
+                        &quot;city&quot;: {
+                            &quot;id&quot;: 193,
+                            &quot;name&quot;: &quot;Muscat&quot;
+                        },
+                        &quot;country&quot;: {
+                            &quot;id&quot;: 161,
+                            &quot;name&quot;: &quot;Oman&quot;
+                        }
+                    }
+                },
+                &quot;payment&quot;: {
+                    &quot;method&quot;: {
+                        &quot;name&quot;: &quot;Cash on Delivery&quot;,
+                        &quot;code&quot;: &quot;zid_cod&quot;,
+                        &quot;type&quot;: &quot;zid_cod&quot;
+                    },
+                    &quot;invoice&quot;: [
+                        {
+                            &quot;code&quot;: &quot;sub_totals&quot;,
+                            &quot;value&quot;: &quot;59.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;59.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Sub Totals&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;shipping&quot;,
+                            &quot;value&quot;: &quot;2.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;2.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Shipping&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;zid_cod&quot;,
+                            &quot;value&quot;: &quot;2.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;2.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Cash on Delivery&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;total&quot;,
+                            &quot;value&quot;: &quot;63.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;63.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Total&quot;
+                        }
+                    ]
+                },
+                &quot;cod_confirmed&quot;: true,
+                &quot;reverse_order_label_request&quot;: null,
+                &quot;reverse_order_label_requests&quot;: [],
+                &quot;customer_note&quot;: &quot;&quot;,
+                &quot;gift_message&quot;: null,
+                &quot;payment_link&quot;: null,
+                &quot;weight&quot;: 730,
+                &quot;weight_cost_details&quot;: [],
+                &quot;currency&quot;: {
+                    &quot;order_currency&quot;: {
+                        &quot;id&quot;: 4,
+                        &quot;code&quot;: &quot;SAR&quot;,
+                        &quot;exchange_rate&quot;: 1
+                    },
+                    &quot;order_store_currency&quot;: {
+                        &quot;id&quot;: 4,
+                        &quot;code&quot;: &quot;SAR&quot;,
+                        &quot;exchange_rate&quot;: null
+                    }
+                },
+                &quot;coupon&quot;: null,
+                &quot;coupons&quot;: [],
+                &quot;products&quot;: [
+                    {
+                        &quot;id&quot;: &quot;eb5d9205-febf-42b2-aea3-eff70b92b293&quot;,
+                        &quot;order_product_id&quot;: 121843760,
+                        &quot;parent_id&quot;: null,
+                        &quot;parent_name&quot;: null,
+                        &quot;product_class&quot;: null,
+                        &quot;name&quot;: &quot;Michael Angelo 03ZA- Women&rsquo;s &quot;,
+                        &quot;short_description&quot;: {
+                            &quot;ar&quot;: &quot;مجموعة مايكل انجلو رويال جراند كلاسيك الفضية &quot;,
+                            &quot;en&quot;: &quot;Michael Angelo Grand Royale Classic Silver Series&quot;
+                        },
+                        &quot;sku&quot;: &quot;WM0297WL&quot;,
+                        &quot;barcode&quot;: null,
+                        &quot;custom_fields&quot;: [],
+                        &quot;quantity&quot;: 1,
+                        &quot;weight&quot;: {
+                            &quot;value&quot;: 0.73,
+                            &quot;unit&quot;: &quot;kg&quot;
+                        },
+                        &quot;is_taxable&quot;: true,
+                        &quot;is_discounted&quot;: false,
+                        &quot;meta&quot;: null,
+                        &quot;is_external_product&quot;: false,
+                        &quot;discounts&quot;: [],
+                        &quot;net_price_with_additions&quot;: 59,
+                        &quot;net_price_with_additions_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;price_with_additions&quot;: 59,
+                        &quot;price_with_additions_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;net_price&quot;: 59,
+                        &quot;net_price_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;net_sale_price&quot;: null,
+                        &quot;net_sale_price_string&quot;: null,
+                        &quot;net_additions_price&quot;: 0,
+                        &quot;net_additions_price_string&quot;: null,
+                        &quot;gross_price&quot;: 59,
+                        &quot;gross_price_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;gross_sale_price&quot;: null,
+                        &quot;gross_sale_price_string&quot;: null,
+                        &quot;price_before&quot;: null,
+                        &quot;price_before_string&quot;: null,
+                        &quot;total_before&quot;: null,
+                        &quot;total_before_string&quot;: null,
+                        &quot;gross_additions_price&quot;: 0,
+                        &quot;gross_additions_price_string&quot;: null,
+                        &quot;discount_percentage&quot;: 0,
+                        &quot;tax_percentage&quot;: 0,
+                        &quot;tax_amount&quot;: &quot;0.00000000000000&quot;,
+                        &quot;tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount&quot;: 0,
+                        &quot;discounted_tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;price&quot;: 59,
+                        &quot;price_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;additions_price&quot;: 0,
+                        &quot;additions_price_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;total&quot;: 59,
+                        &quot;total_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;discounted_total&quot;: 59,
+                        &quot;discounted_total_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;images&quot;: [
+                            {
+                                &quot;id&quot;: &quot;f319bb96-41b6-41a5-a0be-b6935a11c2f6&quot;,
+                                &quot;origin&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-500x500.png&quot;,
+                                &quot;thumbs&quot;: {
+                                    &quot;fullSize&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6.png&quot;,
+                                    &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-370x370.png&quot;,
+                                    &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-500x500.png&quot;,
+                                    &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-770x770.png&quot;,
+                                    &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-1000x1000.png&quot;
+                                }
+                            }
+                        ],
+                        &quot;options&quot;: [],
+                        &quot;inventory_allocations&quot;: []
+                    }
+                ],
+                &quot;products_count&quot;: 1,
+                &quot;products_sum_total_string&quot;: &quot;59.00 SAR&quot;,
+                &quot;is_preorder&quot;: false,
+                &quot;is_preorder_allocated&quot;: true,
+                &quot;language&quot;: &quot;ar&quot;,
+                &quot;is_reactivated&quot;: false,
+                &quot;return_policy&quot;: null,
+                &quot;packages_count&quot;: 1,
+                &quot;inventory_address&quot;: {
+                    &quot;id&quot;: &quot;c3d144fa69de40f2882e67e46b505383&quot;,
+                    &quot;name&quot;: &quot;مخزن ضياء&quot;,
+                    &quot;city&quot;: {
+                        &quot;id&quot;: 193,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Muscat&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مسقط&quot;,
+                        &quot;en_name&quot;: &quot;Muscat&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;,
+                    &quot;street&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;,
+                    &quot;short_address&quot;: null,
+                    &quot;district&quot;: &quot;&quot;,
+                    &quot;postal_code&quot;: null,
+                    &quot;coordinates&quot;: {
+                        &quot;lat&quot;: 23.6244677153526,
+                        &quot;lon&quot;: 58.13707373137114
+                    },
+                    &quot;cop_enabled&quot;: false,
+                    &quot;is_pickup_option&quot;: false,
+                    &quot;is_zidship_default&quot;: true,
+                    &quot;working_hours&quot;: []
+                },
+                &quot;expected_shipping_method_type&quot;: null,
+                &quot;reseller_meta&quot;: null,
+                &quot;zidship_ticket_number&quot;: null,
+                &quot;edits_count&quot;: 0,
+                &quot;delivered_at&quot;: &quot;2026-06-10 13:05:37&quot;,
+                &quot;is_marketplace_order&quot;: false,
+                &quot;invoice_link&quot;: &quot;https://zid-platform.s3-accelerate.amazonaws.com/public/pdfs/1085223/orders/invoices/order_70567872.pdf&quot;,
+                &quot;payment_network&quot;: null,
+                &quot;preorder_campaign&quot;: null
+            },
+            {
+                &quot;id&quot;: 70567485,
+                &quot;invoice_number&quot;: 70567485,
+                &quot;code&quot;: &quot;uyLR1PLia4&quot;,
+                &quot;store_id&quot;: 1085223,
+                &quot;order_url&quot;: &quot;https://bstlia.zid.store/o/uyLR1PLia4/inv&quot;,
+                &quot;store_name&quot;: &quot;Haddiya Test&quot;,
+                &quot;shipping_method_code&quot;: &quot;custom&quot;,
+                &quot;store_url&quot;: &quot;https://bstlia.zid.store/&quot;,
+                &quot;order_status&quot;: {
+                    &quot;name&quot;: &quot;Delivered&quot;,
+                    &quot;code&quot;: &quot;delivered&quot;
+                },
+                &quot;display_status&quot;: {
+                    &quot;id&quot;: 5,
+                    &quot;code&quot;: &quot;delivered&quot;,
+                    &quot;color&quot;: &quot;#27ae60&quot;,
+                    &quot;name&quot;: &quot;Delivered&quot;
+                },
+                &quot;currency_code&quot;: &quot;SAR&quot;,
+                &quot;customer&quot;: {
+                    &quot;id&quot;: 4584676,
+                    &quot;name&quot;: &quot;DHIYA Alnadabi&quot;,
+                    &quot;email&quot;: &quot;alnadabidhiyaa@gmail.com&quot;,
+                    &quot;mobile&quot;: &quot;96891329892&quot;,
+                    &quot;note&quot;: &quot;&quot;,
+                    &quot;verified&quot;: 1,
+                    &quot;type&quot;: &quot;individual&quot;
+                },
+                &quot;has_different_consignee&quot;: 0,
+                &quot;is_guest_customer&quot;: 0,
+                &quot;is_gift_order&quot;: 0,
+                &quot;gift_card_details&quot;: null,
+                &quot;is_quick_checkout_order&quot;: false,
+                &quot;order_total&quot;: &quot;17.00000000000000&quot;,
+                &quot;order_total_string&quot;: &quot;17.00 SAR&quot;,
+                &quot;has_different_transaction_currency&quot;: false,
+                &quot;transaction_reference&quot;: null,
+                &quot;transaction_amount&quot;: 17,
+                &quot;transaction_amount_string&quot;: &quot;17.00 SAR&quot;,
+                &quot;issue_date&quot;: &quot;10-06-2026 | 02:20 م&quot;,
+                &quot;payment_status&quot;: &quot;paid&quot;,
+                &quot;is_potential_fraud&quot;: false,
+                &quot;source&quot;: &quot;Store&quot;,
+                &quot;source_code&quot;: &quot;catalog&quot;,
+                &quot;is_reseller_transaction&quot;: false,
+                &quot;created_at&quot;: &quot;2026-06-10 11:20:52&quot;,
+                &quot;updated_at&quot;: &quot;2026-06-10 13:06:13&quot;,
+                &quot;is_on_demand&quot;: false,
+                &quot;import_id&quot;: null,
+                &quot;tags&quot;: [],
+                &quot;requires_shipping&quot;: true,
+                &quot;should_merchant_set_shipping_method&quot;: false,
+                &quot;shipping&quot;: {
+                    &quot;method&quot;: {
+                        &quot;id&quot;: 819202,
+                        &quot;name&quot;: &quot;توصيل المتجر&quot;,
+                        &quot;display_name&quot;: &quot;Store Courier&quot;,
+                        &quot;code&quot;: &quot;custom&quot;,
+                        &quot;estimated_delivery_time&quot;: &quot;&quot;,
+                        &quot;icon&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ec78b7f0-4bab-4808-867c-a1ceca8e8b0d.png&quot;,
+                        &quot;is_system_option&quot;: false,
+                        &quot;waybill&quot;: null,
+                        &quot;had_errors_while_fetching_waybill&quot;: false,
+                        &quot;waybill_tracking_id&quot;: null,
+                        &quot;has_waybill_and_packing_list&quot;: false,
+                        &quot;tracking&quot;: {
+                            &quot;number&quot;: null,
+                            &quot;status&quot;: null,
+                            &quot;url&quot;: null
+                        },
+                        &quot;order_shipping_status&quot;: null,
+                        &quot;inventory_address&quot;: [],
+                        &quot;courier&quot;: null,
+                        &quot;return_shipment&quot;: null,
+                        &quot;packages_count&quot;: 1
+                    },
+                    &quot;address&quot;: {
+                        &quot;formatted_address&quot;: &quot;N/A&quot;,
+                        &quot;street&quot;: &quot;M4Q7+3JQ، السيب&lrm;، عمان&quot;,
+                        &quot;district&quot;: &quot;المعبيلة&quot;,
+                        &quot;lat&quot;: 23.687381825913,
+                        &quot;lng&quot;: 58.113762646889,
+                        &quot;short_address&quot;: null,
+                        &quot;meta&quot;: {
+                            &quot;building_number&quot;: &quot;77&quot;,
+                            &quot;postcode&quot;: null,
+                            &quot;additional_number&quot;: null,
+                            &quot;national_id&quot;: null
+                        },
+                        &quot;city&quot;: {
+                            &quot;id&quot;: 193,
+                            &quot;name&quot;: &quot;Muscat&quot;
+                        },
+                        &quot;country&quot;: {
+                            &quot;id&quot;: 161,
+                            &quot;name&quot;: &quot;Oman&quot;
+                        }
+                    }
+                },
+                &quot;payment&quot;: {
+                    &quot;method&quot;: {
+                        &quot;name&quot;: &quot;Cash on Delivery&quot;,
+                        &quot;code&quot;: &quot;zid_cod&quot;,
+                        &quot;type&quot;: &quot;zid_cod&quot;
+                    },
+                    &quot;invoice&quot;: [
+                        {
+                            &quot;code&quot;: &quot;sub_totals&quot;,
+                            &quot;value&quot;: &quot;13.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;13.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Sub Totals&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;shipping&quot;,
+                            &quot;value&quot;: &quot;2.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;2.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Shipping&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;zid_cod&quot;,
+                            &quot;value&quot;: &quot;2.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;2.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Cash on Delivery&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;total&quot;,
+                            &quot;value&quot;: &quot;17.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;17.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Total&quot;
+                        }
+                    ]
+                },
+                &quot;cod_confirmed&quot;: true,
+                &quot;reverse_order_label_request&quot;: null,
+                &quot;reverse_order_label_requests&quot;: [],
+                &quot;customer_note&quot;: &quot;&quot;,
+                &quot;gift_message&quot;: null,
+                &quot;payment_link&quot;: null,
+                &quot;weight&quot;: 54,
+                &quot;weight_cost_details&quot;: [],
+                &quot;currency&quot;: {
+                    &quot;order_currency&quot;: {
+                        &quot;id&quot;: 4,
+                        &quot;code&quot;: &quot;SAR&quot;,
+                        &quot;exchange_rate&quot;: 1
+                    },
+                    &quot;order_store_currency&quot;: {
+                        &quot;id&quot;: 4,
+                        &quot;code&quot;: &quot;SAR&quot;,
+                        &quot;exchange_rate&quot;: null
+                    }
+                },
+                &quot;coupon&quot;: null,
+                &quot;coupons&quot;: [],
+                &quot;products&quot;: [
+                    {
+                        &quot;id&quot;: &quot;610bdff0-e9c5-4477-976f-cdaa478dfe4c&quot;,
+                        &quot;order_product_id&quot;: 121842960,
+                        &quot;parent_id&quot;: null,
+                        &quot;parent_name&quot;: null,
+                        &quot;product_class&quot;: null,
+                        &quot;name&quot;: &quot;Michael Angelo - Women&#039;s Wallet Y2&quot;,
+                        &quot;short_description&quot;: {
+                            &quot;ar&quot;: &quot;محفظة Y2 للجنسين من مايكل انجلو تتميز بتصميمات عصرية.&quot;,
+                            &quot;en&quot;: &quot;Michael Angelo Y2 Unisex Wallet featuring modern designs.\n &quot;
+                        },
+                        &quot;sku&quot;: &quot;LM0375MB&quot;,
+                        &quot;barcode&quot;: null,
+                        &quot;custom_fields&quot;: [],
+                        &quot;quantity&quot;: 1,
+                        &quot;weight&quot;: {
+                            &quot;value&quot;: 0.054,
+                            &quot;unit&quot;: &quot;kg&quot;
+                        },
+                        &quot;is_taxable&quot;: true,
+                        &quot;is_discounted&quot;: false,
+                        &quot;meta&quot;: null,
+                        &quot;is_external_product&quot;: false,
+                        &quot;discounts&quot;: [],
+                        &quot;net_price_with_additions&quot;: 13,
+                        &quot;net_price_with_additions_string&quot;: &quot;13.00 SAR&quot;,
+                        &quot;price_with_additions&quot;: 13,
+                        &quot;price_with_additions_string&quot;: &quot;13.00 SAR&quot;,
+                        &quot;net_price&quot;: 13,
+                        &quot;net_price_string&quot;: &quot;13.00 SAR&quot;,
+                        &quot;net_sale_price&quot;: null,
+                        &quot;net_sale_price_string&quot;: null,
+                        &quot;net_additions_price&quot;: 0,
+                        &quot;net_additions_price_string&quot;: null,
+                        &quot;gross_price&quot;: 13,
+                        &quot;gross_price_string&quot;: &quot;13.00 SAR&quot;,
+                        &quot;gross_sale_price&quot;: null,
+                        &quot;gross_sale_price_string&quot;: null,
+                        &quot;price_before&quot;: null,
+                        &quot;price_before_string&quot;: null,
+                        &quot;total_before&quot;: null,
+                        &quot;total_before_string&quot;: null,
+                        &quot;gross_additions_price&quot;: 0,
+                        &quot;gross_additions_price_string&quot;: null,
+                        &quot;discount_percentage&quot;: 0,
+                        &quot;tax_percentage&quot;: 0,
+                        &quot;tax_amount&quot;: &quot;0.00000000000000&quot;,
+                        &quot;tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount&quot;: 0,
+                        &quot;discounted_tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;price&quot;: 13,
+                        &quot;price_string&quot;: &quot;13.00 SAR&quot;,
+                        &quot;additions_price&quot;: 0,
+                        &quot;additions_price_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;total&quot;: 13,
+                        &quot;total_string&quot;: &quot;13.00 SAR&quot;,
+                        &quot;discounted_total&quot;: 13,
+                        &quot;discounted_total_string&quot;: &quot;13.00 SAR&quot;,
+                        &quot;images&quot;: [
+                            {
+                                &quot;id&quot;: &quot;04cab666-3f64-49cb-bc7b-1121fb661232&quot;,
+                                &quot;origin&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/04cab666-3f64-49cb-bc7b-1121fb661232-thumbnail-500x500-70.jpg&quot;,
+                                &quot;thumbs&quot;: {
+                                    &quot;fullSize&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/04cab666-3f64-49cb-bc7b-1121fb661232.jpg&quot;,
+                                    &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/04cab666-3f64-49cb-bc7b-1121fb661232-thumbnail-370x370-70.jpg&quot;,
+                                    &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/04cab666-3f64-49cb-bc7b-1121fb661232-thumbnail-500x500-70.jpg&quot;,
+                                    &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/04cab666-3f64-49cb-bc7b-1121fb661232-thumbnail-770x770-70.jpg&quot;,
+                                    &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/04cab666-3f64-49cb-bc7b-1121fb661232-thumbnail-1000x1000-70.jpg&quot;
+                                }
+                            }
+                        ],
+                        &quot;options&quot;: [],
+                        &quot;inventory_allocations&quot;: []
+                    }
+                ],
+                &quot;products_count&quot;: 1,
+                &quot;products_sum_total_string&quot;: &quot;13.00 SAR&quot;,
+                &quot;is_preorder&quot;: false,
+                &quot;is_preorder_allocated&quot;: true,
+                &quot;language&quot;: &quot;ar&quot;,
+                &quot;is_reactivated&quot;: false,
+                &quot;return_policy&quot;: null,
+                &quot;packages_count&quot;: 1,
+                &quot;inventory_address&quot;: {
+                    &quot;id&quot;: &quot;c3d144fa69de40f2882e67e46b505383&quot;,
+                    &quot;name&quot;: &quot;مخزن ضياء&quot;,
+                    &quot;city&quot;: {
+                        &quot;id&quot;: 193,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Muscat&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مسقط&quot;,
+                        &quot;en_name&quot;: &quot;Muscat&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;,
+                    &quot;street&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;,
+                    &quot;short_address&quot;: null,
+                    &quot;district&quot;: &quot;&quot;,
+                    &quot;postal_code&quot;: null,
+                    &quot;coordinates&quot;: {
+                        &quot;lat&quot;: 23.6244677153526,
+                        &quot;lon&quot;: 58.13707373137114
+                    },
+                    &quot;cop_enabled&quot;: false,
+                    &quot;is_pickup_option&quot;: false,
+                    &quot;is_zidship_default&quot;: true,
+                    &quot;working_hours&quot;: []
+                },
+                &quot;expected_shipping_method_type&quot;: null,
+                &quot;reseller_meta&quot;: null,
+                &quot;zidship_ticket_number&quot;: null,
+                &quot;edits_count&quot;: 0,
+                &quot;delivered_at&quot;: &quot;2026-06-10 13:05:45&quot;,
+                &quot;is_marketplace_order&quot;: false,
+                &quot;invoice_link&quot;: &quot;https://zid-platform.s3-accelerate.amazonaws.com/public/pdfs/1085223/orders/invoices/order_70567485.pdf&quot;,
+                &quot;payment_network&quot;: null,
+                &quot;preorder_campaign&quot;: null
+            },
+            {
+                &quot;id&quot;: 70567100,
+                &quot;invoice_number&quot;: 70567100,
+                &quot;code&quot;: &quot;EJbeTtvawo&quot;,
+                &quot;store_id&quot;: 1085223,
+                &quot;order_url&quot;: &quot;https://bstlia.zid.store/o/EJbeTtvawo/inv&quot;,
+                &quot;store_name&quot;: &quot;Haddiya Test&quot;,
+                &quot;shipping_method_code&quot;: &quot;custom&quot;,
+                &quot;store_url&quot;: &quot;https://bstlia.zid.store/&quot;,
+                &quot;order_status&quot;: {
+                    &quot;name&quot;: &quot;Delivered&quot;,
+                    &quot;code&quot;: &quot;delivered&quot;
+                },
+                &quot;display_status&quot;: {
+                    &quot;id&quot;: 5,
+                    &quot;code&quot;: &quot;delivered&quot;,
+                    &quot;color&quot;: &quot;#27ae60&quot;,
+                    &quot;name&quot;: &quot;Delivered&quot;
+                },
+                &quot;currency_code&quot;: &quot;SAR&quot;,
+                &quot;customer&quot;: {
+                    &quot;id&quot;: 4584676,
+                    &quot;name&quot;: &quot;DHIYA Alnadabi&quot;,
+                    &quot;email&quot;: &quot;alnadabidhiyaa@gmail.com&quot;,
+                    &quot;mobile&quot;: &quot;96891329892&quot;,
+                    &quot;note&quot;: &quot;&quot;,
+                    &quot;verified&quot;: 1,
+                    &quot;type&quot;: &quot;individual&quot;
+                },
+                &quot;has_different_consignee&quot;: 0,
+                &quot;is_guest_customer&quot;: 0,
+                &quot;is_gift_order&quot;: 0,
+                &quot;gift_card_details&quot;: null,
+                &quot;is_quick_checkout_order&quot;: false,
+                &quot;order_total&quot;: &quot;63.00000000000000&quot;,
+                &quot;order_total_string&quot;: &quot;63.00 SAR&quot;,
+                &quot;has_different_transaction_currency&quot;: false,
+                &quot;transaction_reference&quot;: null,
+                &quot;transaction_amount&quot;: 63,
+                &quot;transaction_amount_string&quot;: &quot;63.00 SAR&quot;,
+                &quot;issue_date&quot;: &quot;10-06-2026 | 02:06 م&quot;,
+                &quot;payment_status&quot;: &quot;paid&quot;,
+                &quot;is_potential_fraud&quot;: false,
+                &quot;source&quot;: &quot;Store&quot;,
+                &quot;source_code&quot;: &quot;catalog&quot;,
+                &quot;is_reseller_transaction&quot;: false,
+                &quot;created_at&quot;: &quot;2026-06-10 11:06:55&quot;,
+                &quot;updated_at&quot;: &quot;2026-06-10 13:06:18&quot;,
+                &quot;is_on_demand&quot;: false,
+                &quot;import_id&quot;: null,
+                &quot;tags&quot;: [],
+                &quot;requires_shipping&quot;: true,
+                &quot;should_merchant_set_shipping_method&quot;: false,
+                &quot;shipping&quot;: {
+                    &quot;method&quot;: {
+                        &quot;id&quot;: 819202,
+                        &quot;name&quot;: &quot;توصيل المتجر&quot;,
+                        &quot;display_name&quot;: &quot;Store Courier&quot;,
+                        &quot;code&quot;: &quot;custom&quot;,
+                        &quot;estimated_delivery_time&quot;: &quot;&quot;,
+                        &quot;icon&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ec78b7f0-4bab-4808-867c-a1ceca8e8b0d.png&quot;,
+                        &quot;is_system_option&quot;: false,
+                        &quot;waybill&quot;: null,
+                        &quot;had_errors_while_fetching_waybill&quot;: false,
+                        &quot;waybill_tracking_id&quot;: null,
+                        &quot;has_waybill_and_packing_list&quot;: false,
+                        &quot;tracking&quot;: {
+                            &quot;number&quot;: null,
+                            &quot;status&quot;: null,
+                            &quot;url&quot;: null
+                        },
+                        &quot;order_shipping_status&quot;: null,
+                        &quot;inventory_address&quot;: [],
+                        &quot;courier&quot;: null,
+                        &quot;return_shipment&quot;: null,
+                        &quot;packages_count&quot;: 1
+                    },
+                    &quot;address&quot;: {
+                        &quot;formatted_address&quot;: &quot;N/A&quot;,
+                        &quot;street&quot;: &quot;M4Q7+3JQ، السيب&lrm;، عمان&quot;,
+                        &quot;district&quot;: &quot;المعبيلة&quot;,
+                        &quot;lat&quot;: 23.687381825913,
+                        &quot;lng&quot;: 58.113762646889,
+                        &quot;short_address&quot;: null,
+                        &quot;meta&quot;: {
+                            &quot;building_number&quot;: &quot;77&quot;,
+                            &quot;postcode&quot;: null,
+                            &quot;additional_number&quot;: null,
+                            &quot;national_id&quot;: null
+                        },
+                        &quot;city&quot;: {
+                            &quot;id&quot;: 193,
+                            &quot;name&quot;: &quot;Muscat&quot;
+                        },
+                        &quot;country&quot;: {
+                            &quot;id&quot;: 161,
+                            &quot;name&quot;: &quot;Oman&quot;
+                        }
+                    }
+                },
+                &quot;payment&quot;: {
+                    &quot;method&quot;: {
+                        &quot;name&quot;: &quot;Cash on Delivery&quot;,
+                        &quot;code&quot;: &quot;zid_cod&quot;,
+                        &quot;type&quot;: &quot;zid_cod&quot;
+                    },
+                    &quot;invoice&quot;: [
+                        {
+                            &quot;code&quot;: &quot;sub_totals&quot;,
+                            &quot;value&quot;: &quot;59.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;59.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Sub Totals&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;shipping&quot;,
+                            &quot;value&quot;: &quot;2.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;2.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Shipping&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;zid_cod&quot;,
+                            &quot;value&quot;: &quot;2.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;2.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Cash on Delivery&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;total&quot;,
+                            &quot;value&quot;: &quot;63.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;63.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Total&quot;
+                        }
+                    ]
+                },
+                &quot;cod_confirmed&quot;: true,
+                &quot;reverse_order_label_request&quot;: null,
+                &quot;reverse_order_label_requests&quot;: [],
+                &quot;customer_note&quot;: &quot;&quot;,
+                &quot;gift_message&quot;: null,
+                &quot;payment_link&quot;: null,
+                &quot;weight&quot;: 730,
+                &quot;weight_cost_details&quot;: [],
+                &quot;currency&quot;: {
+                    &quot;order_currency&quot;: {
+                        &quot;id&quot;: 4,
+                        &quot;code&quot;: &quot;SAR&quot;,
+                        &quot;exchange_rate&quot;: 1
+                    },
+                    &quot;order_store_currency&quot;: {
+                        &quot;id&quot;: 4,
+                        &quot;code&quot;: &quot;SAR&quot;,
+                        &quot;exchange_rate&quot;: null
+                    }
+                },
+                &quot;coupon&quot;: null,
+                &quot;coupons&quot;: [],
+                &quot;products&quot;: [
+                    {
+                        &quot;id&quot;: &quot;eb5d9205-febf-42b2-aea3-eff70b92b293&quot;,
+                        &quot;order_product_id&quot;: 121842116,
+                        &quot;parent_id&quot;: null,
+                        &quot;parent_name&quot;: null,
+                        &quot;product_class&quot;: null,
+                        &quot;name&quot;: &quot;Michael Angelo 03ZA- Women&rsquo;s &quot;,
+                        &quot;short_description&quot;: {
+                            &quot;ar&quot;: &quot;مجموعة مايكل انجلو رويال جراند كلاسيك الفضية &quot;,
+                            &quot;en&quot;: &quot;Michael Angelo Grand Royale Classic Silver Series&quot;
+                        },
+                        &quot;sku&quot;: &quot;WM0297WL&quot;,
+                        &quot;barcode&quot;: null,
+                        &quot;custom_fields&quot;: [],
+                        &quot;quantity&quot;: 1,
+                        &quot;weight&quot;: {
+                            &quot;value&quot;: 0.73,
+                            &quot;unit&quot;: &quot;kg&quot;
+                        },
+                        &quot;is_taxable&quot;: true,
+                        &quot;is_discounted&quot;: false,
+                        &quot;meta&quot;: null,
+                        &quot;is_external_product&quot;: false,
+                        &quot;discounts&quot;: [],
+                        &quot;net_price_with_additions&quot;: 59,
+                        &quot;net_price_with_additions_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;price_with_additions&quot;: 59,
+                        &quot;price_with_additions_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;net_price&quot;: 59,
+                        &quot;net_price_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;net_sale_price&quot;: null,
+                        &quot;net_sale_price_string&quot;: null,
+                        &quot;net_additions_price&quot;: 0,
+                        &quot;net_additions_price_string&quot;: null,
+                        &quot;gross_price&quot;: 59,
+                        &quot;gross_price_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;gross_sale_price&quot;: null,
+                        &quot;gross_sale_price_string&quot;: null,
+                        &quot;price_before&quot;: null,
+                        &quot;price_before_string&quot;: null,
+                        &quot;total_before&quot;: null,
+                        &quot;total_before_string&quot;: null,
+                        &quot;gross_additions_price&quot;: 0,
+                        &quot;gross_additions_price_string&quot;: null,
+                        &quot;discount_percentage&quot;: 0,
+                        &quot;tax_percentage&quot;: 0,
+                        &quot;tax_amount&quot;: &quot;0.00000000000000&quot;,
+                        &quot;tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount&quot;: 0,
+                        &quot;discounted_tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;price&quot;: 59,
+                        &quot;price_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;additions_price&quot;: 0,
+                        &quot;additions_price_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;total&quot;: 59,
+                        &quot;total_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;discounted_total&quot;: 59,
+                        &quot;discounted_total_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;images&quot;: [
+                            {
+                                &quot;id&quot;: &quot;f319bb96-41b6-41a5-a0be-b6935a11c2f6&quot;,
+                                &quot;origin&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-500x500.png&quot;,
+                                &quot;thumbs&quot;: {
+                                    &quot;fullSize&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6.png&quot;,
+                                    &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-370x370.png&quot;,
+                                    &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-500x500.png&quot;,
+                                    &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-770x770.png&quot;,
+                                    &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-1000x1000.png&quot;
+                                }
+                            }
+                        ],
+                        &quot;options&quot;: [],
+                        &quot;inventory_allocations&quot;: []
+                    }
+                ],
+                &quot;products_count&quot;: 1,
+                &quot;products_sum_total_string&quot;: &quot;59.00 SAR&quot;,
+                &quot;is_preorder&quot;: false,
+                &quot;is_preorder_allocated&quot;: true,
+                &quot;language&quot;: &quot;ar&quot;,
+                &quot;is_reactivated&quot;: false,
+                &quot;return_policy&quot;: null,
+                &quot;packages_count&quot;: 1,
+                &quot;inventory_address&quot;: {
+                    &quot;id&quot;: &quot;c3d144fa69de40f2882e67e46b505383&quot;,
+                    &quot;name&quot;: &quot;مخزن ضياء&quot;,
+                    &quot;city&quot;: {
+                        &quot;id&quot;: 193,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Muscat&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مسقط&quot;,
+                        &quot;en_name&quot;: &quot;Muscat&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;,
+                    &quot;street&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;,
+                    &quot;short_address&quot;: null,
+                    &quot;district&quot;: &quot;&quot;,
+                    &quot;postal_code&quot;: null,
+                    &quot;coordinates&quot;: {
+                        &quot;lat&quot;: 23.6244677153526,
+                        &quot;lon&quot;: 58.13707373137114
+                    },
+                    &quot;cop_enabled&quot;: false,
+                    &quot;is_pickup_option&quot;: false,
+                    &quot;is_zidship_default&quot;: true,
+                    &quot;working_hours&quot;: []
+                },
+                &quot;expected_shipping_method_type&quot;: null,
+                &quot;reseller_meta&quot;: null,
+                &quot;zidship_ticket_number&quot;: null,
+                &quot;edits_count&quot;: 0,
+                &quot;delivered_at&quot;: &quot;2026-06-10 13:05:52&quot;,
+                &quot;is_marketplace_order&quot;: false,
+                &quot;invoice_link&quot;: &quot;https://zid-platform.s3-accelerate.amazonaws.com/public/pdfs/1085223/orders/invoices/order_70567100.pdf&quot;,
+                &quot;payment_network&quot;: null,
+                &quot;preorder_campaign&quot;: null
+            },
+            {
+                &quot;id&quot;: 70566805,
+                &quot;invoice_number&quot;: 70566805,
+                &quot;code&quot;: &quot;RUmNlr30BS&quot;,
+                &quot;store_id&quot;: 1085223,
+                &quot;order_url&quot;: &quot;https://bstlia.zid.store/o/RUmNlr30BS/inv&quot;,
+                &quot;store_name&quot;: &quot;Haddiya Test&quot;,
+                &quot;shipping_method_code&quot;: &quot;custom&quot;,
+                &quot;store_url&quot;: &quot;https://bstlia.zid.store/&quot;,
+                &quot;order_status&quot;: {
+                    &quot;name&quot;: &quot;Delivered&quot;,
+                    &quot;code&quot;: &quot;delivered&quot;
+                },
+                &quot;display_status&quot;: {
+                    &quot;id&quot;: 5,
+                    &quot;code&quot;: &quot;delivered&quot;,
+                    &quot;color&quot;: &quot;#27ae60&quot;,
+                    &quot;name&quot;: &quot;Delivered&quot;
+                },
+                &quot;currency_code&quot;: &quot;SAR&quot;,
+                &quot;customer&quot;: {
+                    &quot;id&quot;: 4584676,
+                    &quot;name&quot;: &quot;DHIYA Alnadabi&quot;,
+                    &quot;email&quot;: &quot;alnadabidhiyaa@gmail.com&quot;,
+                    &quot;mobile&quot;: &quot;96891329892&quot;,
+                    &quot;note&quot;: &quot;&quot;,
+                    &quot;verified&quot;: 1,
+                    &quot;type&quot;: &quot;individual&quot;
+                },
+                &quot;has_different_consignee&quot;: 0,
+                &quot;is_guest_customer&quot;: 0,
+                &quot;is_gift_order&quot;: 0,
+                &quot;gift_card_details&quot;: null,
+                &quot;is_quick_checkout_order&quot;: false,
+                &quot;order_total&quot;: &quot;63.00000000000000&quot;,
+                &quot;order_total_string&quot;: &quot;63.00 SAR&quot;,
+                &quot;has_different_transaction_currency&quot;: false,
+                &quot;transaction_reference&quot;: null,
+                &quot;transaction_amount&quot;: 63,
+                &quot;transaction_amount_string&quot;: &quot;63.00 SAR&quot;,
+                &quot;issue_date&quot;: &quot;10-06-2026 | 01:55 م&quot;,
+                &quot;payment_status&quot;: &quot;paid&quot;,
+                &quot;is_potential_fraud&quot;: false,
+                &quot;source&quot;: &quot;Store&quot;,
+                &quot;source_code&quot;: &quot;catalog&quot;,
+                &quot;is_reseller_transaction&quot;: false,
+                &quot;created_at&quot;: &quot;2026-06-10 10:55:31&quot;,
+                &quot;updated_at&quot;: &quot;2026-06-10 13:06:23&quot;,
+                &quot;is_on_demand&quot;: false,
+                &quot;import_id&quot;: null,
+                &quot;tags&quot;: [],
+                &quot;requires_shipping&quot;: true,
+                &quot;should_merchant_set_shipping_method&quot;: false,
+                &quot;shipping&quot;: {
+                    &quot;method&quot;: {
+                        &quot;id&quot;: 819202,
+                        &quot;name&quot;: &quot;توصيل المتجر&quot;,
+                        &quot;display_name&quot;: &quot;Store Courier&quot;,
+                        &quot;code&quot;: &quot;custom&quot;,
+                        &quot;estimated_delivery_time&quot;: &quot;&quot;,
+                        &quot;icon&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ec78b7f0-4bab-4808-867c-a1ceca8e8b0d.png&quot;,
+                        &quot;is_system_option&quot;: false,
+                        &quot;waybill&quot;: null,
+                        &quot;had_errors_while_fetching_waybill&quot;: false,
+                        &quot;waybill_tracking_id&quot;: null,
+                        &quot;has_waybill_and_packing_list&quot;: false,
+                        &quot;tracking&quot;: {
+                            &quot;number&quot;: null,
+                            &quot;status&quot;: null,
+                            &quot;url&quot;: null
+                        },
+                        &quot;order_shipping_status&quot;: null,
+                        &quot;inventory_address&quot;: [],
+                        &quot;courier&quot;: null,
+                        &quot;return_shipment&quot;: null,
+                        &quot;packages_count&quot;: 1
+                    },
+                    &quot;address&quot;: {
+                        &quot;formatted_address&quot;: &quot;N/A&quot;,
+                        &quot;street&quot;: &quot;M4Q7+3JQ، السيب&lrm;، عمان&quot;,
+                        &quot;district&quot;: &quot;المعبيلة&quot;,
+                        &quot;lat&quot;: 23.687381825913,
+                        &quot;lng&quot;: 58.113762646889,
+                        &quot;short_address&quot;: null,
+                        &quot;meta&quot;: {
+                            &quot;building_number&quot;: &quot;77&quot;,
+                            &quot;postcode&quot;: null,
+                            &quot;additional_number&quot;: null,
+                            &quot;national_id&quot;: null
+                        },
+                        &quot;city&quot;: {
+                            &quot;id&quot;: 193,
+                            &quot;name&quot;: &quot;Muscat&quot;
+                        },
+                        &quot;country&quot;: {
+                            &quot;id&quot;: 161,
+                            &quot;name&quot;: &quot;Oman&quot;
+                        }
+                    }
+                },
+                &quot;payment&quot;: {
+                    &quot;method&quot;: {
+                        &quot;name&quot;: &quot;Cash on Delivery&quot;,
+                        &quot;code&quot;: &quot;zid_cod&quot;,
+                        &quot;type&quot;: &quot;zid_cod&quot;
+                    },
+                    &quot;invoice&quot;: [
+                        {
+                            &quot;code&quot;: &quot;sub_totals&quot;,
+                            &quot;value&quot;: &quot;59.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;59.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Sub Totals&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;shipping&quot;,
+                            &quot;value&quot;: &quot;2.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;2.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Shipping&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;zid_cod&quot;,
+                            &quot;value&quot;: &quot;2.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;2.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Cash on Delivery&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;total&quot;,
+                            &quot;value&quot;: &quot;63.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;63.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Total&quot;
+                        }
+                    ]
+                },
+                &quot;cod_confirmed&quot;: true,
+                &quot;reverse_order_label_request&quot;: null,
+                &quot;reverse_order_label_requests&quot;: [],
+                &quot;customer_note&quot;: &quot;&quot;,
+                &quot;gift_message&quot;: null,
+                &quot;payment_link&quot;: null,
+                &quot;weight&quot;: 730,
+                &quot;weight_cost_details&quot;: [],
+                &quot;currency&quot;: {
+                    &quot;order_currency&quot;: {
+                        &quot;id&quot;: 4,
+                        &quot;code&quot;: &quot;SAR&quot;,
+                        &quot;exchange_rate&quot;: 1
+                    },
+                    &quot;order_store_currency&quot;: {
+                        &quot;id&quot;: 4,
+                        &quot;code&quot;: &quot;SAR&quot;,
+                        &quot;exchange_rate&quot;: null
+                    }
+                },
+                &quot;coupon&quot;: null,
+                &quot;coupons&quot;: [],
+                &quot;products&quot;: [
+                    {
+                        &quot;id&quot;: &quot;eb5d9205-febf-42b2-aea3-eff70b92b293&quot;,
+                        &quot;order_product_id&quot;: 121841639,
+                        &quot;parent_id&quot;: null,
+                        &quot;parent_name&quot;: null,
+                        &quot;product_class&quot;: null,
+                        &quot;name&quot;: &quot;Michael Angelo 03ZA- Women&rsquo;s &quot;,
+                        &quot;short_description&quot;: {
+                            &quot;ar&quot;: &quot;مجموعة مايكل انجلو رويال جراند كلاسيك الفضية &quot;,
+                            &quot;en&quot;: &quot;Michael Angelo Grand Royale Classic Silver Series&quot;
+                        },
+                        &quot;sku&quot;: &quot;WM0297WL&quot;,
+                        &quot;barcode&quot;: null,
+                        &quot;custom_fields&quot;: [],
+                        &quot;quantity&quot;: 1,
+                        &quot;weight&quot;: {
+                            &quot;value&quot;: 0.73,
+                            &quot;unit&quot;: &quot;kg&quot;
+                        },
+                        &quot;is_taxable&quot;: true,
+                        &quot;is_discounted&quot;: false,
+                        &quot;meta&quot;: null,
+                        &quot;is_external_product&quot;: false,
+                        &quot;discounts&quot;: [],
+                        &quot;net_price_with_additions&quot;: 59,
+                        &quot;net_price_with_additions_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;price_with_additions&quot;: 59,
+                        &quot;price_with_additions_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;net_price&quot;: 59,
+                        &quot;net_price_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;net_sale_price&quot;: null,
+                        &quot;net_sale_price_string&quot;: null,
+                        &quot;net_additions_price&quot;: 0,
+                        &quot;net_additions_price_string&quot;: null,
+                        &quot;gross_price&quot;: 59,
+                        &quot;gross_price_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;gross_sale_price&quot;: null,
+                        &quot;gross_sale_price_string&quot;: null,
+                        &quot;price_before&quot;: null,
+                        &quot;price_before_string&quot;: null,
+                        &quot;total_before&quot;: null,
+                        &quot;total_before_string&quot;: null,
+                        &quot;gross_additions_price&quot;: 0,
+                        &quot;gross_additions_price_string&quot;: null,
+                        &quot;discount_percentage&quot;: 0,
+                        &quot;tax_percentage&quot;: 0,
+                        &quot;tax_amount&quot;: &quot;0.00000000000000&quot;,
+                        &quot;tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount&quot;: 0,
+                        &quot;discounted_tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;price&quot;: 59,
+                        &quot;price_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;additions_price&quot;: 0,
+                        &quot;additions_price_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;total&quot;: 59,
+                        &quot;total_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;discounted_total&quot;: 59,
+                        &quot;discounted_total_string&quot;: &quot;59.00 SAR&quot;,
+                        &quot;images&quot;: [
+                            {
+                                &quot;id&quot;: &quot;f319bb96-41b6-41a5-a0be-b6935a11c2f6&quot;,
+                                &quot;origin&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-500x500.png&quot;,
+                                &quot;thumbs&quot;: {
+                                    &quot;fullSize&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6.png&quot;,
+                                    &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-370x370.png&quot;,
+                                    &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-500x500.png&quot;,
+                                    &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-770x770.png&quot;,
+                                    &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/f319bb96-41b6-41a5-a0be-b6935a11c2f6-thumbnail-1000x1000.png&quot;
+                                }
+                            }
+                        ],
+                        &quot;options&quot;: [],
+                        &quot;inventory_allocations&quot;: []
+                    }
+                ],
+                &quot;products_count&quot;: 1,
+                &quot;products_sum_total_string&quot;: &quot;59.00 SAR&quot;,
+                &quot;is_preorder&quot;: false,
+                &quot;is_preorder_allocated&quot;: true,
+                &quot;language&quot;: &quot;ar&quot;,
+                &quot;is_reactivated&quot;: false,
+                &quot;return_policy&quot;: null,
+                &quot;packages_count&quot;: 1,
+                &quot;inventory_address&quot;: {
+                    &quot;id&quot;: &quot;c3d144fa69de40f2882e67e46b505383&quot;,
+                    &quot;name&quot;: &quot;مخزن ضياء&quot;,
+                    &quot;city&quot;: {
+                        &quot;id&quot;: 193,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Muscat&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مسقط&quot;,
+                        &quot;en_name&quot;: &quot;Muscat&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;,
+                    &quot;street&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;,
+                    &quot;short_address&quot;: null,
+                    &quot;district&quot;: &quot;&quot;,
+                    &quot;postal_code&quot;: null,
+                    &quot;coordinates&quot;: {
+                        &quot;lat&quot;: 23.6244677153526,
+                        &quot;lon&quot;: 58.13707373137114
+                    },
+                    &quot;cop_enabled&quot;: false,
+                    &quot;is_pickup_option&quot;: false,
+                    &quot;is_zidship_default&quot;: true,
+                    &quot;working_hours&quot;: []
+                },
+                &quot;expected_shipping_method_type&quot;: null,
+                &quot;reseller_meta&quot;: null,
+                &quot;zidship_ticket_number&quot;: null,
+                &quot;edits_count&quot;: 0,
+                &quot;delivered_at&quot;: &quot;2026-06-10 13:05:57&quot;,
+                &quot;is_marketplace_order&quot;: false,
+                &quot;invoice_link&quot;: &quot;https://zid-platform.s3-accelerate.amazonaws.com/public/pdfs/1085223/orders/invoices/order_70566805.pdf&quot;,
+                &quot;payment_network&quot;: null,
+                &quot;preorder_campaign&quot;: null
+            },
+            {
+                &quot;id&quot;: 70565935,
+                &quot;invoice_number&quot;: 70565935,
+                &quot;code&quot;: &quot;kknEonf3qS&quot;,
+                &quot;store_id&quot;: 1085223,
+                &quot;order_url&quot;: &quot;https://bstlia.zid.store/o/kknEonf3qS/inv&quot;,
+                &quot;store_name&quot;: &quot;Haddiya Test&quot;,
+                &quot;shipping_method_code&quot;: &quot;custom&quot;,
+                &quot;store_url&quot;: &quot;https://bstlia.zid.store/&quot;,
+                &quot;order_status&quot;: {
+                    &quot;name&quot;: &quot;Delivered&quot;,
+                    &quot;code&quot;: &quot;delivered&quot;
+                },
+                &quot;display_status&quot;: {
+                    &quot;id&quot;: 5,
+                    &quot;code&quot;: &quot;delivered&quot;,
+                    &quot;color&quot;: &quot;#27ae60&quot;,
+                    &quot;name&quot;: &quot;Delivered&quot;
+                },
+                &quot;currency_code&quot;: &quot;SAR&quot;,
+                &quot;customer&quot;: {
+                    &quot;id&quot;: 4584676,
+                    &quot;name&quot;: &quot;DHIYA Alnadabi&quot;,
+                    &quot;email&quot;: &quot;alnadabidhiyaa@gmail.com&quot;,
+                    &quot;mobile&quot;: &quot;96891329892&quot;,
+                    &quot;note&quot;: &quot;&quot;,
+                    &quot;verified&quot;: 1,
+                    &quot;type&quot;: &quot;individual&quot;
+                },
+                &quot;has_different_consignee&quot;: 0,
+                &quot;is_guest_customer&quot;: 0,
+                &quot;is_gift_order&quot;: 0,
+                &quot;gift_card_details&quot;: null,
+                &quot;is_quick_checkout_order&quot;: false,
+                &quot;order_total&quot;: &quot;281.95000000000000&quot;,
+                &quot;order_total_string&quot;: &quot;281.95 SAR&quot;,
+                &quot;has_different_transaction_currency&quot;: false,
+                &quot;transaction_reference&quot;: null,
+                &quot;transaction_amount&quot;: 281.95,
+                &quot;transaction_amount_string&quot;: &quot;281.95 SAR&quot;,
+                &quot;issue_date&quot;: &quot;10-06-2026 | 01:19 م&quot;,
+                &quot;payment_status&quot;: &quot;paid&quot;,
+                &quot;is_potential_fraud&quot;: false,
+                &quot;source&quot;: &quot;Store&quot;,
+                &quot;source_code&quot;: &quot;catalog&quot;,
+                &quot;is_reseller_transaction&quot;: false,
+                &quot;created_at&quot;: &quot;2026-06-10 10:19:26&quot;,
+                &quot;updated_at&quot;: &quot;2026-06-10 13:06:29&quot;,
+                &quot;is_on_demand&quot;: false,
+                &quot;import_id&quot;: null,
+                &quot;tags&quot;: [],
+                &quot;requires_shipping&quot;: true,
+                &quot;should_merchant_set_shipping_method&quot;: false,
+                &quot;shipping&quot;: {
+                    &quot;method&quot;: {
+                        &quot;id&quot;: 819202,
+                        &quot;name&quot;: &quot;توصيل المتجر&quot;,
+                        &quot;display_name&quot;: &quot;Store Courier&quot;,
+                        &quot;code&quot;: &quot;custom&quot;,
+                        &quot;estimated_delivery_time&quot;: &quot;&quot;,
+                        &quot;icon&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/ec78b7f0-4bab-4808-867c-a1ceca8e8b0d.png&quot;,
+                        &quot;is_system_option&quot;: false,
+                        &quot;waybill&quot;: null,
+                        &quot;had_errors_while_fetching_waybill&quot;: false,
+                        &quot;waybill_tracking_id&quot;: null,
+                        &quot;has_waybill_and_packing_list&quot;: false,
+                        &quot;tracking&quot;: {
+                            &quot;number&quot;: null,
+                            &quot;status&quot;: null,
+                            &quot;url&quot;: null
+                        },
+                        &quot;order_shipping_status&quot;: null,
+                        &quot;inventory_address&quot;: [],
+                        &quot;courier&quot;: null,
+                        &quot;return_shipment&quot;: null,
+                        &quot;packages_count&quot;: 1
+                    },
+                    &quot;address&quot;: {
+                        &quot;formatted_address&quot;: &quot;N/A&quot;,
+                        &quot;street&quot;: &quot;M4Q7+3JQ، السيب&lrm;، عمان&quot;,
+                        &quot;district&quot;: &quot;المعبيلة&quot;,
+                        &quot;lat&quot;: 23.687381825913,
+                        &quot;lng&quot;: 58.113762646889,
+                        &quot;short_address&quot;: null,
+                        &quot;meta&quot;: {
+                            &quot;building_number&quot;: &quot;77&quot;,
+                            &quot;postcode&quot;: null,
+                            &quot;additional_number&quot;: null,
+                            &quot;national_id&quot;: null
+                        },
+                        &quot;city&quot;: {
+                            &quot;id&quot;: 193,
+                            &quot;name&quot;: &quot;Muscat&quot;
+                        },
+                        &quot;country&quot;: {
+                            &quot;id&quot;: 161,
+                            &quot;name&quot;: &quot;Oman&quot;
+                        }
+                    }
+                },
+                &quot;payment&quot;: {
+                    &quot;method&quot;: {
+                        &quot;name&quot;: &quot;Cash on Delivery&quot;,
+                        &quot;code&quot;: &quot;zid_cod&quot;,
+                        &quot;type&quot;: &quot;zid_cod&quot;
+                    },
+                    &quot;invoice&quot;: [
+                        {
+                            &quot;code&quot;: &quot;sub_totals&quot;,
+                            &quot;value&quot;: &quot;327.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;327.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Sub Totals&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;coupon&quot;,
+                            &quot;value&quot;: &quot;-49.05000000000000&quot;,
+                            &quot;value_string&quot;: &quot;-49.05 SAR&quot;,
+                            &quot;title&quot;: &quot;Coupon&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;sub_totals_after_coupon_discount&quot;,
+                            &quot;value&quot;: &quot;277.95000000000000&quot;,
+                            &quot;value_string&quot;: &quot;277.95 SAR&quot;,
+                            &quot;title&quot;: &quot;Sub Totals after Coupon Discount&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;shipping&quot;,
+                            &quot;value&quot;: &quot;2.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;2.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Shipping&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;zid_cod&quot;,
+                            &quot;value&quot;: &quot;2.00000000000000&quot;,
+                            &quot;value_string&quot;: &quot;2.00 SAR&quot;,
+                            &quot;title&quot;: &quot;Cash on Delivery&quot;
+                        },
+                        {
+                            &quot;code&quot;: &quot;total&quot;,
+                            &quot;value&quot;: &quot;281.95000000000000&quot;,
+                            &quot;value_string&quot;: &quot;281.95 SAR&quot;,
+                            &quot;title&quot;: &quot;Total&quot;
+                        }
+                    ]
+                },
+                &quot;cod_confirmed&quot;: true,
+                &quot;reverse_order_label_request&quot;: null,
+                &quot;reverse_order_label_requests&quot;: [],
+                &quot;customer_note&quot;: &quot;&quot;,
+                &quot;gift_message&quot;: null,
+                &quot;payment_link&quot;: null,
+                &quot;weight&quot;: 3735,
+                &quot;weight_cost_details&quot;: [],
+                &quot;currency&quot;: {
+                    &quot;order_currency&quot;: {
+                        &quot;id&quot;: 4,
+                        &quot;code&quot;: &quot;SAR&quot;,
+                        &quot;exchange_rate&quot;: 1
+                    },
+                    &quot;order_store_currency&quot;: {
+                        &quot;id&quot;: 4,
+                        &quot;code&quot;: &quot;SAR&quot;,
+                        &quot;exchange_rate&quot;: null
+                    }
+                },
+                &quot;coupon&quot;: {
+                    &quot;code&quot;: &quot;welcome10&quot;,
+                    &quot;name&quot;: &quot;welcome10&quot;,
+                    &quot;id&quot;: 6318745,
+                    &quot;is_compliment&quot;: false,
+                    &quot;free_shipping&quot;: false,
+                    &quot;discount&quot;: &quot;-49.0500&quot;,
+                    &quot;discount_string&quot;: &quot;-49.05 SAR&quot;
+                },
+                &quot;coupons&quot;: [
+                    {
+                        &quot;code&quot;: &quot;welcome10&quot;,
+                        &quot;name&quot;: &quot;welcome10&quot;,
+                        &quot;id&quot;: 6318745,
+                        &quot;is_compliment&quot;: false,
+                        &quot;free_shipping&quot;: false,
+                        &quot;discount&quot;: &quot;-49.0500&quot;,
+                        &quot;discount_string&quot;: &quot;-49.05 SAR&quot;
+                    }
+                ],
+                &quot;products&quot;: [
+                    {
+                        &quot;id&quot;: &quot;6597bcef-36dd-4326-84d1-3b3d77237b9d&quot;,
+                        &quot;order_product_id&quot;: 121839969,
+                        &quot;parent_id&quot;: null,
+                        &quot;parent_name&quot;: null,
+                        &quot;product_class&quot;: null,
+                        &quot;name&quot;: &quot;Michael Angelo - Gulf Collection GCC01&quot;,
+                        &quot;short_description&quot;: {
+                            &quot;ar&quot;: &quot;تجمع حقيبة  GCC01 من مايكل انجلو  بين التصميم الخالد والتفاصيل المستوحاة من التراث الخليجي.&quot;,
+                            &quot;en&quot;: &quot;The GCC01 bag by Michael Angelo combines timeless design with details inspired by Gulf heritage.&quot;
+                        },
+                        &quot;sku&quot;: &quot;BM0320LG&quot;,
+                        &quot;barcode&quot;: null,
+                        &quot;custom_fields&quot;: [],
+                        &quot;quantity&quot;: 2,
+                        &quot;weight&quot;: {
+                            &quot;value&quot;: 1.18,
+                            &quot;unit&quot;: &quot;kg&quot;
+                        },
+                        &quot;is_taxable&quot;: true,
+                        &quot;is_discounted&quot;: false,
+                        &quot;meta&quot;: null,
+                        &quot;is_external_product&quot;: false,
+                        &quot;discounts&quot;: {
+                            &quot;coupon&quot;: {
+                                &quot;amount&quot;: 16.5,
+                                &quot;percentage&quot;: 15,
+                                &quot;unit_amount&quot;: 8.25
+                            }
+                        },
+                        &quot;net_price_with_additions&quot;: 55,
+                        &quot;net_price_with_additions_string&quot;: &quot;55.00 SAR&quot;,
+                        &quot;price_with_additions&quot;: 55,
+                        &quot;price_with_additions_string&quot;: &quot;55.00 SAR&quot;,
+                        &quot;net_price&quot;: 55,
+                        &quot;net_price_string&quot;: &quot;55.00 SAR&quot;,
+                        &quot;net_sale_price&quot;: null,
+                        &quot;net_sale_price_string&quot;: null,
+                        &quot;net_additions_price&quot;: 0,
+                        &quot;net_additions_price_string&quot;: null,
+                        &quot;gross_price&quot;: 55,
+                        &quot;gross_price_string&quot;: &quot;55.00 SAR&quot;,
+                        &quot;gross_sale_price&quot;: null,
+                        &quot;gross_sale_price_string&quot;: null,
+                        &quot;price_before&quot;: null,
+                        &quot;price_before_string&quot;: null,
+                        &quot;total_before&quot;: null,
+                        &quot;total_before_string&quot;: null,
+                        &quot;gross_additions_price&quot;: 0,
+                        &quot;gross_additions_price_string&quot;: null,
+                        &quot;discount_percentage&quot;: 0.15,
+                        &quot;tax_percentage&quot;: 0,
+                        &quot;tax_amount&quot;: &quot;0.00000000000000&quot;,
+                        &quot;tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount&quot;: 0,
+                        &quot;discounted_tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;price&quot;: 55,
+                        &quot;price_string&quot;: &quot;55.00 SAR&quot;,
+                        &quot;additions_price&quot;: 0,
+                        &quot;additions_price_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;total&quot;: 110,
+                        &quot;total_string&quot;: &quot;110.00 SAR&quot;,
+                        &quot;discounted_total&quot;: 93.5,
+                        &quot;discounted_total_string&quot;: &quot;93.50 SAR&quot;,
+                        &quot;images&quot;: [
+                            {
+                                &quot;id&quot;: &quot;47257403-f23b-46c0-995a-5c18129dbaa3&quot;,
+                                &quot;origin&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/47257403-f23b-46c0-995a-5c18129dbaa3-thumbnail-500x500-70.jpg&quot;,
+                                &quot;thumbs&quot;: {
+                                    &quot;fullSize&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/47257403-f23b-46c0-995a-5c18129dbaa3.jpg&quot;,
+                                    &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/47257403-f23b-46c0-995a-5c18129dbaa3-thumbnail-370x370-70.jpg&quot;,
+                                    &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/47257403-f23b-46c0-995a-5c18129dbaa3-thumbnail-500x500-70.jpg&quot;,
+                                    &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/47257403-f23b-46c0-995a-5c18129dbaa3-thumbnail-770x770-70.jpg&quot;,
+                                    &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/47257403-f23b-46c0-995a-5c18129dbaa3-thumbnail-1000x1000-70.jpg&quot;
+                                }
+                            }
+                        ],
+                        &quot;options&quot;: [],
+                        &quot;inventory_allocations&quot;: []
+                    },
+                    {
+                        &quot;id&quot;: &quot;37330983-a5b4-499d-8f50-617e0c033c38&quot;,
+                        &quot;order_product_id&quot;: 121839970,
+                        &quot;parent_id&quot;: null,
+                        &quot;parent_name&quot;: null,
+                        &quot;product_class&quot;: null,
+                        &quot;name&quot;: &quot;Amouage Guidance 46 EDP 100ml&quot;,
+                        &quot;short_description&quot;: {
+                            &quot;ar&quot;: &quot;يُجسّد عطر أمواج غايدنس 46 أو دو بارفان فلسفة العاطفة العميقة والنعومة الآسرة، حيث يلتقي الدفء الحسي مع الرقة الأنثوية في توليفة فاخرة تعبّر عن الحنان والقوة الهادئة في آنٍ واحد. &quot;,
+                            &quot;en&quot;: &quot;Amouage Guidance 46 Eau de Parfum embodies a philosophy of deep emotion and captivating softness, where sensual warmth meets feminine elegance in a luxurious composition that expresses tenderness and quiet strength at the same time.&quot;
+                        },
+                        &quot;sku&quot;: &quot;PA0440JU&quot;,
+                        &quot;barcode&quot;: null,
+                        &quot;custom_fields&quot;: [],
+                        &quot;quantity&quot;: 1,
+                        &quot;weight&quot;: {
+                            &quot;value&quot;: 0.59,
+                            &quot;unit&quot;: &quot;kg&quot;
+                        },
+                        &quot;is_taxable&quot;: true,
+                        &quot;is_discounted&quot;: false,
+                        &quot;meta&quot;: null,
+                        &quot;is_external_product&quot;: false,
+                        &quot;discounts&quot;: {
+                            &quot;coupon&quot;: {
+                                &quot;amount&quot;: 22.2,
+                                &quot;percentage&quot;: 15,
+                                &quot;unit_amount&quot;: 22.2
+                            }
+                        },
+                        &quot;net_price_with_additions&quot;: 148,
+                        &quot;net_price_with_additions_string&quot;: &quot;148.00 SAR&quot;,
+                        &quot;price_with_additions&quot;: 148,
+                        &quot;price_with_additions_string&quot;: &quot;148.00 SAR&quot;,
+                        &quot;net_price&quot;: 185,
+                        &quot;net_price_string&quot;: &quot;185.00 SAR&quot;,
+                        &quot;net_sale_price&quot;: &quot;148.00000000000000&quot;,
+                        &quot;net_sale_price_string&quot;: &quot;148.00 SAR&quot;,
+                        &quot;net_additions_price&quot;: 0,
+                        &quot;net_additions_price_string&quot;: null,
+                        &quot;gross_price&quot;: 185,
+                        &quot;gross_price_string&quot;: &quot;185.00 SAR&quot;,
+                        &quot;gross_sale_price&quot;: &quot;148.00000000000000&quot;,
+                        &quot;gross_sale_price_string&quot;: &quot;148.00 SAR&quot;,
+                        &quot;price_before&quot;: 185,
+                        &quot;price_before_string&quot;: &quot;185.00 SAR&quot;,
+                        &quot;total_before&quot;: 185,
+                        &quot;total_before_string&quot;: &quot;185.00 SAR&quot;,
+                        &quot;gross_additions_price&quot;: 0,
+                        &quot;gross_additions_price_string&quot;: null,
+                        &quot;discount_percentage&quot;: 0.15,
+                        &quot;tax_percentage&quot;: 0,
+                        &quot;tax_amount&quot;: &quot;0.00000000000000&quot;,
+                        &quot;tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount&quot;: 0,
+                        &quot;discounted_tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;price&quot;: 148,
+                        &quot;price_string&quot;: &quot;148.00 SAR&quot;,
+                        &quot;additions_price&quot;: 0,
+                        &quot;additions_price_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;total&quot;: 148,
+                        &quot;total_string&quot;: &quot;148.00 SAR&quot;,
+                        &quot;discounted_total&quot;: 125.8,
+                        &quot;discounted_total_string&quot;: &quot;125.80 SAR&quot;,
+                        &quot;images&quot;: [
+                            {
+                                &quot;id&quot;: &quot;1d0bec75-b760-46eb-a14e-d24d25a2ab8b&quot;,
+                                &quot;origin&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/1d0bec75-b760-46eb-a14e-d24d25a2ab8b-thumbnail-500x500-70.jpg&quot;,
+                                &quot;thumbs&quot;: {
+                                    &quot;fullSize&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/1d0bec75-b760-46eb-a14e-d24d25a2ab8b.jpg&quot;,
+                                    &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/1d0bec75-b760-46eb-a14e-d24d25a2ab8b-thumbnail-370x370-70.jpg&quot;,
+                                    &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/1d0bec75-b760-46eb-a14e-d24d25a2ab8b-thumbnail-500x500-70.jpg&quot;,
+                                    &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/1d0bec75-b760-46eb-a14e-d24d25a2ab8b-thumbnail-770x770-70.jpg&quot;,
+                                    &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/1d0bec75-b760-46eb-a14e-d24d25a2ab8b-thumbnail-1000x1000-70.jpg&quot;
+                                }
+                            }
+                        ],
+                        &quot;options&quot;: [],
+                        &quot;inventory_allocations&quot;: []
+                    },
+                    {
+                        &quot;id&quot;: &quot;d910fe9f-8ceb-4772-ad04-414fae781037&quot;,
+                        &quot;order_product_id&quot;: 121839971,
+                        &quot;parent_id&quot;: null,
+                        &quot;parent_name&quot;: null,
+                        &quot;product_class&quot;: null,
+                        &quot;name&quot;: &quot;Micheal Angelo 01ZA- Men&#039;s Watch&quot;,
+                        &quot;short_description&quot;: {
+                            &quot;ar&quot;: &quot;مجموعة مايكل أنجلو رويال جولدكريست الرجالية&quot;,
+                            &quot;en&quot;: &quot;Michael Angelo Royal Goldcrest Men&#039;s Collection&quot;
+                        },
+                        &quot;sku&quot;: &quot;WM0289ML&quot;,
+                        &quot;barcode&quot;: &quot;WM0289ML&quot;,
+                        &quot;custom_fields&quot;: [],
+                        &quot;quantity&quot;: 1,
+                        &quot;weight&quot;: {
+                            &quot;value&quot;: 0.785,
+                            &quot;unit&quot;: &quot;kg&quot;
+                        },
+                        &quot;is_taxable&quot;: true,
+                        &quot;is_discounted&quot;: false,
+                        &quot;meta&quot;: null,
+                        &quot;is_external_product&quot;: false,
+                        &quot;discounts&quot;: {
+                            &quot;coupon&quot;: {
+                                &quot;amount&quot;: 10.35,
+                                &quot;percentage&quot;: 15,
+                                &quot;unit_amount&quot;: 10.35
+                            }
+                        },
+                        &quot;net_price_with_additions&quot;: 69,
+                        &quot;net_price_with_additions_string&quot;: &quot;69.00 SAR&quot;,
+                        &quot;price_with_additions&quot;: 69,
+                        &quot;price_with_additions_string&quot;: &quot;69.00 SAR&quot;,
+                        &quot;net_price&quot;: 69,
+                        &quot;net_price_string&quot;: &quot;69.00 SAR&quot;,
+                        &quot;net_sale_price&quot;: null,
+                        &quot;net_sale_price_string&quot;: null,
+                        &quot;net_additions_price&quot;: 0,
+                        &quot;net_additions_price_string&quot;: null,
+                        &quot;gross_price&quot;: 69,
+                        &quot;gross_price_string&quot;: &quot;69.00 SAR&quot;,
+                        &quot;gross_sale_price&quot;: null,
+                        &quot;gross_sale_price_string&quot;: null,
+                        &quot;price_before&quot;: null,
+                        &quot;price_before_string&quot;: null,
+                        &quot;total_before&quot;: null,
+                        &quot;total_before_string&quot;: null,
+                        &quot;gross_additions_price&quot;: 0,
+                        &quot;gross_additions_price_string&quot;: null,
+                        &quot;discount_percentage&quot;: 0.15,
+                        &quot;tax_percentage&quot;: 0,
+                        &quot;tax_amount&quot;: &quot;0.00000000000000&quot;,
+                        &quot;tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount&quot;: 0,
+                        &quot;discounted_tax_amount_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;discounted_tax_amount_string_per_item&quot;: &quot;0.00 SAR&quot;,
+                        &quot;price&quot;: 69,
+                        &quot;price_string&quot;: &quot;69.00 SAR&quot;,
+                        &quot;additions_price&quot;: 0,
+                        &quot;additions_price_string&quot;: &quot;0.00 SAR&quot;,
+                        &quot;total&quot;: 69,
+                        &quot;total_string&quot;: &quot;69.00 SAR&quot;,
+                        &quot;discounted_total&quot;: 58.65,
+                        &quot;discounted_total_string&quot;: &quot;58.65 SAR&quot;,
+                        &quot;images&quot;: [
+                            {
+                                &quot;id&quot;: &quot;c9734ee4-d781-4a3f-a5fa-2d7bb9166e3a&quot;,
+                                &quot;origin&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c9734ee4-d781-4a3f-a5fa-2d7bb9166e3a-thumbnail-500x500.png&quot;,
+                                &quot;thumbs&quot;: {
+                                    &quot;fullSize&quot;: &quot;https://media.zid.store/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c9734ee4-d781-4a3f-a5fa-2d7bb9166e3a.png&quot;,
+                                    &quot;thumbnail&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c9734ee4-d781-4a3f-a5fa-2d7bb9166e3a-thumbnail-370x370.png&quot;,
+                                    &quot;small&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c9734ee4-d781-4a3f-a5fa-2d7bb9166e3a-thumbnail-500x500.png&quot;,
+                                    &quot;medium&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c9734ee4-d781-4a3f-a5fa-2d7bb9166e3a-thumbnail-770x770.png&quot;,
+                                    &quot;large&quot;: &quot;https://media.zid.store/thumbs/99fbb737-1b1d-4d99-b027-abb4eabe4b12/c9734ee4-d781-4a3f-a5fa-2d7bb9166e3a-thumbnail-1000x1000.png&quot;
+                                }
+                            }
+                        ],
+                        &quot;options&quot;: [],
+                        &quot;inventory_allocations&quot;: []
+                    }
+                ],
+                &quot;products_count&quot;: 3,
+                &quot;products_sum_total_string&quot;: &quot;327.00 SAR&quot;,
+                &quot;is_preorder&quot;: false,
+                &quot;is_preorder_allocated&quot;: true,
+                &quot;language&quot;: &quot;ar&quot;,
+                &quot;is_reactivated&quot;: false,
+                &quot;return_policy&quot;: null,
+                &quot;packages_count&quot;: 1,
+                &quot;inventory_address&quot;: {
+                    &quot;id&quot;: &quot;c3d144fa69de40f2882e67e46b505383&quot;,
+                    &quot;name&quot;: &quot;مخزن ضياء&quot;,
+                    &quot;city&quot;: {
+                        &quot;id&quot;: 193,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Muscat&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مسقط&quot;,
+                        &quot;en_name&quot;: &quot;Muscat&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    &quot;full_address&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;,
+                    &quot;street&quot;: &quot;J4FP+RRW، السيب&lrm;، عمان&quot;,
+                    &quot;short_address&quot;: null,
+                    &quot;district&quot;: &quot;&quot;,
+                    &quot;postal_code&quot;: null,
+                    &quot;coordinates&quot;: {
+                        &quot;lat&quot;: 23.6244677153526,
+                        &quot;lon&quot;: 58.13707373137114
+                    },
+                    &quot;cop_enabled&quot;: false,
+                    &quot;is_pickup_option&quot;: false,
+                    &quot;is_zidship_default&quot;: true,
+                    &quot;working_hours&quot;: []
+                },
+                &quot;expected_shipping_method_type&quot;: null,
+                &quot;reseller_meta&quot;: null,
+                &quot;zidship_ticket_number&quot;: null,
+                &quot;edits_count&quot;: 0,
+                &quot;delivered_at&quot;: &quot;2026-06-10 13:06:04&quot;,
+                &quot;is_marketplace_order&quot;: false,
+                &quot;invoice_link&quot;: &quot;https://zid-platform.s3-accelerate.amazonaws.com/public/pdfs/1085223/orders/invoices/order_70565935.pdf&quot;,
+                &quot;payment_network&quot;: null,
+                &quot;preorder_campaign&quot;: null
+            }
+        ],
+        &quot;grand_total&quot;: 9,
+        &quot;total_order_count&quot;: 9,
         &quot;total_order_count_per_status&quot;: {
+            &quot;new&quot;: 4,
+            &quot;delivered&quot;: 5,
             &quot;initial&quot;: 0
         },
         &quot;tax_settings&quot;: {
@@ -7636,7 +6985,1408 @@ access-control-allow-origin: *
     &quot;message&quot;: &quot;Shipping methods fetched successfully&quot;,
     &quot;data&quot;: {
         &quot;status&quot;: &quot;object&quot;,
-        &quot;delivery_options&quot;: [],
+        &quot;delivery_options&quot;: [
+            {
+                &quot;id&quot;: 819202,
+                &quot;name&quot;: &quot;توصيل المتجر&quot;,
+                &quot;system_option_code&quot;: null,
+                &quot;select_cities&quot;: [
+                    {
+                        &quot;id&quot;: 193,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Muscat&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مسقط&quot;,
+                        &quot;en_name&quot;: &quot;Muscat&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 194,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Sohar&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;صحار&quot;,
+                        &quot;en_name&quot;: &quot;Sohar&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 195,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Nizwa&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;نزوى&quot;,
+                        &quot;en_name&quot;: &quot;Nizwa&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 196,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Sur&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;صور&quot;,
+                        &quot;en_name&quot;: &quot;Sur&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 197,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Rustaq&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الرستاق&quot;,
+                        &quot;en_name&quot;: &quot;Rustaq&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 199,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Salalah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;صلالة&quot;,
+                        &quot;en_name&quot;: &quot;Salalah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 200,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Amarat&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;عامرات&quot;,
+                        &quot;en_name&quot;: &quot;Al Amarat&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 201,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Barka&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;بركاء&quot;,
+                        &quot;en_name&quot;: &quot;Barka&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 202,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Bawshar&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;بوشر&quot;,
+                        &quot;en_name&quot;: &quot;Bawshar&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 203,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Buraymi&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;البريمي&quot;,
+                        &quot;en_name&quot;: &quot;Al Buraymi&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 204,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Ibra&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;إبراء&quot;,
+                        &quot;en_name&quot;: &quot;Ibra&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 205,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Muttrah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مطرح&quot;,
+                        &quot;en_name&quot;: &quot;Muttrah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 206,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Seeb&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;السيب&quot;,
+                        &quot;en_name&quot;: &quot;Seeb&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 208,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Bahla&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;بهلاء&quot;,
+                        &quot;en_name&quot;: &quot;Bahla&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 209,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Suwayq&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;السويق&quot;,
+                        &quot;en_name&quot;: &quot;Suwayq&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 210,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Khasab&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;خصب&quot;,
+                        &quot;en_name&quot;: &quot;Khasab&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 211,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Madha&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مدحاء&quot;,
+                        &quot;en_name&quot;: &quot;Madha&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 212,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Shinas&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;شناص&quot;,
+                        &quot;en_name&quot;: &quot;Shinas&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 213,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Qurayat&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;قريات&quot;,
+                        &quot;en_name&quot;: &quot;Qurayat&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 214,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Samail&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;سمائل&quot;,
+                        &quot;en_name&quot;: &quot;Samail&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 215,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Saham&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;صحم&quot;,
+                        &quot;en_name&quot;: &quot;Saham&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 374,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Adam&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;أدم&quot;,
+                        &quot;en_name&quot;: &quot;Adam&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 388,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Awabi&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;العوابي&quot;,
+                        &quot;en_name&quot;: &quot;Al Awabi&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 395,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Bidayah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;البداية&quot;,
+                        &quot;en_name&quot;: &quot;Al Bidayah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 398,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Duqm&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الدقم&quot;,
+                        &quot;en_name&quot;: &quot;Al Duqm&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 404,
+                        &quot;national_id&quot;: 2124,
+                        &quot;name&quot;: &quot;Al Hamra&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الحمراء&quot;,
+                        &quot;en_name&quot;: &quot;Al Hamra&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 412,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Jazir&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الجازر&quot;,
+                        &quot;en_name&quot;: &quot;Al Jazir&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 416,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Kabil&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;القابل&quot;,
+                        &quot;en_name&quot;: &quot;Al Kabil&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 417,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Kamil Wal Wafi&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الكامل والوفي&quot;,
+                        &quot;en_name&quot;: &quot;Al Kamil Wal Wafi&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 421,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Khodh&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الخوض&quot;,
+                        &quot;en_name&quot;: &quot;Al Khodh&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 422,
+                        &quot;national_id&quot;: 17457,
+                        &quot;name&quot;: &quot;Al Khuwair&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الخوير&quot;,
+                        &quot;en_name&quot;: &quot;Al Khuwair&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 430,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Mazyunah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;المزيونة&quot;,
+                        &quot;en_name&quot;: &quot;Al Mazyunah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 437,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Mudhaibi&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;المضيبي&quot;,
+                        &quot;en_name&quot;: &quot;Al Mudhaibi&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 448,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Saada&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;السعادة&quot;,
+                        &quot;en_name&quot;: &quot;Al Saada&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 455,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Sunaynah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;السنينة&quot;,
+                        &quot;en_name&quot;: &quot;Al Sunaynah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 464,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Amerat&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;العامرات&quot;,
+                        &quot;en_name&quot;: &quot;Al Amerat&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 481,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Azaiba&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;العذيبة&quot;,
+                        &quot;en_name&quot;: &quot;Azaiba&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 490,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Bidbid&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;بدبد&quot;,
+                        &quot;en_name&quot;: &quot;Bidbid&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 491,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Bideyah &quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;بدية&quot;,
+                        &quot;en_name&quot;: &quot;Bideyah &quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 498,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Bukha&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;بخا&quot;,
+                        &quot;en_name&quot;: &quot;Bukha&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 518,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Dhalkut&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;ضلكوت&quot;,
+                        &quot;en_name&quot;: &quot;Dhalkut&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 519,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Dhank&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;ضنك&quot;,
+                        &quot;en_name&quot;: &quot;Dhank&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 521,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Dima Wattayeen&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;دماء والطائين&quot;,
+                        &quot;en_name&quot;: &quot;Dima Wattayeen&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 534,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Falaj Al Qabail&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;فلج القبائل&quot;,
+                        &quot;en_name&quot;: &quot;Falaj Al Qabail&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 535,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Fanja&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;فنجاء&quot;,
+                        &quot;en_name&quot;: &quot;Fanja&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 547,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Ghala&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;غلا&quot;,
+                        &quot;en_name&quot;: &quot;Ghala&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 552,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Ghubrah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الغبرة&quot;,
+                        &quot;en_name&quot;: &quot;Al Ghubrah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 559,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Haima&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;هيماء&quot;,
+                        &quot;en_name&quot;: &quot;Haima&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 564,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Humriyyah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الحمرية&quot;,
+                        &quot;en_name&quot;: &quot;Al Humriyyah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 576,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Ibri&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;عبري&quot;,
+                        &quot;en_name&quot;: &quot;Ibri&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 578,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Izki&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;ازكي&quot;,
+                        &quot;en_name&quot;: &quot;Izki&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 580,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Jaalan Bani Bu Ali &quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;جعلان بني بو علي&quot;,
+                        &quot;en_name&quot;: &quot;Jaalan Bani Bu Ali &quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 581,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Jaalan ni Bu Hassan&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;جعلان بني بو حسن&quot;,
+                        &quot;en_name&quot;: &quot;Jaalan ni Bu Hassan&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 599,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Jibroo&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;جبروه&quot;,
+                        &quot;en_name&quot;: &quot;Jibroo&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 617,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Khabourah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الخابورة&quot;,
+                        &quot;en_name&quot;: &quot;Khabourah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 635,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Liwa&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;لوى&quot;,
+                        &quot;en_name&quot;: &quot;Liwa&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 636,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Madinat Sultan Qaboos&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مدينة السلطان قابوس&quot;,
+                        &quot;en_name&quot;: &quot;Madinat Sultan Qaboos&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 640,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Mahdha&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مدحاء&quot;,
+                        &quot;en_name&quot;: &quot;Mahdha&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 641,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Mahout&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;محوت&quot;,
+                        &quot;en_name&quot;: &quot;Mahout&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 645,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Manah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;منح&quot;,
+                        &quot;en_name&quot;: &quot;Manah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 656,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Masirah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مصيرة&quot;,
+                        &quot;en_name&quot;: &quot;Masirah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 658,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Mawalih&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الموالح&quot;,
+                        &quot;en_name&quot;: &quot;Al Mawalih&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 678,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Musannah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;المصنعة&quot;,
+                        &quot;en_name&quot;: &quot;Musannah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 686,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Nakhl&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;نخل&quot;,
+                        &quot;en_name&quot;: &quot;Nakhl&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 724,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Qurum&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;القرم&quot;,
+                        &quot;en_name&quot;: &quot;Qurum&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 748,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Rusayl&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الرسيل&quot;,
+                        &quot;en_name&quot;: &quot;Rusayl&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 749,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Ruwi&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;روي&quot;,
+                        &quot;en_name&quot;: &quot;Ruwi&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 763,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Sadah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;سدح&quot;,
+                        &quot;en_name&quot;: &quot;Sadah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 775,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Samad Al Shan&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;سمد الشأن&quot;,
+                        &quot;en_name&quot;: &quot;Samad Al Shan&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 808,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Sinaw&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;سناو&quot;,
+                        &quot;en_name&quot;: &quot;Sinaw&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 833,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Thamrait&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;ثمريت&quot;,
+                        &quot;en_name&quot;: &quot;Thamrait&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 845,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Wadi Adai&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;وادي عدي&quot;,
+                        &quot;en_name&quot;: &quot;Wadi Adai&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 846,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Wadi al Maawil&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;وادي المعاول&quot;,
+                        &quot;en_name&quot;: &quot;Wadi al Maawil&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 847,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Wadi Bani Khalid&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;وادي بني خالد&quot;,
+                        &quot;en_name&quot;: &quot;Wadi Bani Khalid&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 848,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Wadi Kabir&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;وادي كبير&quot;,
+                        &quot;en_name&quot;: &quot;Wadi Kabir&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 853,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Wattayah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الوطية&quot;,
+                        &quot;en_name&quot;: &quot;Al Wattayah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 856,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Wudam Al Sahil&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;ودام الساحل&quot;,
+                        &quot;en_name&quot;: &quot;Wudam Al Sahil&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 858,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Yankul&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;ينقل&quot;,
+                        &quot;en_name&quot;: &quot;Yankul&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 1180,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Halaniyat Islands&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;شليم وجزر الحلانيات&quot;,
+                        &quot;en_name&quot;: &quot;Al Halaniyat Islands&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 1181,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Maabilah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;المعبيلة&quot;,
+                        &quot;en_name&quot;: &quot;Al Maabilah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 1183,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Mudhaireb&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;المضيرب&quot;,
+                        &quot;en_name&quot;: &quot;Al Mudhaireb&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 1187,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Diba&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;دباء&quot;,
+                        &quot;en_name&quot;: &quot;Diba&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 1191,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Marbat&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مرباط&quot;,
+                        &quot;en_name&quot;: &quot;Marbat&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 1192,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Muqshin&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مقشن&quot;,
+                        &quot;en_name&quot;: &quot;Muqshin&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 1193,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Raysut&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;ريسوت&quot;,
+                        &quot;en_name&quot;: &quot;Raysut&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 1198,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Taqah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;طاقة&quot;,
+                        &quot;en_name&quot;: &quot;Taqah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 1200,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Jabal Akhdar&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الجبل الأخضر&quot;,
+                        &quot;en_name&quot;: &quot;Jabal Akhdar&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 1474,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Other&quot;,
+                        &quot;priority&quot;: -1,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;أخرى&quot;,
+                        &quot;en_name&quot;: &quot;Other&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13263,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Ansab&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الأنصب&quot;,
+                        &quot;en_name&quot;: &quot;Al Ansab&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13264,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Akhdar&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الأخضر&quot;,
+                        &quot;en_name&quot;: &quot;Al Akhdar&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13265,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Haffah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الحافة&quot;,
+                        &quot;en_name&quot;: &quot;Al Haffah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13266,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Haselah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الحصيلة&quot;,
+                        &quot;en_name&quot;: &quot;Al Haselah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13267,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Hayl&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الحيل&quot;,
+                        &quot;en_name&quot;: &quot;Al Hayl&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13268,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Dhareez&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الدهاريز&quot;,
+                        &quot;en_name&quot;: &quot;Dhareez&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13269,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Rusayl Industrial Estate&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الرسيل الصناعية&quot;,
+                        &quot;en_name&quot;: &quot;Rusayl Industrial Estate&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13270,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Ar Rumays&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الرميس&quot;,
+                        &quot;en_name&quot;: &quot;Ar Rumays&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13271,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;At Turayf&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الطريف&quot;,
+                        &quot;en_name&quot;: &quot;At Turayf&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13272,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Araqi&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;العراقي&quot;,
+                        &quot;en_name&quot;: &quot;Al Araqi&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13273,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Awqadayn&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;العوقدين&quot;,
+                        &quot;en_name&quot;: &quot;Al Awqadayn&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13274,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Qawf&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;القوف&quot;,
+                        &quot;en_name&quot;: &quot;Al Qawf&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13275,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Mutazzah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;المعتزة&quot;,
+                        &quot;en_name&quot;: &quot;Al Mutazzah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13276,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Muladdah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الملدة&quot;,
+                        &quot;en_name&quot;: &quot;Muladdah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13277,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Al Wadi&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;الوادي&quot;,
+                        &quot;en_name&quot;: &quot;Al Wadi&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13278,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Birkat Al Mouz&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;بركة الموز&quot;,
+                        &quot;en_name&quot;: &quot;Birkat Al Mouz&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13279,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Tanuf&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;تنوف&quot;,
+                        &quot;en_name&quot;: &quot;Tanuf&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13280,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Darsait&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;دارسيت&quot;,
+                        &quot;en_name&quot;: &quot;Darsait&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13281,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Rakhyut&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;رخيوت&quot;,
+                        &quot;en_name&quot;: &quot;Rakhyut&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13282,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Sahalnawt&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;صحلنوت&quot;,
+                        &quot;en_name&quot;: &quot;Sahalnawt&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13283,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Hujayrimat&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;هجيرمات&quot;,
+                        &quot;en_name&quot;: &quot;Hujayrimat&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13284,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Mina Al Fahal&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;ميناء الفحل&quot;,
+                        &quot;en_name&quot;: &quot;Mina Al Fahal&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13285,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Murtafaat Al Matar&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مرتفعات المطار&quot;,
+                        &quot;en_name&quot;: &quot;Murtafaat Al Matar&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13286,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Madinat al Haqq&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;مدينة الحق&quot;,
+                        &quot;en_name&quot;: &quot;Madinat al Haqq&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13287,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Mahdah&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;محضة&quot;,
+                        &quot;en_name&quot;: &quot;Mahdah&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13288,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Lizeg&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;لزغ&quot;,
+                        &quot;en_name&quot;: &quot;Lizeg&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13289,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Qairoon Hairitti&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;قيرون حيريتي&quot;,
+                        &quot;en_name&quot;: &quot;Qairoon Hairitti&quot;,
+                        &quot;parent_id&quot;: null
+                    },
+                    {
+                        &quot;id&quot;: 13290,
+                        &quot;national_id&quot;: null,
+                        &quot;name&quot;: &quot;Tawi Atair&quot;,
+                        &quot;priority&quot;: 0,
+                        &quot;country_id&quot;: 161,
+                        &quot;country_name&quot;: &quot;Oman&quot;,
+                        &quot;country_code&quot;: &quot;OM&quot;,
+                        &quot;ar_name&quot;: &quot;طوي اعتير&quot;,
+                        &quot;en_name&quot;: &quot;Tawi Atair&quot;,
+                        &quot;parent_id&quot;: null
+                    }
+                ],
+                &quot;shipping_method_status&quot;: &quot;active&quot;
+            }
+        ],
         &quot;system_delivery_options&quot;: [],
         &quot;message&quot;: {
             &quot;type&quot;: &quot;object&quot;,
@@ -7929,81 +8679,10 @@ access-control-allow-origin: *
  </code></pre></details>         <pre>
 
 <code class="language-json" style="max-height: 300px;">{
-    &quot;success&quot;: true,
-    &quot;message&quot;: null,
-    &quot;data&quot;: {
-        &quot;data&quot;: [
-            {
-                &quot;body&quot;: {
-                    &quot;ar&quot;: &quot;منتج مميز&quot;,
-                    &quot;en&quot;: &quot;Special Product&quot;
-                },
-                &quot;is_example&quot;: true,
-                &quot;icon&quot;: {
-                    &quot;code&quot;: &quot;featured_product&quot;
-                }
-            },
-            {
-                &quot;body&quot;: {
-                    &quot;ar&quot;: &quot;شحن مجاني&quot;,
-                    &quot;en&quot;: &quot;Free Shipping&quot;
-                },
-                &quot;is_example&quot;: true,
-                &quot;icon&quot;: {
-                    &quot;code&quot;: &quot;free_shipping&quot;
-                }
-            },
-            {
-                &quot;body&quot;: {
-                    &quot;ar&quot;: &quot;يباع سريعًا&quot;,
-                    &quot;en&quot;: &quot;Selling fast&quot;
-                },
-                &quot;is_example&quot;: true,
-                &quot;icon&quot;: {
-                    &quot;code&quot;: &quot;selling_fast&quot;
-                }
-            },
-            {
-                &quot;body&quot;: {
-                    &quot;ar&quot;: &quot;مخفض&quot;,
-                    &quot;en&quot;: &quot;Discounted&quot;
-                },
-                &quot;is_example&quot;: true,
-                &quot;icon&quot;: {
-                    &quot;code&quot;: &quot;on_sale&quot;
-                }
-            },
-            {
-                &quot;body&quot;: {
-                    &quot;ar&quot;: &quot;كمية محدودة&quot;,
-                    &quot;en&quot;: &quot;Limited Quantity&quot;
-                },
-                &quot;is_example&quot;: true,
-                &quot;icon&quot;: {
-                    &quot;code&quot;: &quot;limited_quantity&quot;
-                }
-            },
-            {
-                &quot;body&quot;: {
-                    &quot;ar&quot;: &quot;خصم {discount_value}&quot;,
-                    &quot;en&quot;: &quot;{discount_value} Discount&quot;
-                },
-                &quot;is_example&quot;: true,
-                &quot;icon&quot;: {
-                    &quot;code&quot;: &quot;discount_value&quot;
-                }
-            },
-            {
-                &quot;body&quot;: {
-                    &quot;ar&quot;: &quot;خصم {discount_percent}&quot;,
-                    &quot;en&quot;: &quot;{discount_percent} Discount&quot;
-                },
-                &quot;is_example&quot;: true,
-                &quot;icon&quot;: {
-                    &quot;code&quot;: &quot;discount_percent&quot;
-                }
-            }
-        ]
+    &quot;success&quot;: false,
+    &quot;message&quot;: &quot;Failed to fetch badges&quot;,
+    &quot;errors&quot;: {
+        &quot;detail&quot;: &quot;No such user&quot;
     }
 }</code>
  </pre>
@@ -8131,62 +8810,10 @@ access-control-allow-origin: *
  </code></pre></details>         <pre>
 
 <code class="language-json" style="max-height: 300px;">{
-    &quot;success&quot;: true,
-    &quot;message&quot;: null,
-    &quot;data&quot;: {
-        &quot;count&quot;: 1,
-        &quot;next&quot;: null,
-        &quot;previous&quot;: null,
-        &quot;results&quot;: [
-            {
-                &quot;id&quot;: &quot;b16bf48c-39da-4666-bc90-7a236644301a&quot;,
-                &quot;name&quot;: {
-                    &quot;ar&quot;: &quot;لون الحقيبة&quot;,
-                    &quot;en&quot;: &quot;bag color&quot;
-                },
-                &quot;slug&quot;: &quot;ar-لون-الحقيبة-en-bag-color&quot;,
-                &quot;presets&quot;: [
-                    {
-                        &quot;id&quot;: &quot;368ee4d0-6e66-4962-b86d-07fbbb6b9cda&quot;,
-                        &quot;slug&quot;: &quot;ar-لون-الحقيبة-en-bag-color&quot;,
-                        &quot;name&quot;: &quot;bag color&quot;,
-                        &quot;value&quot;: {
-                            &quot;ar&quot;: &quot;احمر&quot;,
-                            &quot;en&quot;: &quot;red&quot;
-                        },
-                        &quot;type&quot;: &quot;default&quot;,
-                        &quot;type_value&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;display_order&quot;: null,
-                        &quot;attribute_image_id&quot;: null,
-                        &quot;attribute_id&quot;: &quot;b16bf48c-39da-4666-bc90-7a236644301a&quot;
-                    },
-                    {
-                        &quot;id&quot;: &quot;f80baa3a-e3e2-407a-839b-27b4b58476ad&quot;,
-                        &quot;slug&quot;: &quot;ar-لون-الحقيبة-en-bag-color&quot;,
-                        &quot;name&quot;: &quot;bag color&quot;,
-                        &quot;value&quot;: {
-                            &quot;ar&quot;: &quot;ابيض&quot;,
-                            &quot;en&quot;: &quot;white&quot;
-                        },
-                        &quot;type&quot;: &quot;default&quot;,
-                        &quot;type_value&quot;: {
-                            &quot;ar&quot;: &quot;&quot;,
-                            &quot;en&quot;: &quot;&quot;
-                        },
-                        &quot;display_order&quot;: null,
-                        &quot;attribute_image_id&quot;: null,
-                        &quot;attribute_id&quot;: &quot;b16bf48c-39da-4666-bc90-7a236644301a&quot;
-                    }
-                ],
-                &quot;is_extra&quot;: false,
-                &quot;is_enabled&quot;: true,
-                &quot;display_order&quot;: null,
-                &quot;preset_count&quot;: 2
-            }
-        ]
+    &quot;success&quot;: false,
+    &quot;message&quot;: &quot;Failed to fetch attributes&quot;,
+    &quot;errors&quot;: {
+        &quot;detail&quot;: &quot;No such user&quot;
     }
 }</code>
  </pre>
@@ -8317,7 +8944,7 @@ access-control-allow-origin: *
     &quot;success&quot;: false,
     &quot;message&quot;: &quot;Failed to fetch attribute&quot;,
     &quot;errors&quot;: {
-        &quot;detail&quot;: &quot;Not found.&quot;
+        &quot;detail&quot;: &quot;No such user&quot;
     }
 }</code>
  </pre>
@@ -8478,15 +9105,26 @@ access-control-allow-origin: *
                 &quot;commercial_registration&quot;: null,
                 &quot;source&quot;: null,
                 &quot;points&quot;: 0,
-                &quot;order_total_payments&quot;: &quot;0.00000000000000&quot;,
-                &quot;last_order_date&quot;: null,
+                &quot;order_total_payments&quot;: &quot;487.95000000000000&quot;,
+                &quot;last_order_date&quot;: &quot;2026-06-11 04:47:02&quot;,
                 &quot;created_at&quot;: &quot;2026-01-04T10:25:48.000000Z&quot;,
-                &quot;updated_at&quot;: &quot;2026-06-02T09:38:19.000000Z&quot;,
-                &quot;city&quot;: null,
+                &quot;updated_at&quot;: &quot;2026-06-11T08:07:43.000000Z&quot;,
+                &quot;city&quot;: {
+                    &quot;id&quot;: 193,
+                    &quot;national_id&quot;: null,
+                    &quot;name&quot;: &quot;Muscat&quot;,
+                    &quot;priority&quot;: 0,
+                    &quot;country_id&quot;: 161,
+                    &quot;country_name&quot;: &quot;Oman&quot;,
+                    &quot;country_code&quot;: &quot;OM&quot;,
+                    &quot;ar_name&quot;: &quot;مسقط&quot;,
+                    &quot;en_name&quot;: &quot;Muscat&quot;,
+                    &quot;parent_id&quot;: null
+                },
                 &quot;nickname&quot;: &quot;DHIYA Alnadabi&quot;,
                 &quot;pivotEmail&quot;: &quot;alnadabidhiyaa@gmail.com&quot;,
                 &quot;pivotMobile&quot;: &quot;96891329892&quot;,
-                &quot;order_counts&quot;: 0,
+                &quot;order_counts&quot;: 9,
                 &quot;tags&quot;: []
             }
         ],
@@ -9152,7 +9790,7 @@ access-control-allow-origin: *
                 &quot;uses_total&quot;: 1,
                 &quot;created_at&quot;: &quot;2026-06-07T10:05:14.000000Z&quot;,
                 &quot;name&quot;: &quot;welcome10&quot;,
-                &quot;total_usage&quot;: 0,
+                &quot;total_usage&quot;: 1,
                 &quot;discount_type&quot;: &quot;p&quot;,
                 &quot;applying_method&quot;: &quot;CODE&quot;,
                 &quot;discount_strategy&quot;: &quot;standard&quot;,
@@ -9171,14 +9809,14 @@ access-control-allow-origin: *
                 &quot;date_end&quot;: &quot;2026-07-31&quot;,
                 &quot;uses_customer&quot;: 1,
                 &quot;coupon_status&quot;: true,
-                &quot;status_code&quot;: &quot;coupon_active&quot;,
+                &quot;status_code&quot;: &quot;coupon_used&quot;,
                 &quot;maximum_discount_value&quot;: null,
                 &quot;is_mazeed_active&quot;: false,
                 &quot;is_pos_active&quot;: false,
                 &quot;is_shown_in_pos&quot;: false,
                 &quot;is_mobile_app_active&quot;: false,
-                &quot;is_manageable&quot;: true,
-                &quot;is_active&quot;: true,
+                &quot;is_manageable&quot;: false,
+                &quot;is_active&quot;: false,
                 &quot;enabled&quot;: true
             },
             {
@@ -9937,7 +10575,7 @@ access-control-allow-origin: *
         &quot;compliment_coupon&quot;: null,
         &quot;coupon_error_message&quot;: null,
         &quot;checkout_restrictions&quot;: null,
-        &quot;created_at&quot;: &quot;2026-06-08T04:30:08.539469&quot;,
+        &quot;created_at&quot;: &quot;2026-06-11T12:26:17.615128&quot;,
         &quot;is_reserved&quot;: false,
         &quot;basket_url&quot;: &quot;&quot;,
         &quot;gift_card_details&quot;: null,
@@ -10584,6 +11222,925 @@ You can check the Dev Tools console for debugging information.</code></pre>
 <p>Example: <code>architecto</code></p>
         </div>
         </form>
+
+                    <h2 id="endpoints-GETapi-zid-storefront-checkout-shipping-methods">GET api/zid/storefront/checkout/shipping-methods</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-zid-storefront-checkout-shipping-methods">
+<blockquote>Example request:</blockquote>
+
+
+<div class="bash-example">
+    <pre><code class="language-bash">curl --request GET \
+    --get "http://localhost/api/zid/storefront/checkout/shipping-methods" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre></div>
+
+
+<div class="javascript-example">
+    <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/zid/storefront/checkout/shipping-methods"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-zid-storefront-checkout-shipping-methods">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary style="cursor: pointer;">
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre></details>         <pre>
+
+<code class="language-json" style="max-height: 300px;">{
+    &quot;success&quot;: false,
+    &quot;message&quot;: {
+        &quot;status&quot;: &quot;error&quot;,
+        &quot;message&quot;: {
+            &quot;type&quot;: &quot;error&quot;,
+            &quot;code&quot;: &quot;ERROR_SESSION_MISSING&quot;,
+            &quot;name&quot;: &quot;عذراً&quot;,
+            &quot;description&quot;: &quot;يجب تسجيل الدخول أولاً&quot;
+        }
+    },
+    &quot;errors&quot;: &quot;Failed to fetch shipping methods&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-zid-storefront-checkout-shipping-methods" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-zid-storefront-checkout-shipping-methods"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-zid-storefront-checkout-shipping-methods"
+      data-empty-response-text="<Empty response>" style="max-height: 400px;"></code></pre>
+</span>
+<span id="execution-error-GETapi-zid-storefront-checkout-shipping-methods" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-zid-storefront-checkout-shipping-methods">
+
+Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</code></pre>
+</span>
+<form id="form-GETapi-zid-storefront-checkout-shipping-methods" data-method="GET"
+      data-path="api/zid/storefront/checkout/shipping-methods"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-zid-storefront-checkout-shipping-methods', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-zid-storefront-checkout-shipping-methods"
+                    onclick="tryItOut('GETapi-zid-storefront-checkout-shipping-methods');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-zid-storefront-checkout-shipping-methods"
+                    onclick="cancelTryOut('GETapi-zid-storefront-checkout-shipping-methods');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-zid-storefront-checkout-shipping-methods"
+                    data-initial-text="Send Request 💥"
+                    data-loading-text="⏱ Sending..."
+                    hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/zid/storefront/checkout/shipping-methods</code></b>
+        </p>
+                <h4 class="fancy-heading-panel"><b>Headers</b></h4>
+                                <div style="padding-left: 28px; clear: unset;">
+                <b style="line-height: 2;"><code>Content-Type</code></b>&nbsp;&nbsp;
+&nbsp;
+ &nbsp;
+ &nbsp;
+                <input type="text" style="display: none"
+                              name="Content-Type"                data-endpoint="GETapi-zid-storefront-checkout-shipping-methods"
+               value="application/json"
+               data-component="header">
+    <br>
+<p>Example: <code>application/json</code></p>
+            </div>
+                                <div style="padding-left: 28px; clear: unset;">
+                <b style="line-height: 2;"><code>Accept</code></b>&nbsp;&nbsp;
+&nbsp;
+ &nbsp;
+ &nbsp;
+                <input type="text" style="display: none"
+                              name="Accept"                data-endpoint="GETapi-zid-storefront-checkout-shipping-methods"
+               value="application/json"
+               data-component="header">
+    <br>
+<p>Example: <code>application/json</code></p>
+            </div>
+                        </form>
+
+                    <h2 id="endpoints-POSTapi-zid-storefront-checkout-shipping-methods">POST api/zid/storefront/checkout/shipping-methods</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-zid-storefront-checkout-shipping-methods">
+<blockquote>Example request:</blockquote>
+
+
+<div class="bash-example">
+    <pre><code class="language-bash">curl --request POST \
+    "http://localhost/api/zid/storefront/checkout/shipping-methods" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json" \
+    --data "{
+    \"shipping_method_id\": 16
+}"
+</code></pre></div>
+
+
+<div class="javascript-example">
+    <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/zid/storefront/checkout/shipping-methods"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+let body = {
+    "shipping_method_id": 16
+};
+
+fetch(url, {
+    method: "POST",
+    headers,
+    body: JSON.stringify(body),
+}).then(response =&gt; response.json());</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-zid-storefront-checkout-shipping-methods">
+</span>
+<span id="execution-results-POSTapi-zid-storefront-checkout-shipping-methods" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-zid-storefront-checkout-shipping-methods"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-zid-storefront-checkout-shipping-methods"
+      data-empty-response-text="<Empty response>" style="max-height: 400px;"></code></pre>
+</span>
+<span id="execution-error-POSTapi-zid-storefront-checkout-shipping-methods" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-zid-storefront-checkout-shipping-methods">
+
+Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</code></pre>
+</span>
+<form id="form-POSTapi-zid-storefront-checkout-shipping-methods" data-method="POST"
+      data-path="api/zid/storefront/checkout/shipping-methods"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-zid-storefront-checkout-shipping-methods', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-zid-storefront-checkout-shipping-methods"
+                    onclick="tryItOut('POSTapi-zid-storefront-checkout-shipping-methods');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-zid-storefront-checkout-shipping-methods"
+                    onclick="cancelTryOut('POSTapi-zid-storefront-checkout-shipping-methods');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-zid-storefront-checkout-shipping-methods"
+                    data-initial-text="Send Request 💥"
+                    data-loading-text="⏱ Sending..."
+                    hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/zid/storefront/checkout/shipping-methods</code></b>
+        </p>
+                <h4 class="fancy-heading-panel"><b>Headers</b></h4>
+                                <div style="padding-left: 28px; clear: unset;">
+                <b style="line-height: 2;"><code>Content-Type</code></b>&nbsp;&nbsp;
+&nbsp;
+ &nbsp;
+ &nbsp;
+                <input type="text" style="display: none"
+                              name="Content-Type"                data-endpoint="POSTapi-zid-storefront-checkout-shipping-methods"
+               value="application/json"
+               data-component="header">
+    <br>
+<p>Example: <code>application/json</code></p>
+            </div>
+                                <div style="padding-left: 28px; clear: unset;">
+                <b style="line-height: 2;"><code>Accept</code></b>&nbsp;&nbsp;
+&nbsp;
+ &nbsp;
+ &nbsp;
+                <input type="text" style="display: none"
+                              name="Accept"                data-endpoint="POSTapi-zid-storefront-checkout-shipping-methods"
+               value="application/json"
+               data-component="header">
+    <br>
+<p>Example: <code>application/json</code></p>
+            </div>
+                                <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <div style=" padding-left: 28px;  clear: unset;">
+            <b style="line-height: 2;"><code>shipping_method_id</code></b>&nbsp;&nbsp;
+<small>integer</small>&nbsp;
+ &nbsp;
+ &nbsp;
+                <input type="number" style="display: none"
+               step="any"               name="shipping_method_id"                data-endpoint="POSTapi-zid-storefront-checkout-shipping-methods"
+               value="16"
+               data-component="body">
+    <br>
+<p>Example: <code>16</code></p>
+        </div>
+        </form>
+
+                    <h2 id="endpoints-GETapi-zid-storefront-checkout-payment-methods">GET api/zid/storefront/checkout/payment-methods</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-zid-storefront-checkout-payment-methods">
+<blockquote>Example request:</blockquote>
+
+
+<div class="bash-example">
+    <pre><code class="language-bash">curl --request GET \
+    --get "http://localhost/api/zid/storefront/checkout/payment-methods" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre></div>
+
+
+<div class="javascript-example">
+    <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/zid/storefront/checkout/payment-methods"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-zid-storefront-checkout-payment-methods">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary style="cursor: pointer;">
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre></details>         <pre>
+
+<code class="language-json" style="max-height: 300px;">{
+    &quot;success&quot;: false,
+    &quot;message&quot;: {
+        &quot;status&quot;: &quot;error&quot;,
+        &quot;message&quot;: {
+            &quot;type&quot;: &quot;error&quot;,
+            &quot;code&quot;: &quot;ERROR_SESSION_MISSING&quot;,
+            &quot;name&quot;: &quot;عذراً&quot;,
+            &quot;description&quot;: &quot;يجب تسجيل الدخول أولاً&quot;
+        }
+    },
+    &quot;errors&quot;: &quot;Failed to fetch payment methods&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-zid-storefront-checkout-payment-methods" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-zid-storefront-checkout-payment-methods"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-zid-storefront-checkout-payment-methods"
+      data-empty-response-text="<Empty response>" style="max-height: 400px;"></code></pre>
+</span>
+<span id="execution-error-GETapi-zid-storefront-checkout-payment-methods" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-zid-storefront-checkout-payment-methods">
+
+Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</code></pre>
+</span>
+<form id="form-GETapi-zid-storefront-checkout-payment-methods" data-method="GET"
+      data-path="api/zid/storefront/checkout/payment-methods"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-zid-storefront-checkout-payment-methods', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-zid-storefront-checkout-payment-methods"
+                    onclick="tryItOut('GETapi-zid-storefront-checkout-payment-methods');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-zid-storefront-checkout-payment-methods"
+                    onclick="cancelTryOut('GETapi-zid-storefront-checkout-payment-methods');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-zid-storefront-checkout-payment-methods"
+                    data-initial-text="Send Request 💥"
+                    data-loading-text="⏱ Sending..."
+                    hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/zid/storefront/checkout/payment-methods</code></b>
+        </p>
+                <h4 class="fancy-heading-panel"><b>Headers</b></h4>
+                                <div style="padding-left: 28px; clear: unset;">
+                <b style="line-height: 2;"><code>Content-Type</code></b>&nbsp;&nbsp;
+&nbsp;
+ &nbsp;
+ &nbsp;
+                <input type="text" style="display: none"
+                              name="Content-Type"                data-endpoint="GETapi-zid-storefront-checkout-payment-methods"
+               value="application/json"
+               data-component="header">
+    <br>
+<p>Example: <code>application/json</code></p>
+            </div>
+                                <div style="padding-left: 28px; clear: unset;">
+                <b style="line-height: 2;"><code>Accept</code></b>&nbsp;&nbsp;
+&nbsp;
+ &nbsp;
+ &nbsp;
+                <input type="text" style="display: none"
+                              name="Accept"                data-endpoint="GETapi-zid-storefront-checkout-payment-methods"
+               value="application/json"
+               data-component="header">
+    <br>
+<p>Example: <code>application/json</code></p>
+            </div>
+                        </form>
+
+                    <h2 id="endpoints-POSTapi-zid-storefront-checkout-verify">POST api/zid/storefront/checkout/verify</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-zid-storefront-checkout-verify">
+<blockquote>Example request:</blockquote>
+
+
+<div class="bash-example">
+    <pre><code class="language-bash">curl --request POST \
+    "http://localhost/api/zid/storefront/checkout/verify" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre></div>
+
+
+<div class="javascript-example">
+    <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/zid/storefront/checkout/verify"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response =&gt; response.json());</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-zid-storefront-checkout-verify">
+</span>
+<span id="execution-results-POSTapi-zid-storefront-checkout-verify" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-zid-storefront-checkout-verify"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-zid-storefront-checkout-verify"
+      data-empty-response-text="<Empty response>" style="max-height: 400px;"></code></pre>
+</span>
+<span id="execution-error-POSTapi-zid-storefront-checkout-verify" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-zid-storefront-checkout-verify">
+
+Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</code></pre>
+</span>
+<form id="form-POSTapi-zid-storefront-checkout-verify" data-method="POST"
+      data-path="api/zid/storefront/checkout/verify"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-zid-storefront-checkout-verify', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-zid-storefront-checkout-verify"
+                    onclick="tryItOut('POSTapi-zid-storefront-checkout-verify');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-zid-storefront-checkout-verify"
+                    onclick="cancelTryOut('POSTapi-zid-storefront-checkout-verify');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-zid-storefront-checkout-verify"
+                    data-initial-text="Send Request 💥"
+                    data-loading-text="⏱ Sending..."
+                    hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/zid/storefront/checkout/verify</code></b>
+        </p>
+                <h4 class="fancy-heading-panel"><b>Headers</b></h4>
+                                <div style="padding-left: 28px; clear: unset;">
+                <b style="line-height: 2;"><code>Content-Type</code></b>&nbsp;&nbsp;
+&nbsp;
+ &nbsp;
+ &nbsp;
+                <input type="text" style="display: none"
+                              name="Content-Type"                data-endpoint="POSTapi-zid-storefront-checkout-verify"
+               value="application/json"
+               data-component="header">
+    <br>
+<p>Example: <code>application/json</code></p>
+            </div>
+                                <div style="padding-left: 28px; clear: unset;">
+                <b style="line-height: 2;"><code>Accept</code></b>&nbsp;&nbsp;
+&nbsp;
+ &nbsp;
+ &nbsp;
+                <input type="text" style="display: none"
+                              name="Accept"                data-endpoint="POSTapi-zid-storefront-checkout-verify"
+               value="application/json"
+               data-component="header">
+    <br>
+<p>Example: <code>application/json</code></p>
+            </div>
+                        </form>
+
+                    <h2 id="endpoints-GETapi-zid-storefront-orders-purchase-event">Purchase Event</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-zid-storefront-orders-purchase-event">
+<blockquote>Example request:</blockquote>
+
+
+<div class="bash-example">
+    <pre><code class="language-bash">curl --request GET \
+    --get "http://localhost/api/zid/storefront/orders/purchase-event" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre></div>
+
+
+<div class="javascript-example">
+    <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/zid/storefront/orders/purchase-event"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-zid-storefront-orders-purchase-event">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary style="cursor: pointer;">
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre></details>         <pre>
+
+<code class="language-json" style="max-height: 300px;">{
+    &quot;success&quot;: false,
+    &quot;message&quot;: {
+        &quot;message&quot;: &quot;Not Found&quot;
+    },
+    &quot;errors&quot;: &quot;Failed to fetch purchase event&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-zid-storefront-orders-purchase-event" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-zid-storefront-orders-purchase-event"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-zid-storefront-orders-purchase-event"
+      data-empty-response-text="<Empty response>" style="max-height: 400px;"></code></pre>
+</span>
+<span id="execution-error-GETapi-zid-storefront-orders-purchase-event" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-zid-storefront-orders-purchase-event">
+
+Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</code></pre>
+</span>
+<form id="form-GETapi-zid-storefront-orders-purchase-event" data-method="GET"
+      data-path="api/zid/storefront/orders/purchase-event"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-zid-storefront-orders-purchase-event', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-zid-storefront-orders-purchase-event"
+                    onclick="tryItOut('GETapi-zid-storefront-orders-purchase-event');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-zid-storefront-orders-purchase-event"
+                    onclick="cancelTryOut('GETapi-zid-storefront-orders-purchase-event');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-zid-storefront-orders-purchase-event"
+                    data-initial-text="Send Request 💥"
+                    data-loading-text="⏱ Sending..."
+                    hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/zid/storefront/orders/purchase-event</code></b>
+        </p>
+                <h4 class="fancy-heading-panel"><b>Headers</b></h4>
+                                <div style="padding-left: 28px; clear: unset;">
+                <b style="line-height: 2;"><code>Content-Type</code></b>&nbsp;&nbsp;
+&nbsp;
+ &nbsp;
+ &nbsp;
+                <input type="text" style="display: none"
+                              name="Content-Type"                data-endpoint="GETapi-zid-storefront-orders-purchase-event"
+               value="application/json"
+               data-component="header">
+    <br>
+<p>Example: <code>application/json</code></p>
+            </div>
+                                <div style="padding-left: 28px; clear: unset;">
+                <b style="line-height: 2;"><code>Accept</code></b>&nbsp;&nbsp;
+&nbsp;
+ &nbsp;
+ &nbsp;
+                <input type="text" style="display: none"
+                              name="Accept"                data-endpoint="GETapi-zid-storefront-orders-purchase-event"
+               value="application/json"
+               data-component="header">
+    <br>
+<p>Example: <code>application/json</code></p>
+            </div>
+                        </form>
+
+                    <h2 id="endpoints-POSTapi-zid-storefront-auth-logout">Logout user from Zid session.</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-zid-storefront-auth-logout">
+<blockquote>Example request:</blockquote>
+
+
+<div class="bash-example">
+    <pre><code class="language-bash">curl --request POST \
+    "http://localhost/api/zid/storefront/auth/logout" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre></div>
+
+
+<div class="javascript-example">
+    <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/zid/storefront/auth/logout"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response =&gt; response.json());</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-zid-storefront-auth-logout">
+</span>
+<span id="execution-results-POSTapi-zid-storefront-auth-logout" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-zid-storefront-auth-logout"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-zid-storefront-auth-logout"
+      data-empty-response-text="<Empty response>" style="max-height: 400px;"></code></pre>
+</span>
+<span id="execution-error-POSTapi-zid-storefront-auth-logout" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-zid-storefront-auth-logout">
+
+Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</code></pre>
+</span>
+<form id="form-POSTapi-zid-storefront-auth-logout" data-method="POST"
+      data-path="api/zid/storefront/auth/logout"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-zid-storefront-auth-logout', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-zid-storefront-auth-logout"
+                    onclick="tryItOut('POSTapi-zid-storefront-auth-logout');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-zid-storefront-auth-logout"
+                    onclick="cancelTryOut('POSTapi-zid-storefront-auth-logout');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-zid-storefront-auth-logout"
+                    data-initial-text="Send Request 💥"
+                    data-loading-text="⏱ Sending..."
+                    hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/zid/storefront/auth/logout</code></b>
+        </p>
+                <h4 class="fancy-heading-panel"><b>Headers</b></h4>
+                                <div style="padding-left: 28px; clear: unset;">
+                <b style="line-height: 2;"><code>Content-Type</code></b>&nbsp;&nbsp;
+&nbsp;
+ &nbsp;
+ &nbsp;
+                <input type="text" style="display: none"
+                              name="Content-Type"                data-endpoint="POSTapi-zid-storefront-auth-logout"
+               value="application/json"
+               data-component="header">
+    <br>
+<p>Example: <code>application/json</code></p>
+            </div>
+                                <div style="padding-left: 28px; clear: unset;">
+                <b style="line-height: 2;"><code>Accept</code></b>&nbsp;&nbsp;
+&nbsp;
+ &nbsp;
+ &nbsp;
+                <input type="text" style="display: none"
+                              name="Accept"                data-endpoint="POSTapi-zid-storefront-auth-logout"
+               value="application/json"
+               data-component="header">
+    <br>
+<p>Example: <code>application/json</code></p>
+            </div>
+                        </form>
+
+                    <h2 id="endpoints-GETapi-zid-storefront-scripts">GET api/zid/storefront/scripts</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-zid-storefront-scripts">
+<blockquote>Example request:</blockquote>
+
+
+<div class="bash-example">
+    <pre><code class="language-bash">curl --request GET \
+    --get "http://localhost/api/zid/storefront/scripts" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre></div>
+
+
+<div class="javascript-example">
+    <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/zid/storefront/scripts"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-zid-storefront-scripts">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary style="cursor: pointer;">
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre></details>         <pre>
+
+<code class="language-json" style="max-height: 300px;">{
+    &quot;success&quot;: true,
+    &quot;message&quot;: &quot;Scripts fetched successfully&quot;,
+    &quot;data&quot;: {
+        &quot;external_scripts&quot;: [
+            {
+                &quot;id&quot;: 67071,
+                &quot;src&quot;: null,
+                &quot;url&quot;: &quot;https://optimizeapp-media-prod.s3.eu-south-1.amazonaws.com/pixel-scripts/83b72973c5b0b5bc7516c97fed239a5ade6c5f96-raw-zid-oa-script.js&quot;,
+                &quot;status&quot;: 2,
+                &quot;app_id&quot;: 2812,
+                &quot;version&quot;: 1
+            }
+        ],
+        &quot;app_scripts_bundle&quot;: {
+            &quot;scripts&quot;: {
+                &quot;purchase_event&quot;: [
+                    &quot;window.zidPurchaseEventTracking(window,transactionItems)&quot;
+                ],
+                &quot;product_details_event&quot;: [
+                    &quot;window.onload = () =&gt; typeof window.zidViewContentEventTracking === &#039;function&#039; &amp;&amp; window.zidViewContentEventTracking(window, productViewd);&quot;
+                ],
+                &quot;add_to_cart_event&quot;: [
+                    &quot;window.zidAddCartEventTracking(window,productCart)&quot;
+                ],
+                &quot;start_checkout_event&quot;: [
+                    &quot;window.zidInitiateCheckoutEventTracking(window,cart)&quot;
+                ]
+            },
+            &quot;params&quot;: {
+                &quot;optimize_app&quot;: null,
+                &quot;bgihw&quot;: null
+            }
+        }
+    }
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-zid-storefront-scripts" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-zid-storefront-scripts"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-zid-storefront-scripts"
+      data-empty-response-text="<Empty response>" style="max-height: 400px;"></code></pre>
+</span>
+<span id="execution-error-GETapi-zid-storefront-scripts" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-zid-storefront-scripts">
+
+Tip: Check that you&#039;re properly connected to the network.
+If you&#039;re a maintainer of ths API, verify that your API is running and you&#039;ve enabled CORS.
+You can check the Dev Tools console for debugging information.</code></pre>
+</span>
+<form id="form-GETapi-zid-storefront-scripts" data-method="GET"
+      data-path="api/zid/storefront/scripts"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-zid-storefront-scripts', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-zid-storefront-scripts"
+                    onclick="tryItOut('GETapi-zid-storefront-scripts');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-zid-storefront-scripts"
+                    onclick="cancelTryOut('GETapi-zid-storefront-scripts');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-zid-storefront-scripts"
+                    data-initial-text="Send Request 💥"
+                    data-loading-text="⏱ Sending..."
+                    hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/zid/storefront/scripts</code></b>
+        </p>
+                <h4 class="fancy-heading-panel"><b>Headers</b></h4>
+                                <div style="padding-left: 28px; clear: unset;">
+                <b style="line-height: 2;"><code>Content-Type</code></b>&nbsp;&nbsp;
+&nbsp;
+ &nbsp;
+ &nbsp;
+                <input type="text" style="display: none"
+                              name="Content-Type"                data-endpoint="GETapi-zid-storefront-scripts"
+               value="application/json"
+               data-component="header">
+    <br>
+<p>Example: <code>application/json</code></p>
+            </div>
+                                <div style="padding-left: 28px; clear: unset;">
+                <b style="line-height: 2;"><code>Accept</code></b>&nbsp;&nbsp;
+&nbsp;
+ &nbsp;
+ &nbsp;
+                <input type="text" style="display: none"
+                              name="Accept"                data-endpoint="GETapi-zid-storefront-scripts"
+               value="application/json"
+               data-component="header">
+    <br>
+<p>Example: <code>application/json</code></p>
+            </div>
+                        </form>
 
                     <h2 id="endpoints-GETapi-store-branding">GET api/store/branding</h2>
 
