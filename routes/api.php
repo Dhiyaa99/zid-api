@@ -277,6 +277,11 @@ Route::get(
     'purchaseEvent']
 );
 
+Route::post(
+    '/auth/logout',
+    [ZidStorefrontController::class, 'logout']
+);
+
 Route::get(
     '/scripts',
     [ZidStorefrontController::class, 'scripts']

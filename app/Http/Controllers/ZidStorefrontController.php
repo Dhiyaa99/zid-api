@@ -7,6 +7,7 @@ use App\Services\Zid\Storefront\CartService;
 use App\Services\Zid\Storefront\SessionService;
 use App\Services\Zid\Storefront\CheckoutService;
 use App\Services\Zid\Storefront\ScriptsService;
+use App\Services\Zid\Storefront\AuthService;
 
 
 class ZidStorefrontController extends Controller
@@ -23,6 +24,15 @@ class ZidStorefrontController extends Controller
             'webview_headers' => $service->webviewHeaders($request),
         ]);
     }
+
+    //constructor
+    public function __construct(
+    protected AuthService $authService,
+    protected CartService $cartService,
+    protected ScriptsService $scriptsService,
+    protected PurchaseEventService $purchaseEventService,
+) {}
+
 
     /**
      * Get Cart
@@ -189,6 +199,16 @@ public function scripts(
 {
     return response()->json(
         $service->scripts($request)
+    );
+}
+
+/**
+ * Logout user from Zid session.
+ */
+public function logout(Request $request)
+{
+    return response()->json(
+        $this->authService->logout($request)
     );
 }
 }

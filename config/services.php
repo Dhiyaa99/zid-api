@@ -35,4 +35,8 @@ return [
         ],
     ],
 
+    'zid' => [
+    'storefront_url' => env('ZID_STOREFRONT_URL'),
+    ],
+
 ];
